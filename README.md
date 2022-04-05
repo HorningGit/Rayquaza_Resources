@@ -12,7 +12,7 @@ Concept | Name | Description
 Linux Administration | [edX Courses](https://www.edx.org/) | Training for LFCA (Linux, DevOps, Software Development)
 Linux Administration | [The Linux Foundation](https://training.linuxfoundation.org/) | Training for LFCA (Linux, DevOps, Open Source)
 Coding & GitHub | [Codecademy](https://www.codecademy.com/learn) | Golang, Git, and DevOps Basic Training
-Projects | [Kyogre_Kubernetes](https://github.com/HorningGit/Kyogre_Kubernetes) | Raspberry Pi Kubernetes Cluster w/ Cisco & pfSense
+GitHub Projects | [Kyogre_Kubernetes](https://github.com/HorningGit/Kyogre_Kubernetes) | Raspberry Pi Kubernetes Cluster w/ Cisco & pfSense
 
 <!-- Admin Sectionhttps://training.linuxfoundation.org/ -->
 ___
@@ -23,8 +23,8 @@ ___
      
    <td align="center"><a href="tools/admin/devops.md"><img src="images/devops.png" width="50px;" height="50px;" alt="DevOps" /><br /><b>DevOps</b></a></td>
    <td align="center"><a href="tools/admin/network.md"><img src="images/network.png" width="50px;" height="50px;" alt="Networking"/><br /><b>Networking</b></a></td>
-   <td align="center"><a href="resources/linux.md"><img src="images/linux.png" width="50px;" height="50px;" alt="Linux"/><br /><b>Linux</b></a></td>
-   <td align="center"><a href="resources/git.md"><img src="images/git.png" width="50px;" height="50px;" alt="Source Control"/><br /><b>Source Control</b></a></td>
+   <td align="center"><a href="tools/admin/linux.md"><img src="images/linux.png" width="50px;" height="50px;" alt="Linux"/><br /><b>Linux</b></a></td>
+   <td align="center"><a href="tools/admin/git.md"><img src="images/git.png" width="50px;" height="50px;" alt="Source Control"/><br /><b>Source Control</b></a></td>
    </tr>
   </table>
 </center>
