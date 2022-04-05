@@ -4,6 +4,16 @@
 [![Medium Badge](http://img.shields.io/badge/-@alex.horning-1ca0f1?style=social&logo=Medium&logoColor=black&link=https://medium.com/@alex.horning)](https://medium.com/@alex.horning)
 [![Gmail Badge](https://img.shields.io/badge/ProtonMail-8B89CC?style=plastic?&logo=protonmail&logoColor=white)](mailto:Alexander.Horning@protonmail.com)
 
+<!-- Addition of Current Study Sites -->
+___
+#### My Journey towards DevOps (Current Resources) :art:
+Concept | Name | Description
+:------|:------:|:------:
+Linux Administration | [edX Courses](https://www.edx.org/) | Training for LFCA (Linux, DevOps, Software Development)
+Linux Administration | [The Linux Foundation](https://training.linuxfoundation.org/) | Training for LFCA (Linux, DevOps, Open Source)
+Coding & GitHub | [Codecademy](https://www.codecademy.com/learn) | Golang, Git, and DevOps Basic Training
+Projects | [Kyogre_Kubernetes](https://github.com/HorningGit/Kyogre_Kubernetes) | Raspberry Pi Kubernetes Cluster w/ Cisco & pfSense
+
 <!-- Admin Sectionhttps://training.linuxfoundation.org/ -->
 ___
 ## System Administration & Design / Linux / Networking
@@ -22,7 +32,6 @@ ___
 #### Study Sites for Administration
 Type | Name | Description
 :------|:------:|:------:
-Linux Administration | [The Linux Foundation](https://training.linuxfoundation.org/) | LFCA Certification Training Portal (Current Goal!)
 Linux Administration | [Linux Journey](https://linuxjourney.com) | Written guides + exercises + quiz
 Linux Administration | [Katacoda](https://www.katacoda.com/) | Training & Excercises
 Linux Administration | [Linux Survival](https://linuxsurvival.com/linux-tutorial-introduction) | Interactive guide
