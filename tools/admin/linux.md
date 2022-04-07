@@ -1,12 +1,11 @@
-# Linux 
+## Linux :penguin:
 
 <!-- File Structure -->
 ___
-:penguin:
 <div align="center"><img src="../../images/linux_structure.png"></div><hr/>
 
 <!-- Linux Reading -->
-## Aritcles & Magazines
+### Aritcles & Magazines
 Company | Title | Comments
 :------ |:------:|:--------:
 Linux New Media | [Linux Magazine](https://www.linux-magazine.com) | Specialized in smart, insightful articles on open source tools and real-world Linux.
