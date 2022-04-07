@@ -2,9 +2,22 @@
 
 <!-- File Structure -->
 ___
+### Filesystem Hierarchy Standard
 <div align="center"><img src="../../images/linux_structure.png"></div><hr/>
 
+<!-- Boot Process -->
+### System Initialization Process for BIOS/UEFI
 
+#### Under BIOS (Basic Input/Output System)
+1. Linux system is switched on, followed by the POST (power-on-self-test) process being executed.
+2. After POST, the BIOS will initialize the hardware required for booting (disk, keyboard controllers, etc.).
+3. BIOS then launches the first 440 bytes of the MBR (Master Boot Record) on the first disk in the BIOS disk order.
+- *The Master Boot Record (MBR) is the first 512 bytes of a storage device. It contains an operating system bootloader and the storage device's partition table. It plays an important role in the boot process under BIOS systems.*
+4. 
+
+
+<!-- Linux Websites for Reading -->
+___
 ### Aritcles & Magazines
 Company | Title | Comments
 :------ |:------:|:--------:
