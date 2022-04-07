@@ -1,4 +1,4 @@
-## Linux :penguin:
+## :mountain_snow: :penguin: Linux :kiwi_fruit: :strawberry:
 
 <!-- File Structure -->
 ___
