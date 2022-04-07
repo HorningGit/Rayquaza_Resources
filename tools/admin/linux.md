@@ -4,7 +4,7 @@
 ___
 <div align="center"><img src="../../images/linux_structure.png"></div><hr/>
 
-<!-- Linux Reading -->
+
 ### Aritcles & Magazines
 Company | Title | Comments
 :------ |:------:|:--------:
