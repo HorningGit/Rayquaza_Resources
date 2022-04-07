@@ -17,7 +17,7 @@ ___
   - *next disk sectors after the MBR, i.e. the so called post-MBR gap (only on a MBR partition table).*
   - *a partition's or a partitionless disk's volume boot record (VBR).*
   - *the BIOS boot partition (GRUB on BIOS/GPT only).*
-- **(5)** 5. Boot loader is launched!
+- **(5)** Boot loader is launched!
 - **(6)** The boot loader then loads an operating system by either chain-loading or directly loading the operating system kernel.
 
 <!-- Linux Websites for Reading -->
