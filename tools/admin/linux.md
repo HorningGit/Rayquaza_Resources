@@ -20,6 +20,13 @@ ___
 - **(5)** Boot loader is launched!
 - **(6)** The boot loader then loads an operating system by either chain-loading or directly loading the operating system kernel.
 
+#### Under UEFI (Unified Extensible Firmware Interface)
+- **(1)** Linux system is switched on, followed by the POST (power-on-self-test) process being executed.
+- **(2)** UEFI will then initialize the hardware for booting (disk, keyboard controllers, etc.).
+- **(3)** Firmware will then look to the Non-volatile random-access memory (NVRAM) to determine which EFI application to launch and what disk/partition from.
+  - *The EFI system partition (also called ESP) is an OS independent partition that acts as the storage place for the EFI bootloaders, applications and drivers to be launched by the UEFI firmware.*
+- **(4)** Firmware launches the EFI application (see link for list of boot loaders).
+
 <!-- Linux Websites for Reading -->
 ___
 ### Aritcles & Magazines
