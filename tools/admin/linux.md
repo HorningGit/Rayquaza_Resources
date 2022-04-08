@@ -1,4 +1,4 @@
-## :mountain_snow: :penguin: Linux :kiwi_fruit: :strawberry:
+# :blueberries: :penguin: Linux :kiwi_fruit: :strawberry:
 
 <!-- File Structure -->
 ___
@@ -6,9 +6,9 @@ ___
 <div align="center"><img src="../../images/linux_structure.png"></div><hr/>
 
 <!-- Boot Process -->
-### System Initialization Process for BIOS/UEFI
+### System Initialization Process for BIOS/UEFI :vertical_traffic_light:
 
-#### Under BIOS (Basic Input/Output System)
+#### :white_circle: Under BIOS (Basic Input/Output System)
 - **(1)** Linux system is switched on, followed by the POST (power-on-self-test) process being executed.
 - **(2)** After POST, the BIOS will initialize the hardware required for booting (disk, keyboard controllers, etc.).
 - **(3)** BIOS then launches the first 440 bytes of the MBR (Master Boot Record) on the first disk in the BIOS disk order.
@@ -20,7 +20,7 @@ ___
 - **(5)** Boot loader is launched!
 - **(6)** The boot loader then loads an operating system by either chain-loading or directly loading the operating system kernel.
 
-#### Under UEFI (Unified Extensible Firmware Interface)
+#### :large_blue_circle: Under UEFI (Unified Extensible Firmware Interface)
 - **(1)** Linux system is switched on, followed by the POST (power-on-self-test) process being executed.
 - **(2)** UEFI will then initialize the hardware for booting (disk, keyboard controllers, etc.).
 - **(3)** Firmware will then look to the Non-volatile random-access memory (NVRAM) to determine which EFI application to launch and what disk/partition from.
