@@ -29,7 +29,7 @@ ___
 
 <!-- Linux Websites for Reading -->
 ___
-### :open_book: Aritcles & Magazines :open_book:
+### :open_book: Reading & Magazines :open_book:
 Company | Title | Comments
 :------ |:------:|:--------:
 Linux New Media | [Linux Magazine](https://www.linux-magazine.com) | Specialized in smart, insightful articles on open source tools and real-world Linux.
