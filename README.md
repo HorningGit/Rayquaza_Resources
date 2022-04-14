@@ -36,6 +36,14 @@ Linux Administration | [Linux Journey](https://linuxjourney.com) | Written guide
 Linux Administration | [Katacoda](https://www.katacoda.com/) | Training & Excercises
 Linux Administration | [Linux Survival](https://linuxsurvival.com/linux-tutorial-introduction) | Interactive guide
 
+#### LFCA Training Path
+Platform | Class ID | Name | Complete?
+:------|:------:|:------:|:------:
+edX Courses | [LFS101x](https://courses.edx.org/dashboard) | Introduction to Linux | ❌
+edX Courses | [LFS162x](https://courses.edx.org/dashboard) | Introduction to DevOps & Site Reliability | ❌
+edX Courses | [LFS151x](https://courses.edx.org/dashboard) | Introduction to Cloud Infrastructure Technologies | ❌
+Linux Administration | [Linux Survival](https://linuxsurvival.com/linux-tutorial-introduction) | Interactive guide | ❌
+
 
 
 
