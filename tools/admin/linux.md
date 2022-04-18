@@ -10,7 +10,7 @@ ___
 ## System Initialization Process for BIOS/UEFI :vertical_traffic_light:
 
 <!-- BIOS Process -->
-### :white_circle: Under BIOS (Basic Input/Output System)
+#### :white_circle: Under BIOS (Basic Input/Output System)
 - **(1)** Linux system is switched on, followed by the POST (power-on-self-test) process being executed.
 - **(2)** After POST, the BIOS will initialize the hardware required for booting (disk, keyboard controllers, etc.). The BIOS is stored on a ROM chip on the motherboard.
 - **(3)** BIOS then launches the first 440 bytes of the MBR (Master Boot Record) on the first disk in the BIOS disk order.
@@ -24,7 +24,7 @@ ___
 <div align="center"><img src="../../images/bios.png"></div><hr/>
 
 <!-- UEFI Process -->
-### :large_blue_circle: Under UEFI (Unified Extensible Firmware Interface)
+#### :large_blue_circle: Under UEFI (Unified Extensible Firmware Interface)
 - **(1)** Linux system is switched on, followed by the POST (power-on-self-test) process being executed.
 - **(2)** UEFI will then initialize the hardware for booting (disk, keyboard controllers, etc.).
 - **(3)** UEFI firmware reads its Boot Manager data in Non-volatile random-access memory (NVRAM) to determine which EFI application to launch and what disk/partition from.
