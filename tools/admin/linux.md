@@ -2,15 +2,15 @@
 
 <!-- File Structure -->
 ___
-### Filesystem Hierarchy Standard
+## Filesystem Hierarchy Standard
 <div align="center"><img src="../../images/linux_structure.png"></div><hr/>
 
 <!-- Boot Process -->
-### System Initialization Process for BIOS/UEFI :vertical_traffic_light:
+## System Initialization Process for BIOS/UEFI :vertical_traffic_light:
 
-#### :white_circle: Under BIOS (Basic Input/Output System)
+### :white_circle: Under BIOS (Basic Input/Output System)
 - **(1)** Linux system is switched on, followed by the POST (power-on-self-test) process being executed.
-- **(2)** After POST, the BIOS will initialize the hardware required for booting (disk, keyboard controllers, etc.).
+- **(2)** After POST, the BIOS will initialize the hardware required for booting (disk, keyboard controllers, etc.). The BIOS is stored on a ROM chip on the motherboard.
 - **(3)** BIOS then launches the first 440 bytes of the MBR (Master Boot Record) on the first disk in the BIOS disk order.
   - *The Master Boot Record (MBR) is the first 512 bytes of a storage device. It contains an operating system bootloader and the storage device's partition table. It plays an important role in the boot process under BIOS systems.*
 - **(4)** The boot loader's first stage in the MBR boot code then launches its second stage code (if any) from either:
@@ -18,14 +18,16 @@ ___
   - *a partition's or a partitionless disk's volume boot record (VBR).*
   - *the BIOS boot partition (GRUB on BIOS/GPT only).*
 - **(5)** Boot loader is launched!
-- **(6)** The boot loader then loads an operating system by either chain-loading or directly loading the operating system kernel.
+- **(6)** The boot loader then loads an operating system by either chain-loading or directly loading the operating system kernel. The boot loader is responsible for loading the kernel image and the initial RAM disk or filesystem into memory.
+<div align="center"><img src="../../images/bios.png"></div><hr/>
 
-#### :large_blue_circle: Under UEFI (Unified Extensible Firmware Interface)
+### :large_blue_circle: Under UEFI (Unified Extensible Firmware Interface)
 - **(1)** Linux system is switched on, followed by the POST (power-on-self-test) process being executed.
 - **(2)** UEFI will then initialize the hardware for booting (disk, keyboard controllers, etc.).
-- **(3)** Firmware will then look to the Non-volatile random-access memory (NVRAM) to determine which EFI application to launch and what disk/partition from.
+- **(3)** UEFI firmware reads its Boot Manager data in Non-volatile random-access memory (NVRAM) to determine which EFI application to launch and what disk/partition from.
   - *The EFI system partition (also called ESP) is an OS independent partition that acts as the storage place for the EFI bootloaders, applications and drivers to be launched by the UEFI firmware.*
-- **(4)** Firmware launches the EFI application (see link for list of boot loaders).
+- **(4)** Firmware launches the EFI application as defined in the boot entry in the firmware's boot manager. (see link for list of boot loaders).
+<div align="center"><img src="../../images/uefi.png"></div><hr/>
 
 <!-- Linux Websites for Reading -->
 ___
