@@ -21,7 +21,10 @@ ___
   - *the BIOS boot partition (GRUB on BIOS/GPT only).*
 - **(5)** Boot loader is launched!
 - **(6)** The boot loader then loads an operating system by either chain-loading or directly loading the operating system kernel. The boot loader is responsible for loading the kernel image and the initial RAM disk or filesystem into memory.
-<div align="center"><img src="../../images/bios.png"></div><hr/>
+<!-- BIOS image -->
+<p align="center">
+  <img src="../../images/bios.png?raw=true" alt="initramfs image"/>
+</p>
 
 <!-- UEFI Process -->
 #### :large_blue_circle: Under UEFI (Unified Extensible Firmware Interface)
@@ -30,12 +33,23 @@ ___
 - **(3)** UEFI firmware reads its Boot Manager data in Non-volatile random-access memory (NVRAM) to determine which EFI application to launch and what disk/partition from.
   - *The EFI system partition (also called ESP) is an OS independent partition that acts as the storage place for the EFI bootloaders, applications and drivers to be launched by the UEFI firmware.*
 - **(4)** Firmware launches the EFI application as defined in the boot entry in the firmware's boot manager. (see link for list of boot loaders).
-<div align="center"><img src="../../images/uefi.png"></div><hr/>
+<!-- UEFI image -->
+<p align="center">
+  <img src="../../images/uefi.png?raw=true" alt="initramfs image"/>
+</p>
 
-<!-- File Structure -->
+
+<!-- initramfs -->
 ## Initial RAM Disk
+<!-- initramfs Paragraph (1) -->
 <p>The only purpose of an initramfs is the mount the root filesystem. At boot time, the boot loader loads the Linux kernel and the initramfs image into its memory and starts the kernel. The initramfs filesystem image will also provide kernel functionality for the needed filesystem and device drivers for mass storage controllers with a facility called udev (user device). Here is a list of initramfs responsibilities:</p>
-<div align="center"><img src="../../images/initramfs.png"></div><hr/>
+<!-- initramfs image -->
+<p align="center">
+  <img src="../../images/initramfs.png?raw=true" alt="initramfs image"/>
+</p>
+<!-- initramfs Paragraph (2) -->
+<p>The mount program will then notify the operating system that the filesystem is ready for use using the mount point. If succesful, the initramfs is cleared from RAM and the init programon the root filesystem (/sbin/init) is executed.</p>
+
 
 <!-- Linux Websites for Reading -->
 ___
