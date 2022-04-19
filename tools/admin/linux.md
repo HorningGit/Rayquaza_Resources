@@ -59,7 +59,8 @@ The mount program will then notify the Linux OS that the filesystem is ready for
 After the kernel has mounted the root filesystem and set up its hardware, the kernel runs */sbin/init*. The daemon **init** is the first process to run, and it will end up starting the necessary components to get the Linux system started. Although the Linux Kernel was originaly built with the init daemon, modern Linux systems would shift to the systemd init daemon to manage their systems.
 <!-- systemd Process -->
 #### :small_orange_diamond: Systemd
-The init daemon **systemd** takes an aggressive parallel approach to system services management. This allows for services to be ran simultaneously! Systemd uses Unit Dependencies to reference what a service wants/requires to run properly. **Systemd** uses **targets** to group units together via dependencies and as standardized synchronization points. **Targets** are similar to **init** runlevels, but act different in their own way. Here is a list of **systemd** targets for reference:
+The init daemon **systemd** takes an aggressive parallel approach to system services management. This allows for services to be ran simultaneously! Systemd uses Unit Dependencies to reference what a service wants/requires to run properly. The file */sbin/init* now points to */lib/systemd/systemd*.<br /><br />
+**Systemd** uses **targets** to group units together via dependencies and as standardized synchronization points. **Targets** are similar to **init** runlevels, but act different in their own way. Here is a list of **systemd** targets for reference:
 ##### List of Systemd Targets
 systemd Target | Description
 :------ |:------:
