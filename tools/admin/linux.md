@@ -54,12 +54,22 @@ ___
 
 <!-- init Process -->
 #### :small_blue_diamond: Init
-
+<p>After the kernel has mounted the root filesystem and set up its hardware, the kernel runs /sbin/init. This is the first process to run, and it will end up starting the necessary processes to get the Linux system started. Although the Linux Kernel was originaly implemented with the init daemon, modern Linux systems would shift to the systemd init daemon to manage their systems.</p>
 
 <!-- systemd Process -->
 #### :small_orange_diamond: Systemd
+<p>The init daemon systemd takes an aggressive parallel approach to system services management. Systemd uses Unit Dependencies to reference what a service wants/requires to run properly.</p>
 
+```
+[Unit]
+Description=Foo
 
+[Service]
+ExecStart=/usr/sbin/foo-daemon
+
+[Install]
+WantedBy=multi-user.target
+```
 
 <!-- Linux Websites for Reading -->
 ___
