@@ -43,7 +43,7 @@ ___
 ___
 ## :dragon_face: Initial RAM Disk :dragon_face:
 <!-- initramfs Paragraph (1) -->
-<p>The only purpose of an initramfs is the mount the root filesystem. At boot time, the boot loader loads the Linux kernel and the initramfs image into its memory and starts the kernel. The initramfs filesystem image will also provide kernel functionality for the needed filesystem and device drivers for mass storage controllers with a facility called udev (user device). Here is a list of initramfs responsibilities:</p>
+<p>The only purpose of an initramfs is to mount the root filesystem. At boot time, the boot loader loads the Linux kernel and the initramfs image into its memory and starts the kernel. The initramfs filesystem image will be providing kernel functionality for the needed filesystem and device drivers for mass storage controllers with a facility called udev (user device). Here is a list of initramfs responsibilities:</p>
 <!-- initramfs image -->
 <p align="center">
   <img src="../../images/initramfs.png?raw=true" alt="initramfs image"/>
