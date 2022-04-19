@@ -7,7 +7,7 @@ ___
 <div align="center"><img src="../../images/linux_structure.png"></div><hr/>
 
 <!-- Boot Process -->
-## :crystal_ball: System Initialization Process for BIOS/UEFI :crystal_ball:
+## :crystal_ball: System Initialization Process :crystal_ball:
 
 <!-- BIOS Process -->
 #### :white_circle: Under BIOS (Basic Input/Output System)
