@@ -49,6 +49,17 @@ ___
 <!-- initramfs Paragraph (2) -->
 <p>The mount program will then notify the Linux OS that the filesystem is ready for use using the mount point. If succesful, initramfs is cleared from RAM and the init program on the root filesystem (/sbin/init) is executed.</p>
 
+<!-- Boot Process -->
+## :white_circle: *Init Daemons*
+
+<!-- init Process -->
+#### :small_blue_diamond: Init
+
+
+<!-- systemd Process -->
+#### :small_orange_diamond: Systemd
+
+
 
 <!-- Linux Websites for Reading -->
 ___
