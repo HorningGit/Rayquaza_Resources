@@ -1,14 +1,15 @@
 <!-- Header -->
 # :banana: :penguin: Linux :kiwi_fruit: :strawberry:
 
+
 <!-- File Structure -->
 ___
 ## *Filesystem Hierarchy Standard*
 <div align="center"><img src="../../images/linux_structure.png"></div><hr/>
 
+
 <!-- Boot Process -->
 ## :white_circle: *System Initialization Process*
-
 <!-- BIOS Process -->
 #### :small_blue_diamond: Under BIOS (Basic Input/Output System)
 1. The Linux system is switched on, followed by the POST (power-on-self-test) process being executed.
@@ -24,7 +25,6 @@ ___
 <p align="center">
   <img src="../../images/bios.png?raw=true" alt="initramfs image"/>
 </p>
-
 <!-- UEFI Process -->
 #### :small_orange_diamond: Under UEFI (Unified Extensible Firmware Interface)
 1. Linux system is switched on, followed by POST (power-on-self-test) process being executed.
@@ -49,17 +49,15 @@ ___
 <!-- initramfs Paragraph (2) -->
 <p>The mount program will then notify the Linux OS that the filesystem is ready for use using the mount point. If succesful, initramfs is cleared from RAM and the init program on the root filesystem (/sbin/init) is executed.</p>
 
+
 <!-- Boot Process -->
 ## :white_circle: *Init Daemons*
-
 <!-- init Process -->
 #### :small_blue_diamond: Init
-<p>After the kernel has mounted the root filesystem and set up its hardware, the kernel runs /sbin/init. This is the first process to run, and it will end up starting the necessary processes to get the Linux system started. Although the Linux Kernel was originaly implemented with the init daemon, modern Linux systems would shift to the systemd init daemon to manage their systems.</p>
-
+After the kernel has mounted the root filesystem and set up its hardware, the kernel runs /sbin/init. The daemon init is the first process to run, and it will end up starting the necessary components to get the Linux system started. Although the Linux Kernel was originaly built with the init daemon, modern Linux systems would shift to the systemd init daemon to manage their systems.
 <!-- systemd Process -->
 #### :small_orange_diamond: Systemd
-<p>The init daemon systemd takes an aggressive parallel approach to system services management. Systemd uses Unit Dependencies to reference what a service wants/requires to run properly.</p>
-
+The init daemon **systemd** takes an aggressive parallel approach to system services management. Systemd uses Unit Dependencies to reference what a service wants/requires to run properly.
 ```
 [Unit]
 Description=Foo
@@ -70,6 +68,7 @@ ExecStart=/usr/sbin/foo-daemon
 [Install]
 WantedBy=multi-user.target
 ```
+
 
 <!-- Linux Websites for Reading -->
 ___
