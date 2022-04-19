@@ -10,6 +10,7 @@ ___
 
 <!-- Boot Process -->
 ## :white_circle: *System Initialization Process*
+
 <!-- BIOS Process -->
 #### :small_blue_diamond: Under BIOS (Basic Input/Output System)
 1. The Linux system is switched on, followed by the POST (power-on-self-test) process being executed.
@@ -25,6 +26,7 @@ ___
 <p align="center">
   <img src="../../images/bios.png?raw=true" alt="initramfs image"/>
 </p>
+
 <!-- UEFI Process -->
 #### :small_orange_diamond: Under UEFI (Unified Extensible Firmware Interface)
 1. Linux system is switched on, followed by POST (power-on-self-test) process being executed.
@@ -47,17 +49,19 @@ ___
   <img src="../../images/initramfs.png?raw=true" alt="initramfs image"/>
 </p>
 <!-- initramfs Paragraph (2) -->
-<p>The mount program will then notify the Linux OS that the filesystem is ready for use using the mount point. If succesful, initramfs is cleared from RAM and the init program on the root filesystem (/sbin/init) is executed.</p>
+The mount program will then notify the Linux OS that the filesystem is ready for use using the mount point. If succesful, initramfs is cleared from RAM and the init program on the root filesystem (/sbin/init) is executed.
 
 
 <!-- Boot Process -->
 ## :white_circle: *Init Daemons*
 <!-- init Process -->
 #### :small_blue_diamond: Init
-After the kernel has mounted the root filesystem and set up its hardware, the kernel runs /sbin/init. The daemon init is the first process to run, and it will end up starting the necessary components to get the Linux system started. Although the Linux Kernel was originaly built with the init daemon, modern Linux systems would shift to the systemd init daemon to manage their systems.
+After the kernel has mounted the root filesystem and set up its hardware, the kernel runs */sbin/init*. The daemon **init** is the first process to run, and it will end up starting the necessary components to get the Linux system started. Although the Linux Kernel was originaly built with the init daemon, modern Linux systems would shift to the systemd init daemon to manage their systems.
 <!-- systemd Process -->
 #### :small_orange_diamond: Systemd
-The init daemon **systemd** takes an aggressive parallel approach to system services management. Systemd uses Unit Dependencies to reference what a service wants/requires to run properly.
+The init daemon **systemd** takes an aggressive parallel approach to system services management. This allows for services to be ran simultaneously! Systemd uses Unit Dependencies to reference what a service wants/requires to run properly.
+<!-- Unit File Example -->
+##### Example of a Systemd Unit File
 ```
 [Unit]
 Description=Foo
