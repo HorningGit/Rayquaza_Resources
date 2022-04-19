@@ -60,3 +60,7 @@ Company | Title | Comments
 Linux New Media | [Linux Magazine](https://www.linux-magazine.com) | Specialized in smart, insightful articles on open source tools and real-world Linux.
 Linux New Media | [Admin Magaizine](https://www.admin-magazine.com/) | Articles on Security, Network Monitoring, Cloud Computing, DevOps, Storage, and more!
 Linux New Media | [FOSSlife](https://www.fosslife.org/) | Provides resources for free and open source software to help build a career with FOSS!
+
+#### :open_book: Works Cited :open_book:
+<p>“Gentoo Wiki,” wiki.gentoo.org. [Online]. Available: https://wiki.gentoo.org/wiki/Main_Page.</p>
+<p>“Arch Linux,” archlinux.org. [Online]. Available: https://archlinux.org/</p>
