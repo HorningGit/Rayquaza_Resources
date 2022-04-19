@@ -7,7 +7,7 @@ ___
 <div align="center"><img src="../../images/linux_structure.png"></div><hr/>
 
 <!-- Boot Process -->
-## System Initialization Process for BIOS/UEFI :vertical_traffic_light:
+## :crystal_ball: System Initialization Process for BIOS/UEFI :crystal_ball:
 
 <!-- BIOS Process -->
 #### :white_circle: Under BIOS (Basic Input/Output System)
@@ -41,7 +41,7 @@ ___
 
 <!-- initramfs -->
 ___
-## Initial RAM Disk
+## :dragon_face: Initial RAM Disk :dragon_face:
 <!-- initramfs Paragraph (1) -->
 <p>The only purpose of an initramfs is the mount the root filesystem. At boot time, the boot loader loads the Linux kernel and the initramfs image into its memory and starts the kernel. The initramfs filesystem image will also provide kernel functionality for the needed filesystem and device drivers for mass storage controllers with a facility called udev (user device). Here is a list of initramfs responsibilities:</p>
 <!-- initramfs image -->
