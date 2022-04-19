@@ -20,7 +20,6 @@ ___
     * BIOS Boot Partition (GRUB on BIOS/GPT only).*
 5. Boot loader is launched!
 6. The boot loader then loads an operating system by either chain-loading or directly loading the operating system kernel. The boot loader is responsible for loading the kernel image and the initial RAM disk or filesystem into memory.
-
 <!-- UEFI image -->
 <p align="center">
   <img src="../../images/bios.png?raw=true" alt="initramfs image"/>
@@ -28,9 +27,9 @@ ___
 
 <!-- UEFI Process -->
 #### :small_orange_diamond: Under UEFI (Unified Extensible Firmware Interface)
-1. Linux system is switched on, followed by the POST (power-on-self-test) process being executed.\
-2. UEFI will then initialize the hardware for booting (disk, keyboard controllers, etc.).
-3. UEFI firmware reads its Boot Manager data in Non-volatile random-access memory (NVRAM) to determine which EFI application to launch and what disk/partition from. <p align="center">The EFI system partition (also called ESP) is an OS independent partition that acts as the storage place for the EFI bootloaders, applications and drivers to be launched by the UEFI firmware.</p>
+1. Linux system is switched on, followed by POST (power-on-self-test) process being executed.
+2. UEFI will then initialize the hardware required for booting (disk, keyboard controllers, etc.).
+3. UEFI firmware reads its Boot Manager data in Non-volatile RAM (NVRAM) to determine which EFI application to launch and what disk/partition from. <p align="center">The EFI system partition (also called ESP) is an OS independent partition that acts as the storage place for the EFI bootloaders, applications and drivers to be launched by the UEFI firmware.</p>
 4. Firmware launches the EFI application as defined in the boot entry in the firmware's boot manager. (see link for list of boot loaders).
 <!-- UEFI image -->
 <p align="center">
