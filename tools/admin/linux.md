@@ -3,14 +3,14 @@
 
 <!-- File Structure -->
 ___
-## Filesystem Hierarchy Standard
+## *Filesystem Hierarchy Standard*
 <div align="center"><img src="../../images/linux_structure.png"></div><hr/>
 
 <!-- Boot Process -->
-## :crystal_ball: System Initialization Process :crystal_ball:
+## :white_circle: *System Initialization Process*
 
 <!-- BIOS Process -->
-#### :white_circle: Under BIOS (Basic Input/Output System)
+#### :small_blue_diamond: Under BIOS (Basic Input/Output System)
 - **(1)** Linux system is switched on, followed by the POST (power-on-self-test) process being executed.
 - **(2)** After POST, the BIOS will initialize the hardware required for booting (disk, keyboard controllers, etc.). The BIOS is stored on a ROM chip on the motherboard.
 - **(3)** BIOS then launches the first 440 bytes of the MBR (Master Boot Record) on the first disk in the BIOS disk order.
@@ -27,12 +27,11 @@ ___
 </p>
 
 <!-- UEFI Process -->
-#### :large_blue_circle: Under UEFI (Unified Extensible Firmware Interface)
-- **(1)** Linux system is switched on, followed by the POST (power-on-self-test) process being executed.
-- **(2)** UEFI will then initialize the hardware for booting (disk, keyboard controllers, etc.).
-- **(3)** UEFI firmware reads its Boot Manager data in Non-volatile random-access memory (NVRAM) to determine which EFI application to launch and what disk/partition from.
-  - *The EFI system partition (also called ESP) is an OS independent partition that acts as the storage place for the EFI bootloaders, applications and drivers to be launched by the UEFI firmware.*
-- **(4)** Firmware launches the EFI application as defined in the boot entry in the firmware's boot manager. (see link for list of boot loaders).
+#### :small_orange_diamond: Under UEFI (Unified Extensible Firmware Interface)
+1. Linux system is switched on, followed by the POST (power-on-self-test) process being executed.\
+2. UEFI will then initialize the hardware for booting (disk, keyboard controllers, etc.).
+3. UEFI firmware reads its Boot Manager data in Non-volatile random-access memory (NVRAM) to determine which EFI application to launch and what disk/partition from. <p align="center">The EFI system partition (also called ESP) is an OS independent partition that acts as the storage place for the EFI bootloaders, applications and drivers to be launched by the UEFI firmware.</p>
+4. Firmware launches the EFI application as defined in the boot entry in the firmware's boot manager. (see link for list of boot loaders).
 <!-- UEFI image -->
 <p align="center">
   <img src="../../images/uefi.png?raw=true" alt="initramfs image"/>
@@ -41,7 +40,7 @@ ___
 
 <!-- initramfs -->
 ___
-## :dragon_face: Initial RAM Disk :dragon_face:
+## :white_circle: *Initial RAM Disk*
 <!-- initramfs Paragraph (1) -->
 <p>The only purpose of an initramfs is to mount the root filesystem. At boot time, the boot loader loads the Linux kernel and the initramfs image into its memory and starts the kernel. The initramfs filesystem image will be providing kernel functionality for the needed filesystem and device drivers for mass storage controllers with a facility called udev (user device). Here is a list of initramfs responsibilities:</p>
 <!-- initramfs image -->
