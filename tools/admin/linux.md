@@ -15,9 +15,9 @@ ___
 2. After POST, the BIOS will initialize the hardware necessary for boot (disk, keyboard controllers, etc.). The BIOS is stored on a ROM chip within the motherboard.
 3. BIOS then launches the first 440 bytes of the MBR (Master Boot Record) on the first disk in the BIOS disk order. <p align="center">The Master Boot Record (MBR) is the first 512 bytes of a storage device. It contains an operating system bootloader and the storage device's partition table. It plays an important role in the boot process under BIOS systems.</p>
 4. The boot loader's first stage in the MBR boot code then launches its second stage code (if any) from either:
-    * The next disk sectors after the MBR, i.e. the so called post-MBR gap (only on a MBR partition table).*
-    * A partition's or a partitionless disk's volume boot record (VBR).*
-    * BIOS Boot Partition (GRUB on BIOS/GPT only).*
+    * The next disk sectors after the MBR, i.e. the so called post-MBR gap (only on a MBR partition table).
+    * A partition's or a partitionless disk's volume boot record (VBR).
+    * BIOS Boot Partition (GRUB on BIOS/GPT only).
 5. Boot loader is launched!
 6. The boot loader then loads an operating system by either chain-loading or directly loading the operating system kernel. The boot loader is responsible for loading the kernel image and the initial RAM disk or filesystem into memory.
 <!-- UEFI image -->
