@@ -1,6 +1,5 @@
 <!-- Header -->
-# :banana: :penguin: Linux :kiwi_fruit: :strawberry:
-
+# :penguin: GNU/Linux :kiwi_fruit: :strawberry: :blueberries:
 
 <!-- File Structure -->
 ___
@@ -61,6 +60,7 @@ After the kernel has mounted the root filesystem and set up its hardware, the ke
 #### :small_orange_diamond: Systemd
 The init daemon **systemd** takes an aggressive parallel approach to system services management. This allows for services to be ran simultaneously! Systemd uses Unit Dependencies to reference what a service wants/requires to run properly. The file */sbin/init* now points to */lib/systemd/systemd*.<br /><br />
 **Systemd** uses **targets** to group units together via dependencies and as standardized synchronization points. **Targets** are similar to **init** runlevels, but act different in their own way. Here is a list of **systemd** targets for reference:
+
 ##### List of Systemd Targets
 systemd Target | Description
 :------ |:------:
@@ -73,22 +73,35 @@ runlevel5.target, graphical.target | Full multiuser with network and display man
 runlevel6.target, reboot.target | System reboot
 
 <!-- Unit File Example -->
-##### Example of a Systemd Unit File [see [Digital Ocean ~ Understanding Systemd Units and Unit Files](https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files)]
+##### Example of a Systemd Unit File
 ```
 [Unit]
-Description=Foo
+Description=Horningfoo
 
 [Service]
 ExecStart=/usr/sbin/foo-daemon
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=default.target
 ```
+[Further Detail ➡️ [Digital Ocean: Understanding Systemd Units and Unit Files](https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files)]
 
 
 <!-- Linux Websites for Reading -->
 ___
 ## Resources & Works Cited
+
+<!-- LFCA -->
+#### LFCA Training Path
+Platform | Class ID | Name | Complete?
+:------|:------:|:------:|:------:
+edX Courses | [LFS101x](https://courses.edx.org/dashboard) | Introduction to Linux | ❌
+edX Courses | [LFS162x](https://courses.edx.org/dashboard) | Introduction to DevOps & Site Reliability | ❌
+edX Courses | [LFS151x](https://courses.edx.org/dashboard) | Introduction to Cloud Infrastructure Technologies | ❌
+Linux Foundation | [LFD102x](https://training.linuxfoundation.org/) | A Beginner's Guide to Open Source Software Development | ❌
+Linux Foundation | [LFS151x](https://training.linuxfoundation.org/) | Introduction to Cloud Infrastructure Technologies | ❌
+Linux Foundation | [LFS151x](https://training.linuxfoundation.org/) | Introduction to Cloud Infrastructure Technologies | ❌
+
 <!-- Reading -->
 #### :open_book: Reading & Magazines :open_book:
 Company | Title | Comments
