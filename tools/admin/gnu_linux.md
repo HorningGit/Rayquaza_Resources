@@ -61,7 +61,7 @@ After the kernel has mounted the root filesystem and set up its hardware, the ke
 The init daemon **systemd** takes an aggressive parallel approach to system services management. This allows for services to be ran simultaneously! Systemd uses Unit Dependencies to reference what a service wants/requires to run properly. The file */sbin/init* now points to */lib/systemd/systemd*.<br /><br />
 **Systemd** uses **targets** to group units together via dependencies and as standardized synchronization points. **Targets** are similar to **init** runlevels, but act different in their own way. Here is a list of **systemd** targets for reference:
 
-##### List of Systemd Targets
+##### [List of Systemd Targets](https://wiki.archlinux.org/title/systemd#Targets)
 systemd Target | Description
 :------ |:------:
 runlevel0.target, halt.target, poweroff.target | System shutdown
@@ -73,7 +73,7 @@ runlevel5.target, graphical.target | Full multiuser with network and display man
 runlevel6.target, reboot.target | System reboot
 
 <!-- Unit File Example -->
-##### Example of a Systemd Unit File
+##### [Example of a Systemd Unit File](https://wiki.archlinux.org/title/systemd#Writing_unit_files)
 ```
 [Unit]
 Description=Horningfoo
