@@ -4,6 +4,7 @@
 <!-- File Structure -->
 ___
 ## *Filesystem Hierarchy Standard*
+##### [Linux Foundation FHS Official Document](https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.pdf)
 <div align="center"><img src="../../images/linux_structure.png"></div><hr/>
 
 
