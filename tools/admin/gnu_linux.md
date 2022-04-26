@@ -85,8 +85,12 @@ ExecStart=/usr/sbin/foo-daemon
 WantedBy=default.target
 ```
 
+<!-- OS Linux Family -->
+## :white_circle: *Linux Families*
+<!-- Family List -->
+<p>There are three main Linux operating system families that administrators need to be aware of. These are: Debian, Red Hat, and SUSE. A majority of Linux distrobutions stem from one of these three families. Below I have listed the lower level and upper level software package managers for their respective distrobutions! (see image). </p>
 <p align="center">
-  <img src="../../images/initramfs.png?raw=true" alt="initramfs image"/>
+  <img src="../../images/family.png?raw=true" alt="initramfs image"/>
 </p>
 
 <!-- Linux Websites for Reading -->
