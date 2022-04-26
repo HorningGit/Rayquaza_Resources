@@ -85,6 +85,10 @@ ExecStart=/usr/sbin/foo-daemon
 WantedBy=default.target
 ```
 
+<p align="center">
+  <img src="../../images/initramfs.png?raw=true" alt="initramfs image"/>
+</p>
+
 <!-- Linux Websites for Reading -->
 ___
 ## Resources & Works Cited
