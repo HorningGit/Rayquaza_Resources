@@ -6,7 +6,7 @@
 
 <!-- Addition of Current Study Sites -->
 ___
-#### My Journey towards DevOps (Current Resources) :art:
+#### Journey towards a DevOps Engineer (Current Resources) :art:
 Concept | Name | Description
 :------|:------:|:------:
 Linux Administration | [edX Courses](https://www.edx.org/) | Training for LFCA (Linux, DevOps, Software Development)
@@ -20,7 +20,6 @@ ___
 <center>
   <table>
    <tr>
-   <td align="center"><a href="tools/admin/devops.md"><img src="images/devops.png" width="50px;" height="50px;" alt="DevOps" /><br /><b>DevOps</b></a></td>
    <td align="center"><a href="tools/admin/network.md"><img src="images/network.png" width="50px;" height="50px;" alt="Networking"/><br /><b>Networking</b></a></td>
    <td align="center"><a href="tools/admin/gnu_linux.md"><img src="images/linux.png" width="50px;" height="50px;" alt="Linux"/><br /><b>Linux</b></a></td>
    <td align="center"><a href="tools/admin/design.md"><img src="images/server.png" width="50px;" height="50px;" alt="System Design"/><br /><b>System Design</b></a></td>
