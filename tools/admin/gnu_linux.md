@@ -1,5 +1,5 @@
 <!-- Header -->
-# :penguin: GNU/Linux :kiwi_fruit: :strawberry: :blueberries:
+# :penguin: GNU/Linux :kiwi_fruit: :strawberry:
 
 <!-- File Structure -->
 ___
