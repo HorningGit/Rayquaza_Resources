@@ -159,14 +159,14 @@ ___
 - Display during terminal login.
 - Default bash prompt.
 
+[Location]
 Default Location = /etc/bashrc
 
-[Modify0ing]
-# Environment Variable
-PS1='[[prod]\u@\h \W]\$' 
+[Modifying]
+  PS1='[[prod]\u@\h \W]\$' 
 
-# Modified shell prompt:
-[[prod]root@hostname ~]#
+[Modified shell prompt]
+  [[prod]root@hostname ~]#
 
 ````
 
