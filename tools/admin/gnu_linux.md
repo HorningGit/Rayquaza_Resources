@@ -197,8 +197,6 @@ filename 2> error-file
 filename >& error-file
 ```
 
-
-
 <!-- Resources & Works Cited -->
 ___
 ## Resources & Works Cited
