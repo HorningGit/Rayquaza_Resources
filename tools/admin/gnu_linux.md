@@ -88,7 +88,18 @@ WantedBy=default.target
 <!-- OS Linux Family -->
 ___
 ## :white_circle: *Inodes, Hard links, and Soft links*
-<!-- Family List -->
+<!-- Inodes -->
+#### :small_blue_diamond: [Inodes](https://man7.org/linux/man-pages/man7/inode.7.html)
+<p>Each file has an inode containing metadata about the file. An application can retrieve this metadata using the stat command. Here is the information we get for the filesystem from the stat command:</p>
+
+- File: The name of provided file.
+- ID: FIle system ID in hexadecimal.
+- Namelen: The maximum length (number of char) of a file name.
+- Fundamental block size: Total size of each block on the file system.
+- Blocks:
+   - Total: Total
+
+
 ```
 [Command]
 ln - make links between files
