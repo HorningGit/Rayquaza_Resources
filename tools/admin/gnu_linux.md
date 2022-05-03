@@ -63,7 +63,7 @@ After the kernel has mounted the root filesystem and set up its hardware, the ke
 #### :small_orange_diamond: [Systemd](https://wiki.archlinux.org/title/systemd)
 The init daemon **systemd** takes an aggressive parallel approach to system services management. This allows for services to be ran simultaneously! Systemd uses Unit Dependencies to reference what a service wants/requires to run properly. The file */sbin/init* now points to */lib/systemd/systemd*.<br /><br />
 **Systemd** uses **targets** to group units together via dependencies and as standardized synchronization points. **Targets** are similar to **init** runlevels, but act different in their own way. Here is a list of **systemd** targets for reference:
-
+<!-- Systemd Targets -->
 ##### [(List of Systemd Targets)](https://wiki.archlinux.org/title/systemd#Targets)
 systemd Target | Description
 :------ |:------:
@@ -74,7 +74,6 @@ runlevel3.target, multi-user.target | Full multiuser with network
 runlevel4.target | Unused/User-defined
 runlevel5.target, graphical.target | Full multiuser with network and display manager
 runlevel6.target, reboot.target | System reboot
-
 <!-- Unit File Example -->
 ##### [(Example of a Systemd Unit File)](https://wiki.archlinux.org/title/systemd#Writing_unit_files)
 ```
@@ -87,6 +86,7 @@ ExecStart=/usr/sbin/foo-daemon
 [Install]
 WantedBy=default.target
 ```
+
 
 <!-- OS Linux Family -->
 ___
@@ -189,3 +189,4 @@ IEEE Standard (Works Cited)
 :------
 “Arch Linux,” archlinux.org. [Online]. Available: https://archlinux.org/
 “Gentoo Wiki,” wiki.gentoo.org. [Online]. Available: https://wiki.gentoo.org/wiki/Main_Page.
+"Linuxize," linuxize.com. [Online]. Available: https://linuxize.com/
