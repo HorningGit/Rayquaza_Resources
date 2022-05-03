@@ -90,15 +90,26 @@ ___
 ## :white_circle: *Inodes, Hard links, and Soft links*
 <!-- Inodes -->
 #### :small_blue_diamond: [Inodes](https://man7.org/linux/man-pages/man7/inode.7.html)
-<p>Each file has an inode containing metadata about the file. An application can retrieve this metadata using the stat command. Here is the information we get for the filesystem from the stat command:</p>
+<p>Each file has an inode containing metadata about the file. An application can retrieve this metadata using the stat command. The stat command can provide the file system information when we provide file name with the -f (–file-system) option.</p>
+
+```
+stat -f filename
+```
+<p>Here is the information we retrieve from the stat command:</p>
 
 - File: The name of provided file.
 - ID: FIle system ID in hexadecimal.
 - Namelen: The maximum length (number of char) of a file name.
 - Fundamental block size: Total size of each block on the file system.
 - Blocks:
-   - Total: Total
+   - Total: Total number of blocks in the file system.
+   - Free: Total number of free blocks in the file system.
+   - Available: Total number of free blocks available for non-root users.
+- Inodes:
+   - Total: Total number of inodes in the file system.
+   - Free: Total number of free inodes in the file system.
 
+##### :small_orange_diamond: [Hard links & Symbolic Links](https://linuxize.com/post/how-to-create-symbolic-links-in-linux-using-the-ln-command/)
 
 ```
 [Command]
