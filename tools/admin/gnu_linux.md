@@ -112,6 +112,14 @@ stat -f filename
 ##### :small_orange_diamond: [Hard links & Symbolic Links](https://linuxize.com/post/how-to-create-symbolic-links-in-linux-using-the-ln-command/)
 
 ```
+[Hard link]
+Creating a hard link creates another name for the same data on disk. File names simply point to some data on a system's disk.
+
+[Symbolic link]
+Soft link is a pointer to a file name. Real file name points to data on disk:
+  - Removing symbolic link won't delete original file.
+  - Removing file will create a broken symlink.
+
 [Command]
 ln - make links between files
 
