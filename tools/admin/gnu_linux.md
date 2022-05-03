@@ -142,20 +142,27 @@ ln - make links between files
 </p>
 
 
-<!-- File Management -->
+<!-- System Management -->
 ___
-## :white_circle: *File Management*
+## :white_circle: *Environment Variable Modification*
 <!-- Inodes -->
-#### :small_blue_diamond: File Viewing
-Command | Usage Description
-:------ |:------:
-cat | |Outputs file contents; does not support scrollback
-tac | Looks at file backwars
-less | Useful for larger files; Paging Program
-head | Prints first 10 lines by Default
-tail | Prints last 10 lines by Default
+#### :small_blue_diamond: Changing Default Shell Prompt
+```
+[PS1 Environment Variable]
+- PS1 is a primary prompt variable which holds @\u@\h \W\\$ special bash characters. 
+- Display during terminal login.
+- Default bash prompt.
 
+Default Location = /etc/bashrc
 
+[Modify0ing]
+# Environment Variable
+PS1='[[prod]\u@\h \W]\$' 
+
+# Modified shell prompt:
+[[prod]root@hostname ~]#
+
+````
 
 <!-- Linux Websites for Reading -->
 ___
