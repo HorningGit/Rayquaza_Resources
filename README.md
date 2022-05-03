@@ -24,8 +24,8 @@ ___
    <td align="center"><a href="tools/admin/gnu_linux.md"><img src="images/linux.png" width="50px;" height="50px;" alt="Linux"/><br /><b>Linux</b></a></td>
    <td align="center"><a href="tools/admin/design.md"><img src="images/server.png" width="50px;" height="50px;" alt="System Design"/><br /><b>System Design</b></a></td>
    <td align="center"><a href="tools/admin/git.md"><img src="images/git.png" width="50px;" height="50px;" alt="Source Control"/><br /><b>Source Control</b></a></td>
-   <td align="center"><a href="tools/admin/firewall.md"><img src="images/firewall.png" width="50px;" height="50px;" alt="Firewall"/><br /><b>Firewall</b></a></td>
-   <td align="center"><a href="tools/admin/vpn.md"><img src="images/vpn.png" width="50px;" height="50px;" alt="Source Control"/><br /><b>VPN</b></a></td>
+   <td align="center"><a href="tools/admin/firewall.md"><img src="images/firewall.png" width="50px;" height="50px;" alt="pfSense"/><br /><b>pfSense</b></a></td>
+   <td align="center"><a href="tools/admin/vpn.md"><img src="images/vpn.png" width="50px;" height="50px;" alt="OpenVPN"/><br /><b>OpenVPN</b></a></td>
    </tr>
   </table>
 </center>
