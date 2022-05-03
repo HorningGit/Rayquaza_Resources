@@ -181,7 +181,7 @@ Standard Input | stdin | 0 | Keyboard
 Standard Output | stdout | 1 | Terminal
 Standard Error | stderr | 2 | Log File
 
-#### :small_blue_diamond: I/O Redirection
+#### :small_orange_diamond: I/O Redirection
 - Change input source of ***filename*** to "input-file"
 ```
 filename < input-file
