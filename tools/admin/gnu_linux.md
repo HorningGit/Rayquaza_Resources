@@ -86,16 +86,28 @@ WantedBy=default.target
 ```
 
 <!-- OS Linux Family -->
+___
 ## :white_circle: *Inodes, Hard links, and Soft links*
 <!-- Family List -->
-<p>There are three main Linux operating system families that administrators need to be aware of. These are: Debian, Red Hat, and SUSE. A majority of Linux distrobutions stem from one of these three families. Below I have listed the lower level and upper level software package managers for their respective distrobutions! (see image). </p>
+```
+[Command]
+ln - make links between files
 
-
-
-
-
-
-
+[Options]
+-s, --symbolic
+    make symbolic links instead of hard links
+    
+-t, --target-directory=DIRECTORY
+              specify the DIRECTORY in which to create the links
+```
+##### Hard Link Explained
+<p align="center">
+  <img src="../../images/hardlink.png?raw=true" alt="initramfs image"/>
+</p>
+##### Soft Link Explained
+<p align="center">
+  <img src="../../images/softlink.png?raw=true" alt="initramfs image"/>
+</p>
 
 
 <!-- Linux Websites for Reading -->
