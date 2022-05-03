@@ -100,11 +100,12 @@ ln - make links between files
 -t, --target-directory=DIRECTORY
               specify the DIRECTORY in which to create the links
 ```
-##### Hard Link Explained
+
+<p align="center">(Hard link Explained)</p>
 <p align="center">
   <img src="../../images/hardlink.png?raw=true" alt="initramfs image"/>
 </p>
-##### Soft Link Explained
+<p align="center">(Soft link Explained)</p>
 <p align="center">
   <img src="../../images/softlink.png?raw=true" alt="initramfs image"/>
 </p>
