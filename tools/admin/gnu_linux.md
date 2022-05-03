@@ -1,11 +1,14 @@
 <!-- Header -->
 # :penguin: GNU/Linux :kiwi_fruit: :strawberry:
 
-<!-- File Structure -->
+
+<!-- Filesystem Standard -->
 ___
 ## :white_circle: *Filesystem Hierarchy Standard*
+<!-- Filesystem Image -->
 ##### [(Linux Foundation FHS Official Document)](https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.pdf)
 <div align="center"><img src="../../images/linux_structure.png"></div><hr/>
+
 
 <!-- Boot Process -->
 ## :white_circle: *System Initialization Process*
@@ -21,7 +24,7 @@ ___
     * BIOS Boot Partition (GRUB on BIOS/GPT only).
 5. Boot loader is launched!
 6. The boot loader then loads an operating system by either chain-loading or directly loading the operating system kernel. The boot loader is responsible for loading the kernel image and the initial RAM disk or filesystem into memory.
-<!-- UEFI image -->
+<!-- BIOS image -->
 <p align="center">
   <img src="../../images/bios.png?raw=true" alt="initramfs image"/>
 </p>
