@@ -3,8 +3,8 @@
 
 <!-- File Structure -->
 ___
-## *Filesystem Hierarchy Standard*
-##### [Linux Foundation FHS Official Document](https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.pdf)
+## :white_circle: *Filesystem Hierarchy Standard*
+##### [(Linux Foundation FHS Official Document)](https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.pdf)
 <div align="center"><img src="../../images/linux_structure.png"></div><hr/>
 
 <!-- Boot Process -->
@@ -119,6 +119,7 @@ Creating a hard link creates another name for the same data on disk. File names 
 Soft link is a pointer to a file name. Real file name points to data on disk:
   - Removing symbolic link won't delete original file.
   - Removing file will create a broken symlink.
+  - Able to point to objects on different filesystems, partitions, and/or disks.
 
 [Command]
 ln - make links between files
@@ -139,6 +140,21 @@ ln - make links between files
 <p align="center">
   <img src="../../images/softlink.png?raw=true" alt="initramfs image"/>
 </p>
+
+
+<!-- File Management -->
+___
+## :white_circle: *File Management*
+<!-- Inodes -->
+#### :small_blue_diamond: File Viewing
+Command | Usage Description
+:------ |:------:
+cat | |Outputs file contents; does not support scrollback
+tac | Looks at file backwars
+less | Useful for larger files; Paging Program
+head | Prints first 10 lines by Default
+tail | Prints last 10 lines by Default
+
 
 
 <!-- Linux Websites for Reading -->
