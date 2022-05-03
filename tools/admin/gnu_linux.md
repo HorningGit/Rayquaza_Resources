@@ -203,15 +203,17 @@ filename >& error-file
 find - search for files in a directory hierarchy
 
 [Options]
--type f            # File
--type d            # Directory
--type l            # Symlink
+-type f               # File
+-type d               # Directory
+-type l               # Symlink
 
--size 8            # Exactly 8 512-bit blocks 
--size -128c        # Smaller than 128 bytes
--size 256k         # Exactly 256KiB
--size +10M         # Larger than 10MiB
--size +5G          # Larger than 2GiB
+-size 8               # Exactly 8 512-bit blocks 
+-size -128c           # Smaller than 128 bytes
+-size 256k            # Exactly 256KiB
+-size +10M            # Larger than 10MiB
+-size +5G             # Larger than 2GiB
+
+-exec command {} \;   # Executes "command" on find
 ```
 
 <!-- Resources & Works Cited -->
