@@ -167,8 +167,32 @@ PS1='[[prod]\u@\h \W]\$'
 
 [Modified shell prompt]
 [[prod]root@hostname ~]#
-
 ````
+
+<!-- File Redirection -->
+___
+## :white_circle: *File Redirection & Input/Output*
+  <!-- File Streams -->
+#### :small_blue_diamond: Standard File Streams
+Stream | Symbolic Name | Value | Default
+:------ |:------:|:------:|:------:
+Standard Input | stdin | 0 | Keyboard
+Standard Output | stdout | 1 | Terminal
+Standard Error | stderr | 2 | Log File
+
+- Change input source of ***filename*** to "input-file"
+```
+filename < input-file
+```
+- Configure output of ***filename*** (stdout) to "output-file"
+```
+filename > output-file
+```
+- Configure error output of ***filename*** (stderr) to "error-file"
+```
+filename 2> error-file
+```
+
 
 
 <!-- Resources & Works Cited -->
