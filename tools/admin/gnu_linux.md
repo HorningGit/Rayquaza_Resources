@@ -192,6 +192,10 @@ filename > output-file
 ```
 filename 2> error-file
 ```
+- Configure standard output & error of ***filename*** to "output-file"
+```
+filename >& error-file
+```
 
 
 
