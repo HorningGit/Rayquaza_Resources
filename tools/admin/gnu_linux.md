@@ -12,8 +12,7 @@ ___
 
 <!-- Boot Process -->
 ## :white_circle: *System Initialization Process*
-
-<!-- BIOS Process -->
+  <!-- BIOS Process -->
 #### :small_blue_diamond: [Under BIOS (Basic Input/Output System)](https://wiki.archlinux.org/title/Arch_boot_process#Boot_loader)
 1. The Linux system is switched on, followed by the POST (power-on-self-test) process being executed.
 2. After POST, the BIOS will initialize the hardware necessary for boot (disk, keyboard controllers, etc.). The BIOS is stored on a ROM chip within the motherboard.
@@ -24,18 +23,17 @@ ___
     * BIOS Boot Partition (GRUB on BIOS/GPT only).
 5. Boot loader is launched!
 6. The boot loader then loads an operating system by either chain-loading or directly loading the operating system kernel. The boot loader is responsible for loading the kernel image and the initial RAM disk or filesystem into memory.
-<!-- BIOS image -->
+  <!-- BIOS image -->
 <p align="center">
   <img src="../../images/bios.png?raw=true" alt="initramfs image"/>
 </p>
-
-<!-- UEFI Process -->
+  <!-- UEFI Process -->
 #### :small_orange_diamond: [Under UEFI (Unified Extensible Firmware Interface)](https://wiki.archlinux.org/title/Arch_boot_process#Boot_loader)
 1. Linux system is switched on, followed by POST (power-on-self-test) process being executed.
 2. UEFI will then initialize the hardware required for booting (disk, keyboard controllers, etc.).
 3. UEFI firmware reads its Boot Manager data in Non-volatile RAM (NVRAM) to determine which EFI application to launch and what disk/partition from. <p align="center">The EFI system partition (also called ESP) is an OS independent partition that acts as the storage place for the EFI bootloaders, applications and drivers to be launched by the UEFI firmware.</p>
 4. Firmware launches the EFI application as defined in the boot entry of the firmware's boot manager.
-<!-- UEFI image -->
+  <!-- UEFI image -->
 <p align="center">
   <img src="../../images/uefi.png?raw=true" alt="initramfs image"/>
 </p>
@@ -44,17 +42,17 @@ ___
 <!-- initramfs -->
 ___
 ## :white_circle: *Initial RAM Disk*
-<!-- initramfs Paragraph (1) -->
+  <!-- initramfs Paragraph (1) -->
 <p>The sole purpose of initramfs is to mount the root filesystem. At boot time, the boot loader loads the Linux kernel and the initramfs image into its memory, starting the kernel. The initramfs filesystem image will provide kernel functionality for the Linux filesystem, and will manage device drivers for mass storage controllers with a facility called udev (user device). Here is a list of initramfs responsibilities:</p>
-<!-- initramfs image -->
+  <!-- initramfs image -->
 <p align="center">
   <img src="../../images/initramfs.png?raw=true" alt="initramfs image"/>
 </p>
-<!-- initramfs Paragraph (2) -->
+  <!-- initramfs Paragraph (2) -->
 The mount program will then notify the Linux OS that the filesystem is ready for use using the mount point. If succesful, initramfs is cleared from RAM and the init program on the root filesystem (/sbin/init) is executed.
 
 
-<!-- Boot Process -->
+<!-- Init Daemons -->
 ## :white_circle: *Init Daemons*
 <!-- init Process -->
 #### :small_blue_diamond: [Init](https://wiki.archlinux.org/title/init)
@@ -91,7 +89,7 @@ WantedBy=default.target
 <!-- OS Linux Family -->
 ___
 ## :white_circle: *Inodes, Hard links, and Soft links*
-<!-- Inodes -->
+  <!-- Inodes -->
 #### :small_blue_diamond: [Inodes](https://man7.org/linux/man-pages/man7/inode.7.html)
 <p>Each file has an inode containing metadata about the file. An application can retrieve this metadata using the stat command. The stat command can provide the file system information when we provide file name with the -f (–file-system) option.</p>
 
@@ -99,7 +97,7 @@ ___
 stat -f filename
 ```
 <p>Here is the information we retrieve from the stat command:</p>
-
+  <!-- stat command -->
 - File: The name of provided file.
 - ID: FIle system ID in hexadecimal.
 - Namelen: The maximum length (number of char) of a file name.
@@ -111,20 +109,19 @@ stat -f filename
 - Inodes:
    - Total: Total number of inodes in the file system.
    - Free: Total number of free inodes in the file system.
-
+  <!-- Hard/Soft Links -->
 ##### :small_orange_diamond: [Hard links & Symbolic Links](https://linuxize.com/post/how-to-create-symbolic-links-in-linux-using-the-ln-command/)
-
-
+  <!-- Hard link -->
 ##### [Hard link]
 <p>Creating a hard link creates another name for the same data on disk. File names simply point to some data on a system's disk.</p>
-
+  <!-- Symlink -->
 ##### [Symbolic link]
 <p>
 Soft link is a pointer to a file name. Real file name points to data on disk:
   - Removing symbolic link won't delete original file.
   - Removing file will create a broken symlink.
   - Able to point to objects on different filesystems, partitions, and/or disks.
-</p>  
+</p>
 
 ```
 [Command]
@@ -137,7 +134,7 @@ ln - make links between files
 -t, --target-directory=DIRECTORY
               specify the DIRECTORY in which to create the links
 ```
-
+<!-- Hard/Soft Link Images -->
 <p align="center">(Hard link Explained)</p>
 <p align="center">
   <img src="../../images/hardlink.png?raw=true" alt="initramfs image"/>
@@ -151,7 +148,7 @@ ln - make links between files
 <!-- System Management -->
 ___
 ## :white_circle: *Environment Variable Modification*
-<!-- Inodes -->
+  <!-- Default Shell EV -->
 #### :small_blue_diamond: Changing Default Shell Prompt
 ```
 [PS1 Environment Variable]
@@ -170,10 +167,10 @@ PS1='[[prod]\u@\h \W]\$'
 
 ````
 
-<!-- Linux Websites for Reading -->
+
+<!-- Resources & Works Cited -->
 ___
 ## Resources & Works Cited
-
 <!-- LFCA -->
 #### LFCA Training Path
 Platform | Class ID | Name | Complete?
@@ -184,7 +181,7 @@ edX Courses | [LFS151x](https://courses.edx.org/dashboard) | Introduction to Clo
 Linux Foundation | [LFD102x](https://training.linuxfoundation.org/) | A Beginner's Guide to Open Source Software Development | ❌
 Linux Foundation | [LFS151x](https://training.linuxfoundation.org/) | Introduction to Cloud Infrastructure Technologies | ❌
 Linux Foundation | [LFS151x](https://training.linuxfoundation.org/) | Introduction to Cloud Infrastructure Technologies | ❌
-
+<!-- Works Cite -->
 IEEE Standard (Works Cited)
 :------
 “Arch Linux,” archlinux.org. [Online]. Available: https://archlinux.org/
