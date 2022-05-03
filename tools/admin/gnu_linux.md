@@ -27,6 +27,7 @@ ___
 <p align="center">
   <img src="../../images/bios.png?raw=true" alt="initramfs image"/>
 </p>
+
   <!-- UEFI Process -->
 #### :small_orange_diamond: [Under UEFI (Unified Extensible Firmware Interface)](https://wiki.archlinux.org/title/Arch_boot_process#Boot_loader)
 1. Linux system is switched on, followed by POST (power-on-self-test) process being executed.
