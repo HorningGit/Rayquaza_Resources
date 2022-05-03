@@ -163,10 +163,10 @@ ___
 Default Location = /etc/bashrc
 
 [Modifying]
-  PS1='[[prod]\u@\h \W]\$' 
+PS1='[[prod]\u@\h \W]\$' 
 
 [Modified shell prompt]
-  [[prod]root@hostname ~]#
+[[prod]root@hostname ~]#
 
 ````
 
