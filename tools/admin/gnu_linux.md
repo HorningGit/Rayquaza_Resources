@@ -171,7 +171,7 @@ PS1='[[prod]\u@\h \W]\$'
 
 <!-- File Redirection -->
 ___
-## :white_circle: *File Redirection & Input/Output*
+## :white_circle: *Find, Redirection & Input/Output*
   <!-- File Streams -->
 #### :small_blue_diamond: Standard File Streams
 Stream | Symbolic Name | Value | Default
@@ -180,6 +180,7 @@ Standard Input | stdin | 0 | Keyboard
 Standard Output | stdout | 1 | Terminal
 Standard Error | stderr | 2 | Log File
 
+#### :small_blue_diamond: I/O Redirection
 - Change input source of ***filename*** to "input-file"
 ```
 filename < input-file
@@ -195,6 +196,22 @@ filename 2> error-file
 - Configure standard output & error of ***filename*** to "output-file"
 ```
 filename >& error-file
+```
+#### :small_blue_diamond: Find Command
+```
+[Command]
+find - search for files in a directory hierarchy
+
+[Options]
+-type f            # File
+-type d            # Directory
+-type l            # Symlink
+
+-size 8            # Exactly 8 512-bit blocks 
+-size -128c        # Smaller than 128 bytes
+-size 256k         # Exactly 256KiB
+-size +10M         # Larger than 10MiB
+-size +5G          # Larger than 2GiB
 ```
 
 <!-- Resources & Works Cited -->
