@@ -97,7 +97,8 @@ ___
 stat -f filename
 ```
 <p>Here is the information we retrieve from the stat command:</p>
-  <!-- stat command -->
+
+<!-- stat command -->
 - File: The name of provided file.
 - ID: FIle system ID in hexadecimal.
 - Namelen: The maximum length (number of char) of a file name.
@@ -111,10 +112,12 @@ stat -f filename
    - Free: Total number of free inodes in the file system.
   <!-- Hard/Soft Links -->
 ##### :small_orange_diamond: [Hard links & Symbolic Links](https://linuxize.com/post/how-to-create-symbolic-links-in-linux-using-the-ln-command/)
-  <!-- Hard link -->
+
+<!-- Hard link -->
 ##### [Hard link]
 <p>Creating a hard link creates another name for the same data on disk. File names simply point to some data on a system's disk.</p>
-  <!-- Symlink -->
+<!-- Symlink -->
+
 ##### [Symbolic link]
 <p>
 Soft link is a pointer to a file name. Real file name points to data on disk:
