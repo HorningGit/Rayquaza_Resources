@@ -148,14 +148,6 @@ Linux Foundation | [LFD102x](https://training.linuxfoundation.org/) | A Beginner
 Linux Foundation | [LFS151x](https://training.linuxfoundation.org/) | Introduction to Cloud Infrastructure Technologies | ❌
 Linux Foundation | [LFS151x](https://training.linuxfoundation.org/) | Introduction to Cloud Infrastructure Technologies | ❌
 
-<!-- Reading -->
-#### :open_book: Reading & Magazines :open_book:
-Company | Title | Comments
-:------ |:------:|:--------:
-Linux New Media | [Linux Magazine](https://www.linux-magazine.com) | Specialized in smart, insightful articles on open source tools and real-world Linux.
-Linux New Media | [Admin Magaizine](https://www.admin-magazine.com/) | Articles on Security, Network Monitoring, Cloud Computing, DevOps, Storage, and more!
-Linux New Media | [FOSSlife](https://www.fosslife.org/) | Provides resources for free and open source software to help build a career with FOSS!
-
 IEEE Standard (Works Cited)
 :------
 “Arch Linux,” archlinux.org. [Online]. Available: https://archlinux.org/
