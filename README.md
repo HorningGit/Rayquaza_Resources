@@ -1,16 +1,5 @@
 <!-- Heading -->
 ## Rayquaza Resources
-___
-
-<!-- Addition of Current Study Sites -->
-#### Journey towards a DevOps Engineer (Current Resources) :art:
-Concept | Name | Description
-:------|:------:|:------:
-Linux Administration | [edX Courses](https://www.edx.org/) | Training for LFCA (Linux, DevOps, Software Development)
-Linux Administration | [The Linux Foundation](https://training.linuxfoundation.org/) | Training for LFCA (Linux, DevOps, Open Source)
-Coding & GitHub | [Codecademy](https://www.codecademy.com/learn) | Golang, Git, and DevOps Basic Training
-GitHub Projects | [Kyogre_Kubernetes](https://github.com/HorningGit/Kyogre_Kubernetes) | Raspberry Pi Kubernetes Cluster w/ Cisco & pfSense
-
 <!-- Admin Sectionhttps://training.linuxfoundation.org/ -->
 ___
 ## System Administration & Design / Linux / Networking
@@ -129,6 +118,17 @@ Name | Comments
 [Cloud Native ~ Trail Map](https://raw.githubusercontent.com/cncf/trailmap/master/CNCF_TrailMap_latest.pdf) | Cloud native's recommended process of leveraging open source infrastructures.
 [Cloud Native ~ Landscape Guide](https://landscape.cncf.io/guide) | Detailed guide on the use/implementation of Cloud Native's landscape.
 ___
+
+
+<!-- Addition of Current Study Sites -->
+#### Journey towards a DevOps Engineer (Current Resources) :art:
+Concept | Name | Description
+:------|:------:|:------:
+Linux Administration | [edX Courses](https://www.edx.org/) | Training for LFCA (Linux, DevOps, Software Development)
+Linux Administration | [The Linux Foundation](https://training.linuxfoundation.org/) | Training for LFCA (Linux, DevOps, Open Source)
+Coding & GitHub | [Codecademy](https://www.codecademy.com/learn) | Golang, Git, and DevOps Basic Training
+GitHub Projects | [Kyogre_Kubernetes](https://github.com/HorningGit/Kyogre_Kubernetes) | Raspberry Pi Kubernetes Cluster w/ Cisco & pfSense
+
 
 [![Linkedin Badge](https://img.shields.io/badge/-Alexander%20Horning-blue?style=social&logo=Linkedin&logoColor=blue&link=https://www.linkedin.com/in/alexander-horning-5b8bb918b/)](https://www.linkedin.com/in/alexander-horning-5b8bb918b/)
 [![Twitter Badge](http://img.shields.io/badge/-@LinuxTyranitar-1ca0f1?style=social&logo=twitter&logoColor=blue&link=https://https://twitter.com/LinuxTyranitar)](https://twitter.com/LinuxTyranitar)
