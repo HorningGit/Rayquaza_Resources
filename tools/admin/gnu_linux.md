@@ -230,7 +230,7 @@ find - search for files in a directory hierarchy
 ```
 [Install]                              [RPM]                                      [DEB]                                         
 Install Package                        rpm -i packagename.rpm                     dpkg --install packagename.deb
-Install Package; dependencies          dnf install packagename                    apt-get install packagename
+Install Package; dependencies          dnf install packagename                    apt-get install packagename  
 
 [Remove]                               [RPM]                                      [DEB]
 Remove Package                         rpm -e packagename.rpm                     dpkg --remove packagename.deb
