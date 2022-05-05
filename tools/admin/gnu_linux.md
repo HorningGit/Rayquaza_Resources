@@ -226,7 +226,7 @@ find - search for files in a directory hierarchy
 </p>
 
 <!--PKGMANAGE_COMMANDS-->
-#### Package Management
+#### Package Management Commands for RPM / DEB
 ```
 [Install]                              [RPM]                                      [DEB]                                         
 Install Package                        rpm -i packagename.rpm                     dpkg --install packagename.deb
