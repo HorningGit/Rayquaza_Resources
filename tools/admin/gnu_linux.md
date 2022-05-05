@@ -230,36 +230,23 @@ find - search for files in a directory hierarchy
 ```
 [Install]                              [RPM]                                                    [DEB]                                         
 Install Package                        rpm -i packagename.rpm                                   dpkg --install packagename.deb
-Install Package; dependencies          dnf install packagename.rpm                              apt-get install packagename
+Install Package; dependencies          dnf install packagename                                  apt-get install packagename
 
 [Remove]                               [RPM]                                                    [DEB]
-Remove Pacakge                         rpm -e packagename.rpm                                   dpkg --remove packagename.deb
-Remove Package; dependencies           dnf remove packagename.rpm                               apt-get autoremove packagename
+Remove Package                         rpm -e packagename.rpm                                   dpkg --remove packagename.deb
+Remove Package; dependencies           dnf remove packagename                                   apt-get autoremove packagename
 
 [Update]                               [RPM]                                                    [DEB]                                         
-Install Package                        rpm -i packagename.rpm                                   dpkg --install packagename.deb
-Install Package; dependencies          dnf install packagename.rpm                              apt-get install packagename.deb
+Update Package                         rpm -U packagename.rpm                                   dpkg --install packagename.deb
+Update Package; dependencies           dnf update packagename                                   apt-get install packagename
+Update Entire System                   dnf update                                               apt-get dist-upgrade
 
-[Remove]
-Remove Pacakge                         rpm -e packagename.rpm                                   dpkg --remove packagename.deb
+[List]                                 [RPM]                                                    [DEB]
+Show All Listed Packages               dnf list installed                                       dpkg --list
+Retrieve Package info                  rpm -qil packagename                                     dpkg --listfiles packagename
+Show Package "Name"                    dnf list "packagename"                                   apt-cache search packagename
+Show All Available Packages            dnf list                                                 apt-cache dumpavail packagename
 ```
-
-
-
-
-#### :small_blue_diamond: [Apt](https://linuxize.com/post/how-to-use-apt-command/)
-The high level package management system **apt** is used for installing, updating, removing, and managing debian based packages on Debian based systems.
-<!-- systemd Process -->
-#### :small_orange_diamond: [Systemd](https://wiki.archlinux.org/title/systemd)
-The init daemon **systemd** takes an aggressive parallel approach to system services management. This allows for services to be ran simultaneously! Systemd uses Unit Dependencies to reference what a service wants/requires to run properly. The file */sbin/init* now points to */lib/systemd/systemd*.<br /><br />
-**Systemd** uses **targets** to group units together via dependencies and as standardized synchronization points. **Targets** are similar to **init** runlevels, but act different in their own way. Here is a list of **systemd** targets for reference:
-
-
-
-
-
-
-
 
 <!-- Resources & Works Cited -->
 ___
