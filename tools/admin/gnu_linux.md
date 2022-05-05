@@ -226,17 +226,22 @@ find - search for files in a directory hierarchy
 </p>
 
 <!--PKGMANAGE_COMMANDS-->
-
-
-- Configure error output of ***filename*** (stderr) to "error-file"
-
+#### Package Management
 ```
-filename 2> error-file
-```
+[Install]                              [RPM]                                                    [DEB]                                         
+Install Package                        rpm -i packagename.rpm                                   dpkg --install packagename.deb
+Install Package; dependencies          dnf install packagename.rpm                              apt-get install packagename
 
-- Configure standard output & error of ***filename*** to "output-file"
-```
-filename >& error-file
+[Remove]                               [RPM]                                                    [DEB]
+Remove Pacakge                         rpm -e packagename.rpm                                   dpkg --remove packagename.deb
+Remove Package; dependencies           dnf remove packagename.rpm                               apt-get autoremove packagename
+
+[Update]                               [RPM]                                                    [DEB]                                         
+Install Package                        rpm -i packagename.rpm                                   dpkg --install packagename.deb
+Install Package; dependencies          dnf install packagename.rpm                              apt-get install packagename.deb
+
+[Remove]
+Remove Pacakge                         rpm -e packagename.rpm                                   dpkg --remove packagename.deb
 ```
 
 
