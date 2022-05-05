@@ -218,13 +218,26 @@ find - search for files in a directory hierarchy
 -exec command {} \;   # Executes "command" on find
 ```
 
-<!-- Package Management -->
+<!--PKGMANAGE_HEADING_IMAGE-->
 ## :white_circle: *Package Management*
 <!--Image-->
 <p align="center">
   <img src="../../images/family.png?raw=true" alt="initramfs image"/>
 </p>
 
+<!--PKGMANAGE_COMMANDS-->
+
+
+- Configure error output of ***filename*** (stderr) to "error-file"
+
+```
+filename 2> error-file
+```
+
+- Configure standard output & error of ***filename*** to "output-file"
+```
+filename >& error-file
+```
 
 
 
