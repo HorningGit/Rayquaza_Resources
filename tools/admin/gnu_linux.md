@@ -247,6 +247,11 @@ Retrieve Package info                  rpm -qil packagename                     
 Show Available Package "Name"          dnf list "packagename"                     apt-cache search packagename
 ```
 
+<!--Processes-->
+## :white_circle: *Process Management*
+<!--Image-->
+In Linux, a **process** is an instance of one (or more) tasks executing on the system. One Linux command could contain several processes when ran. Processes will use system resources and perpherals as they require.
+
 <!-- Resources & Works Cited -->
 ___
 ## Resources & Works Cited
