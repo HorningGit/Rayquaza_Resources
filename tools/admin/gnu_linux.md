@@ -258,7 +258,9 @@ Programs are identified by process IDs (PID), if the process is a child process,
 
 #### :small_blue_diamond: Process Types
 https://www.baeldung.com/linux/process-states
+A daemon process is one that persists in memory, usually in the background, taking action when something in the environment prompts it to. Examples include crond, cupsd, and httpd.
 
+A batch process is one that is invoked in the background from another process (usually a daemon) and performs some processing before exiting. Examples include updatedb, makewhatis, and logrotate.
 
 <!-- Resources & Works Cited -->
 ___
