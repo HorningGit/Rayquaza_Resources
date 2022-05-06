@@ -86,7 +86,6 @@ ExecStart=/usr/sbin/foo-daemon
 WantedBy=default.target
 ```
 
-
 <!-- OS Linux Family -->
 ___
 ## :white_circle: *Inodes, Hard links, and Soft links*
@@ -251,6 +250,15 @@ Show Available Package "Name"          dnf list "packagename"                   
 ## :white_circle: *Process Management*
 <!--Image-->
 In Linux, a **process** is an instance of one (or more) tasks executing on the system. One Linux command could contain several processes when ran. Processes will use system resources and perpherals as they require.
+
+Programs are identified by process IDs (PID), if the process is a child process, it can also be identified by it's parent process ID (PPID).
+
+- **Parent Process** = Processes that create child processes during run-time.
+- **Child Process** = Processes that are created by Parent processes during run-time.
+
+#### :small_blue_diamond: Process Types
+
+
 
 <!-- Resources & Works Cited -->
 ___
