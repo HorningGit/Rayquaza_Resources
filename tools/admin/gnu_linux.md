@@ -257,7 +257,7 @@ Programs are identified by process IDs (PID), if the process is a child process,
 - **Child Process** = Processes that are created by Parent processes during run-time.
 
 #### :small_blue_diamond: Process Types
-
+https://www.baeldung.com/linux/process-states
 
 
 <!-- Resources & Works Cited -->
