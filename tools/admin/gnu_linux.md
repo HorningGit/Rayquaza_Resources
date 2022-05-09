@@ -275,6 +275,7 @@ edX Courses | [LFS151x](https://courses.edx.org/dashboard) | Introduction to Clo
 Linux Foundation | [LFD102x](https://training.linuxfoundation.org/) | A Beginner's Guide to Open Source Software Development | ❌
 Linux Foundation | [LFS151x](https://training.linuxfoundation.org/) | Introduction to Cloud Infrastructure Technologies | ❌
 Linux Foundation | [LFS151x](https://training.linuxfoundation.org/) | Introduction to Cloud Infrastructure Technologies | ❌
+
 <!-- Works Cite -->
 IEEE Standard (Works Cited)
 :------
