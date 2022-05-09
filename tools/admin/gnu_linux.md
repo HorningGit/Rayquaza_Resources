@@ -2,11 +2,19 @@
 # :penguin: GNU/Linux :kiwi_fruit: :strawberry:
 
 <!--Foreward-->
+___
 ##### Command Syntax Interpretation (same syntax as **man** pages)
 - Anything between square brackets ("[" and "]") is optional.
 - Anything followed by an ellipsis (...") can be repeated.
-######
+- Curly braces (“{” and “}”) mean that you should select one of the items separated by vertical bars (“|”).
 
+For example:
+```
+bork [-x] {on | off} filename ...
+```
+Could yield:
+```
+```
 
 <!-- Filesystem Standard -->
 ___
