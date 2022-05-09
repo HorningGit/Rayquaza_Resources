@@ -4,6 +4,10 @@
 ##### :small_orange_diamond: What is systemd?
 Systemd is a collection of programs, daemons, libraries, technologies, and kernel components. When run as first process on boot (as PID 1), it acts as init system that brings up and maintains userspace services. Separate instances are started for logged-in users to start their services. **Systemd** also supports dependecy management and also has comprehensive logging features. The file */sbin/init* now points to */lib/systemd/systemd* while using systemd as an init daemon.<br /><br />
 
+<p align="center">
+  <img src="/tools/admin/images/systemdcomponents.png?raw=true" alt="initramfs image"/>
+</p>
+
 <!--Utilities-->
 ___
 ###### Systemd Service Management Utilities
