@@ -2,9 +2,11 @@
 # :penguin: GNU/Linux :kiwi_fruit: :strawberry:
 
 <!--Foreward-->
-###### Command Syntax Interpretation
-Rayquaza Resources uses the same command syntax as **man** pages:
-- Anything be
+##### Command Syntax Interpretation (same syntax as **man** pages)
+###### - Anything between square brackets ("[" and "]") is optional.
+###### - Anything followed by an ellipsis (...") can be repeated.
+######
+
 
 <!-- Filesystem Standard -->
 ___
