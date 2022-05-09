@@ -14,6 +14,8 @@ bork [-x] {on | off} filename ...
 ```
 Could yield:
 ```
+bork on /etc/passwd
+bork -x off /etc/passwd /etc/cups
 ```
 
 <!-- Filesystem Standard -->
