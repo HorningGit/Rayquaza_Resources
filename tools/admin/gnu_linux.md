@@ -11,7 +11,7 @@ ___
 
 
 <!-- Boot Process -->
-## :white_circle: *System Initialization Process*
+## :white_circle: *Booting and System Management Daemons*
   <!-- BIOS Process -->
 #### :small_blue_diamond: [Under BIOS (Basic Input/Output System)](https://wiki.archlinux.org/title/Arch_boot_process#Boot_loader)
 1. The Linux system is switched on, followed by the POST (power-on-self-test) process being executed.
