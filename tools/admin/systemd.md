@@ -17,7 +17,7 @@ bork -x off /etc/passwd /etc/cups
 
 <!-- Init Daemons -->
 ___
-## :white_circle: *Init Daemons*
+## :white_circle: *Systemd*
 <!-- init Process -->
 #### :small_blue_diamond: [Init](https://wiki.archlinux.org/title/init)
 After the kernel has mounted the root filesystem and set up its hardware, the kernel runs */sbin/init*. The daemon **init** is the first process to run, and it will end up starting the necessary components to get the Linux system started. Although the Linux Kernel was originaly built with the init daemon, modern Linux systems would shift to the systemd init daemon to manage their systems.
