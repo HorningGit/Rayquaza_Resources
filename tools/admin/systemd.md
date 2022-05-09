@@ -1,9 +1,11 @@
 <!-- Init Daemons -->
-___
 ## :white_circle: *Systemd*
 <!-- systemd Process -->
+##### :small_orange_diamond: What is systemd?
 Systemd is a collection of programs, daemons, libraries, technologies, and kernel components. The init daemon **systemd** takes an aggressive parallel approach to system services management. This allows for services to be ran simultaneously! **Systemd** uses Unit Dependencies to reference what a service wants/requires to run properly. **Systemd** also supports dependecy management and also has comprehensive logging features. The file */sbin/init* now points to */lib/systemd/systemd* while using systemd as an init daemon.<br /><br />
 
+<!--Utilities-->
+___
 ###### Systemd Service Management Utilities
 Tool | Description
 :------ |:------:
@@ -11,7 +13,9 @@ systemctl | Control the **systemd** system and services.
 journalctl | For managing journal, **systemd**'s own logging system.
 hostnamectl | Managing hostname
 localectl | Configure the system's location and keyboard layout.
-imtedatectl | Setting the time and date for the system.
+timedatectl | Setting the time and date for the system.
+systemd-cgls | Show contents of cgroup
+systemadm | Front-end for systemctl
 
 **Systemd** uses **targets** to group units together via dependencies and as standardized synchronization points. **Targets** are similar to **init** runlevels, but act different in their own way. Here is a list of **systemd** targets for reference:
 <!-- Systemd Targets -->
