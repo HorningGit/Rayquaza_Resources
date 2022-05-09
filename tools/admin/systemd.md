@@ -1,9 +1,6 @@
 <!-- Init Daemons -->
 ___
 ## :white_circle: *Systemd*
-<!-- init Process -->
-#### :small_blue_diamond: [Init](https://wiki.archlinux.org/title/init)
-After the kernel has mounted the root filesystem and set up its hardware, the kernel runs */sbin/init*. The daemon **init** is the first process to run, and it will end up starting the necessary components to get the Linux system started. Although the Linux Kernel was originaly built with the init daemon, modern Linux systems would shift to the systemd init daemon to manage their systems.
 <!-- systemd Process -->
 #### :small_orange_diamond: [Systemd](https://wiki.archlinux.org/title/systemd)
 Systemd is a collection of programs, daemons, libraries, technologies, and kernel components. The init daemon **systemd** takes an aggressive parallel approach to system services management. This allows for services to be ran simultaneously! **Systemd** uses Unit Dependencies to reference what a service wants/requires to run properly. **Systemd** also supports dependecy management and also has comprehensive logging features. The file */sbin/init* now points to */lib/systemd/systemd* while using systemd as an init daemon.<br /><br />
