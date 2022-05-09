@@ -1,6 +1,10 @@
 <!-- Header -->
 # :penguin: GNU/Linux :kiwi_fruit: :strawberry:
 
+<!--Foreward-->
+###### Command Syntax Interpretation
+Rayquaza Resources uses the same command syntax as **man** pages:
+- Anything be
 
 <!-- Filesystem Standard -->
 ___
