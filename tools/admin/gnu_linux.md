@@ -3,8 +3,8 @@
 
 <!--Foreward-->
 ##### Command Syntax Interpretation (same syntax as **man** pages)
-###### - Anything between square brackets ("[" and "]") is optional.
-###### - Anything followed by an ellipsis (...") can be repeated.
+- Anything between square brackets ("[" and "]") is optional.
+- Anything followed by an ellipsis (...") can be repeated.
 ######
 
 
