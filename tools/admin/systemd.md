@@ -4,6 +4,8 @@
 <!-- systemd Process -->
 ##### :small_orange_diamond: What is systemd?
 **Systemd** is a collection of programs, daemons, libraries, technologies, and kernel components. When ran as the first process on boot (PID 1), it acts as the init daemon that brings up and maintains system services. Separate instances are started for logged-in users to start their services. **Systemd** also supports dependency management, and also has comprehensive logging features. The file */sbin/init* will now points to */lib/systemd/systemd* while using systemd as an init daemon.
+___
+
 
 <!--Components_Image-->
 ###### Systemd Components
@@ -11,8 +13,7 @@
   <img src="/tools/admin/images/systemdcomponents.png?raw=true" alt="initramfs image"/>
 </p>
 
-<!--Utilities-->
-___
+<!--Components-->
 ###### Systemd Service Management Utilities
 Tool | Description
 :------ |:------:
@@ -25,6 +26,7 @@ systemd-cgls | Show contents of cgroup
 systemadm | Front-end for systemctl
 
 <!--Units-->
+___
 #### :small_orange_diamond: [Units in systemd](https://wiki.archlinux.org/title/systemd)
 <!-- Unit File Example -->
 **Systemd** uses Unit Dependencies to reference what a service wants/requires to run properly. A **unit** in systemd, is simply an object that performs or controls a particular task or action. Systemd uses **units** for:
