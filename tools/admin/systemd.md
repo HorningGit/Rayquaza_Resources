@@ -24,8 +24,30 @@ timedatectl | Setting the time and date for the system.
 systemd-cgls | Show contents of cgroup
 systemadm | Front-end for systemctl
 
+<!--Units-->
+#### :small_orange_diamond: [Units in systemd](https://wiki.archlinux.org/title/systemd)
+<!-- Unit File Example -->
+**Systemd** uses Unit Dependencies to reference what a service wants/requires to run properly. A **unit** in systemd, is simply an object that performs or controls a particular task or action. Systemd uses **units** for:
+- Controlling system services (Start/Stop/Configure)
+- Organizing the boot process!
+- Maintaining tasks and processes!
+- Creating sockets!
+- Mounting file-systems and initializing hardware!
 
+<!--Unit_Example-->
+###### Example of a Systemd Unit File
+```
+[Unit]
+Description=Horningfoo
 
+[Service]
+ExecStart=/usr/sbin/foo-daemon
+
+[Install]
+WantedBy=default.target
+```
+
+<!--Targets-->
 #### :small_blue_diamond: [Targets in systemd](https://wiki.archlinux.org/title/systemd)
 Systemd uses **targets** to group units together via dependencies and as standardized synchronization points. **Targets** are similar to init runlevels, but act different in their own way. Here is a list of systemd **targets** for reference:
 <!-- Systemd Targets -->
@@ -39,25 +61,3 @@ runlevel3.target, multi-user.target | Full multiuser with network
 runlevel4.target | Unused/User-defined
 runlevel5.target, graphical.target | Full multiuser with network and display manager
 runlevel6.target, reboot.target | System reboot
-
-#### :small_orange_diamond: [Units in systemd](https://wiki.archlinux.org/title/systemd)
-<!-- Unit File Example -->
-**Systemd** uses Unit Dependencies to reference what a service wants/requires to run properly. A **unit** in systemd, is simply an object that performs or controls a particular task or action. Systemd uses **units** for:
-- Controlling system services (Start/Stop/Configure)
-- Organizing the boot process!
-- Maintaining tasks and processes!
-- Creating sockets!
-- Mounting file-systems and initializing hardware!
-
-
-###### Example of a Systemd Unit File
-```
-[Unit]
-Description=Horningfoo
-
-[Service]
-ExecStart=/usr/sbin/foo-daemon
-
-[Install]
-WantedBy=default.target
-```
