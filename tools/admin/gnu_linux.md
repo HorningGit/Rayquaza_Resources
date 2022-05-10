@@ -237,6 +237,15 @@ A daemon process is one that persists in memory, usually in the background, taki
 
 A batch process is one that is invoked in the background from another process (usually a daemon) and performs some processing before exiting. Examples include updatedb, makewhatis, and logrotate.
 
+<!--Process_States-->
+#### :small_orange_diamond: Process States
+- 'D' = UNINTERRUPTABLE_SLEEP
+- 'R' = RUNNING & RUNNABLE
+- 'S' = INTERRRUPTABLE_SLEEP
+- 'T' = STOPPED
+- 'Z' = ZOMBIE
+
+
 <!-- Resources & Works Cited -->
 ___
 ## Resources & Works Cited
