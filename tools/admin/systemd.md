@@ -2,7 +2,7 @@
 ## :white_circle: *Systemd*
 <!-- systemd Process -->
 ##### :small_orange_diamond: What is systemd?
-Systemd is a collection of programs, daemons, libraries, technologies, and kernel components. When run as first process on boot (as PID 1), it acts as init system that brings up and maintains userspace services. Separate instances are started for logged-in users to start their services. **Systemd** also supports dependecy management and also has comprehensive logging features. The file */sbin/init* now points to */lib/systemd/systemd* while using systemd as an init daemon.<br /><br />
+**Systemd** is a collection of programs, daemons, libraries, technologies, and kernel components. When ran as the first process on boot (PID 1), it acts as the init daemon that brings up and maintains system services. Separate instances are started for logged-in users to start their services. **Systemd** also supports dependency management, and also has comprehensive logging features. The file */sbin/init* will now points to */lib/systemd/systemd* while using systemd as an init daemon.
 
 <!--Components-->
 ###### Systemd Components
