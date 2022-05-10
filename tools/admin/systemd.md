@@ -27,7 +27,7 @@ systemadm | Front-end for systemctl
 
 
 #### :small_blue_diamond: [Targets in systemd](https://wiki.archlinux.org/title/systemd)
-**Systemd** uses **targets** to group units together via dependencies and as standardized synchronization points. **Targets** are similar to **init** runlevels, but act different in their own way. Here is a list of **systemd** targets for reference:
+Systemd uses **targets** to group units together via dependencies and as standardized synchronization points. **Targets** are similar to init runlevels, but act different in their own way. Here is a list of systemd **targets** for reference:
 <!-- Systemd Targets -->
 ###### List of Systemd Targets
 systemd Target | Description
