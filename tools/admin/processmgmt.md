@@ -24,8 +24,10 @@ ___
 
 <!--Process_States-->
 #### :small_orange_diamond: Process States
-- 'D' = UNINTERRUPTABLE_SLEEP
 - 'R' = RUNNING & RUNNABLE
+  - Running ~ Actively running and allocated to CPU/CPU core or thread.
+  - Runnable ~ Process is ready to be run, but CPU is not currently ready. The RUNNABLE process will then be thrown into a process queue.
+- 'D' = UNINTERRUPTABLE_SLEEP
 - 'S' = INTERRRUPTABLE_SLEEP
 - 'T' = STOPPED
 - 'Z' = ZOMBIE
