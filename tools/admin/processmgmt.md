@@ -10,10 +10,9 @@ The Linux system has many processes that are identified by unique **process ID**
 - Memory Usage
 - Location in Memory
 
-if the process is a child process, it can also be identified by it's parent process ID (PPID).
-
-- **Parent Process** = Processes that create child processes during run-time.
-- **Child Process** = Processes that are created by Parent processes during run-time.
+Processes can also be identified by both parent and child processes:
+- **Parent Process** = Every process on the Linux OS is created when the process executes the fork() system call except PID1 (***init | systemd***). The process that implemented the fork() system call is the **parent process**. They also create child processes during run-time.
+- **Child Process** = Processes that are created by Parent processes during run-time. Child processes can also be identified by their parent process ID (PPID).
 ___
 
 <!--Process_Types-->
