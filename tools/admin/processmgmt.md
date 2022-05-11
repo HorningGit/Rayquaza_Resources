@@ -40,7 +40,7 @@ The **load average** is the average system load on a system for a defined amount
 - Runnable Processes
 - Sleeping Processes (Interruptable & Uninterruptable)
 
-Use the commmand **uptime** to retrieve the system's load average:
+Use the command **uptime** to retrieve the system's load average:
 ```
 uptime [option]
 ```
