@@ -32,3 +32,10 @@ ___
 - 'S' = INTERRRUPTABLE_SLEEP
 - 'T' = STOPPED
 - 'Z' = ZOMBIE
+___
+
+#### :small_blue_diamond: Load Averages
+The **load average** is the average system load on a system for a defined amount of time. It's calculated by processes that are:
+- Running Processes
+- Runnable Processes
+- Sleeping Processes (Interruptable & Uninterruptable)
