@@ -29,7 +29,7 @@ systemadm | Front-end for systemctl
 ___
 #### :small_orange_diamond: [Units in systemd](https://wiki.archlinux.org/title/systemd)
 <!-- Unit File Example -->
-**Systemd** uses Unit Dependencies to reference what a service wants/requires to run properly. A **unit** in systemd, is simply an object that performs or controls a particular task or action. Systemd uses **units** for:
+A **unit** in systemd, is simply an object that performs or controls a particular task or action. Systemd uses Unit Dependencies to reference what a service wants/requires to run properly. Systemd uses **units** for:
 - Controlling system services (Start/Stop/Configure)
 - Organizing the boot process!
 - Maintaining tasks and processes!
@@ -37,16 +37,17 @@ ___
 - Mounting file-systems and initializing hardware!
 
 <!--Unit_Example-->
-###### Example of a Systemd Unit File
+###### Example of a Systemd Unit File (rsync.service)
 ```
 [Unit]
-Description=Horningfoo
+Description=fast remote file copy program daemon
+ConditionPathExists=/etc/rsyncd.conf
 
 [Service]
-ExecStart=/usr/sbin/foo-daemon
+ExecStart=/usr/bin/rsync --daemon --no-detach
 
 [Install]
-WantedBy=default.target
+WantedBy=multi-user.target
 ```
 
 <!--Targets-->
