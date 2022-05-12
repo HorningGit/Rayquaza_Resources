@@ -1,7 +1,8 @@
 <!--Processes-->
 ## :white_circle: *Process Management*
 
-<!--Image-->
+<!--General-->
+### :sushi: General Process Info
 In Linux, a **process** is an instance of one (or more) tasks executing on the system. One Linux command could contain several processes when ran. Processes will use system resources and perpherals as they are required.
 
 The Linux system has many processes that are identified by unique **process ID**s (PID). **PID**'s are used to track:
@@ -17,7 +18,7 @@ Processes can also be identified by
 ___
 
 <!--Process_Types-->
-#### :small_blue_diamond: Process Types
+### :rice_ball: Process Types
 Processes can be organized into a few types depending on the task being executed:
 - **User Process** = User processes are the most common type of process. This is a process that is initiated by a user account, and the process will run in user space.
 - **Daemon Process** = Processes that are ran continuously. These processes are usually initiated during startup, then subsequently wait on a user/system to request their service.
@@ -25,7 +26,7 @@ Processes can be organized into a few types depending on the task being executed
 ___
 
 <!--Process_States-->
-#### :small_orange_diamond: Process States
+### :ramen: Process States
 - 'R' = RUNNING & RUNNABLE
   - Running ~ Actively running and allocated to CPU/CPU core or thread.
   - Runnable ~ Process is ready to be run, but CPU is not currently ready. The RUNNABLE process will then be thrown into a process queue.
@@ -35,7 +36,7 @@ ___
 - 'Z' = ZOMBIE
 ___
 
-#### :small_blue_diamond: Load Averages
+### :fried_shrimp: Load Averages
 The **load average** is the average system load on a system for a defined amount of time. It's calculated by processes that are:
 - Running Processes
 - Runnable Processes
@@ -48,6 +49,6 @@ uptime [option]
 ___
 
 <!--Process_Monitoring-->
-#### :small_orange_diamond: Process Monitoring
+### :bento: Process Monitoring
 Here are some of the most commonly used commands for process monitoring:
 
