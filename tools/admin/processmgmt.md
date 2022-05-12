@@ -51,9 +51,11 @@ ___
 <!--Process_Monitoring-->
 ### :bento: Process Monitoring
 Here are some of the most commonly used commands for process monitoring:
+
 top command
 ```
-test
+[NAME]
+top - display Linux processes
 ```
 Field | Name | Description
 :------|:------:|:------:
