@@ -102,7 +102,7 @@ Soft link is a pointer to a file name. Real file name points to data on disk:
 </p>
 
 ```
-[Command]
+[NAME]
 ln - make links between files
 
 [Options]
@@ -174,11 +174,13 @@ filename >& error-file
 ```
 #### :small_blue_diamond: Find Command
 ```
-[Command]
+[NAME]
 find - search for files in a directory hierarchy
 
 [Options]
 -type f               # File
+-type b               # Block
+-type s               # Socket
 -type d               # Directory
 -type l               # Symlink
 
