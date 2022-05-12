@@ -51,4 +51,21 @@ ___
 <!--Process_Monitoring-->
 ### :bento: Process Monitoring
 Here are some of the most commonly used commands for process monitoring:
-
+top command
+```
+test
+```
+Field | Name | Description
+:------|:------:|:------:
+PID | Process ID | test
+User | username | test
+PR | Priority | test
+NI | Nice Value | test
+VIRT | Used Virtual Memory (kb) | test
+RES | Used Physical Memory (kb) | test
+SHR | Used Shared Memory (kb) | test
+S | Status | test
+%CPU | % of CPU Time | test
+%MEM | % of Physical Memory | test
+TIME+ | Total CPU Time | test
+Coomand | Command Name | test
