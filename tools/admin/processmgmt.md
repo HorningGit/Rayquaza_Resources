@@ -45,3 +45,9 @@ Use the command **uptime** to retrieve the system's load average:
 ```
 uptime [option]
 ```
+___
+
+<!--Process_Monitoring-->
+#### :small_orange_diamond: Process Monitoring
+Here are some of the most commonly used commands for process monitoring:
+
