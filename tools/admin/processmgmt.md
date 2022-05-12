@@ -58,13 +58,13 @@ test
 Field | Name | Description
 :------|:------:|:------:
 PID | Process ID | test
-User | username | test
+User | Username | Task Owner's Username
 PR | Priority | test
-NI | Nice Value | test
-VIRT | Used Virtual Memory (kb) | test
-RES | Used Physical Memory (kb) | test
-SHR | Used Shared Memory (kb) | test
-S | Status | test
+NI | Nice Value | Nice values are user-space values used to control the priority of a process. The nice value range is -20 to +19 where -20 is highest, 0 default and +19 is lowest.
+VIRT | Used Virtual Memory (kb) | The total amount of used virtual memory in kilobytes.
+RES | Used Physical Memory (kb) | The total amount of used physical memory in kiloytes.
+SHR | Used Shared Memory (kb) | The total amount of used shared memory in kilobytes.
+S | Status | Current Process State (see Process States section)
 %CPU | % of CPU Time | test
 %MEM | % of Physical Memory | test
 TIME+ | Total CPU Time | test
