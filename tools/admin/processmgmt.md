@@ -59,15 +59,15 @@ top - display Linux processes
 ```
 Field | Name | Description
 :------|:------:|:------:
-PID | Process ID | test
+PID | Process ID | The task's unique process ID.
 User | Username | Task Owner's Username
-PR | Priority | test
+PR | Priority | The scheduling priority of the task. If "rt" is seen, task is using real time scheduling priority.
 NI | Nice Value | Nice values are user-space values used to control the priority of a process. The nice value range is -20 to +19 where -20 is highest, 0 default and +19 is lowest.
 VIRT | Used Virtual Memory (kb) | The total amount of used virtual memory in kilobytes.
 RES | Used Physical Memory (kb) | The total amount of used physical memory in kiloytes.
 SHR | Used Shared Memory (kb) | The total amount of used shared memory in kilobytes.
-S | Status | Current Process State (see Process States section)
-%CPU | % of CPU Time | test
-%MEM | % of Physical Memory | test
-TIME+ | Total CPU Time | test
-Coomand | Command Name | test
+S | Status | Current Process State
+%CPU | % of CPU Time | The task's share of the elapsed CPU time since the last screen update, expressed as a percentage of total CPU time.
+%MEM | % of Physical Memory | Percentage of the total phyical memory being occupied by the process.
+TIME+ | Total CPU Time | Total CPU time the task has used since it started.
+Command | Command Name | Name of the command with its file extension.
