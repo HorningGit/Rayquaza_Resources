@@ -7,7 +7,7 @@ ___
   <table>
    <tr>
    <td align="center"><a href="tools/admin/network.md"><img src="images/network.png" width="50px;" height="50px;" alt="Networking"/><br /><b>Networking</b></a></td>
-   <td align="center"><a href="tools/admin/linux/><img src="images/linux.png" width="50px;" height="50px;" alt="Linux"/><br /><b>Linux</b></a></td>
+   <td align="center"><a href="tools/admin/linux"><img src="images/linux.png" width="50px;" height="50px;" alt="Linux"/><br /><b>Linux</b></a></td>
    <td align="center"><a href="tools/admin/design.md"><img src="images/server.png" width="50px;" height="50px;" alt="System Design"/><br /><b>System Design</b></a></td>
    <td align="center"><a href="tools/admin/git.md"><img src="images/git.png" width="50px;" height="50px;" alt="Source Control"/><br /><b>Source Control</b></a></td>
    <td align="center"><a href="tools/admin/firewall.md"><img src="images/firewall.png" width="50px;" height="50px;" alt="pfSense"/><br /><b>pfSense</b></a></td>
