@@ -27,13 +27,19 @@ ___
 
 <!--Process_States-->
 ### :ramen: Process States
-- 'R' = RUNNING & RUNNABLE
+https://www.baeldung.com/linux/process-states
+
+###### List of Process States
+- (R) = RUNNING & RUNNABLE
   - Running ~ Actively running and allocated to CPU/CPU core or thread.
   - Runnable ~ Process is ready to be run, but CPU is not currently ready. The RUNNABLE process will then be thrown into a process queue.
-- 'D' = UNINTERRUPTABLE_SLEEP
-- 'S' = INTERRRUPTABLE_SLEEP
-- 'T' = STOPPED
-- 'Z' = ZOMBIE
+- (D) = UNINTERRUPTABLE_SLEEP
+  - This process state will wait for system resources to become available before transitioning the process to a running state 'R'. This process will not listen to signals.
+- (S) = INTERRRUPTABLE_SLEEP
+  - This state will react to signals and resource availablility.
+- (T) = STOPPED
+- (Z) = ZOMBIE
+  - After a process is complete/terminated, the process will send the _sigCHLD_ singal to its parent process. This will turn the process into a Zombie Process.
 ___
 
 ### :fried_shrimp: Load Averages
@@ -42,16 +48,21 @@ The **load average** is the average system load on a system for a defined amount
 - Runnable Processes
 - Sleeping Processes (Interruptable & Uninterruptable)
 
-Use the command **uptime** to retrieve the system's load average:
+Use the command [uptime](https://man7.org/linux/man-pages/man1/uptime.1.html) to retrieve the system's load average:
 ```
-[MAN PAGE DESCRIPTION]
-uptime - Tell how long the system has been running.
-
 [USAGE]
-$ uptime [options]
+  $ uptime [options]
 
 [OPTIONS]
-$ uptime  | grep -o 'load.*'        = Grep out load averages
+  -p, --pretty      Show only running time of system
+  -s, --since       system up since
+  
+[USEFUL COMMANDS]
+  $ uptime  | grep -o 'load.*'       = Grep out load averages
+```
+This will display an output similar to the following:
+```
+03:09:12 up 50 days, 32 min, 3 users, load average: 0.44, 0.31, 0.12
 ```
 ___
 
@@ -59,10 +70,13 @@ ___
 ### :bento: Process Monitoring
 Here are some of the most commonly used commands for process monitoring:
 
-#### **top** command
+For displaying Linux processes, use the [top](https://man7.org/linux/man-pages/man1/top.1.html) command:
 ```
-[MAN PAGE DESCRIPTION]
-top - display Linux processes
+[USAGE]
+  $ top
+  
+[RUNNING OPTIONS]
+  q
 ```
 Field | Name | Description
 :------|:------:|:------:
