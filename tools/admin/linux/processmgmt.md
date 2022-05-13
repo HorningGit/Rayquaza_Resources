@@ -65,6 +65,11 @@ This will display an output similar to the following:
 ```
 03:09:12 up 50 days, 32 min, 3 users, load average: 0.44, 0.31, 0.12
 ```
+
+The load average can be broken down into its three components:
+1. **First Value** - CPU utilization rate for the past 1 minute(s) on the Linux system.
+2. **Second Value** - CPU utilization rate for the past 5 minute(s) on the Linux system.
+3. **Third Value** - CPU utilization rate for the past 15 minute(s) on the Linux system.
 ___
 
 <!--Process_Monitoring-->
