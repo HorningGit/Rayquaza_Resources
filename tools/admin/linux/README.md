@@ -1,5 +1,5 @@
 <!-- Header -->
-# :penguin: GNU/Linux :kiwi_fruit: :strawberry:
+# :penguin: GNU/Linux :kiwi_fruit:
 
 <!--Foreward-->
 ___
