@@ -48,10 +48,10 @@ Use the command **uptime** to retrieve the system's load average:
 uptime - Tell how long the system has been running.
 
 [USAGE]
-uptime [options]
+$ uptime [options]
 
 [OPTIONS]
-uptime  | grep -o 'load.*'        = Grep out load averages
+$ uptime  | grep -o 'load.*'        = Grep out load averages
 ```
 ___
 
