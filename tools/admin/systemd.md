@@ -6,7 +6,6 @@
 **Systemd** is a collection of programs, daemons, libraries, technologies, and kernel components. When ran as the first process on boot (PID 1), it acts as the init daemon that brings up and maintains system services. Separate instances are started for logged-in users to start their services. **Systemd** also supports dependency management, and also has comprehensive logging features. The file */sbin/init* will now points to */lib/systemd/systemd* while using systemd as an init daemon.
 ___
 
-
 <!--Components_Image-->
 ###### Systemd Components
 <p align="center">
