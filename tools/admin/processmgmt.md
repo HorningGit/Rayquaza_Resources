@@ -44,7 +44,14 @@ The **load average** is the average system load on a system for a defined amount
 
 Use the command **uptime** to retrieve the system's load average:
 ```
-uptime [option]
+[MAN PAGE DESCRIPTION]
+uptime - Tell how long the system has been running.
+
+[USAGE]
+uptime [options]
+
+[OPTIONS]
+uptime  | grep -o 'load.*'        = Grep out load averages
 ```
 ___
 
@@ -52,9 +59,9 @@ ___
 ### :bento: Process Monitoring
 Here are some of the most commonly used commands for process monitoring:
 
-top command
+#### **top** command
 ```
-[NAME]
+[MAN PAGE DESCRIPTION]
 top - display Linux processes
 ```
 Field | Name | Description
