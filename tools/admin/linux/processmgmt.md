@@ -76,6 +76,8 @@ ___
 ### :bento: Process Monitoring
 Here are some of the most commonly used commands for process monitoring:
 
+The [top](https://man7.org/linux/man-pages/man1/top.1.html) command is
+
 For displaying Linux processes, use the [top](https://man7.org/linux/man-pages/man1/top.1.html) command:
 ```
 [USAGE]
