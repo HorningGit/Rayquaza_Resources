@@ -27,7 +27,7 @@ ___
 
 <!--Process_States-->
 ### :ramen: Process States
-https://www.baeldung.com/linux/process-states
+[Process State Image](https://www.baeldung.com/linux/process-states)
 
 ###### List of Process States
 - (R) = RUNNING & RUNNABLE
@@ -38,8 +38,9 @@ https://www.baeldung.com/linux/process-states
 - (S) = INTERRRUPTABLE_SLEEP
   - This state will react to signals and resource availablility.
 - (T) = STOPPED
+  - Linux can stop a process by sending the _SIGTSTOP_ or _SIGTSTP_ signals to the process.
 - (Z) = ZOMBIE
-  - After a process is complete/terminated, the process will send the _sigCHLD_ signal to its parent process. This will turn the process into a Zombie Process.
+  - After a process is complete/terminated, the process will send the _SIGCHLD_ signal to its parent process. This will turn the process into a Zombie Process.
 ___
 
 ### :fried_shrimp: Load Averages
