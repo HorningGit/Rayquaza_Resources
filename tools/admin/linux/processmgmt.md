@@ -81,7 +81,6 @@ ___
 Here are some of the most commonly used commands for process monitoring:
 - top
 - ps
-- 
 
 For displaying Linux processes, use the [top](https://man7.org/linux/man-pages/man1/top.1.html) command:
 ```
