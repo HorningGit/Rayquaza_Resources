@@ -79,16 +79,20 @@ ___
 <!--Process_Monitoring-->
 ### :bento: Process Monitoring
 Here are some of the most commonly used commands for process monitoring:
-
-The [top](https://man7.org/linux/man-pages/man1/top.1.html) command is
+- top
+- ps
+- 
 
 For displaying Linux processes, use the [top](https://man7.org/linux/man-pages/man1/top.1.html) command:
 ```
 [USAGE]
   $ top
   
-[RUNNING OPTIONS]
-  q
+[SORT PROCESSES]
+  (M)       # Sort by the Memory Percentage (%MEM) column.
+  (N)       # Sort by the PID (Process ID) column.
+  (T)       # Sort by TIME+ column
+  (P)       # Sort by the CPU Percentage (%CPU) column.
 ```
 Field | Name | Description
 :------|:------:|:------:
