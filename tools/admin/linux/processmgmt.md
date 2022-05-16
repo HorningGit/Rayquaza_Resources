@@ -15,6 +15,10 @@ Processes can also be identified by
 - **Parent Process** = Every process on the Linux OS is created when the process executes the fork() system call except PID1 (***init | systemd***). The process that implemented the fork() system call is the **parent process**. They also create child processes during run-time.
 - **Child Process** = Processes that are created by Parent processes during run-time. Child processes can also be identified by their parent process ID (PPID).
 - **Thread Process** = Tasks ran under the main process, and are scheduled & run by the system on an individual business. Can be identified by the **Thread ID (TID)**. Within a multi-threaded process, each thread has their own **TID**, and will share the same **PID**.
+
+###### Background and Foreground Job Processing
+- **Background Process** = test
+- **Foreground Process** = test
 ___
 
 <!--Process_Types-->
