@@ -6,16 +6,8 @@ Course | Class | Platform | Complete?
 Introduction to Linux | [LFS101x](https://courses.edx.org/dashboard) | edX Courses | ❌
 Introduction to DevOps and Site Reliability | [LFS162x](https://courses.edx.org/dashboard) | edX Courses | ❌
 Introduction to Cloud Infrastructure Technologies | [LFS151x](https://courses.edx.org/dashboard) | edX Courses | ❌
-
-
-
-edX Courses | [LFS101x](https://courses.edx.org/dashboard) | Introduction to Linux | ❌
-edX Courses | [LFS162x](https://courses.edx.org/dashboard) | Introduction to DevOps & Site Reliability | ❌
-edX Courses | [LFS151x](https://courses.edx.org/dashboard) | Introduction to Cloud Infrastructure Technologies | ❌
-
-
-edX Courses | [LFD102](https://training.linuxfoundation.org/) | Beginner's Guide to Open Source Software Development | ❌
-edX Courses | [LFC191](https://training.linuxfoundation.org/) | Open Source Licensing Basics | ❌
+A Beginners Guide to Open Source Software Development | [LFD102]() | The Linux Foundation | ❌
+Open Source Licensing Basics for Software Development | [LFC191]() | The Linux Foundation | ❌
 
 ## DevOps Study Sites
 Type | Name | Description
