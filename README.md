@@ -1,5 +1,5 @@
 <!-- Heading -->
-## Rayquaza Resource
+## Rayquaza Resources
 <!-- Admin Sectionhttps://training.linuxfoundation.org/ -->
 ___
 ## System Administration & Design / Linux / Networking
