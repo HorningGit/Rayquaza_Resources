@@ -194,21 +194,7 @@ find - search for files in a directory hierarchy
 -exec command {} \;   # Executes "command" on find
 ```
 
-<!-- Resources & Works Cited -->
-___
-## Resources & Works Cited
-<!-- LFCA -->
-#### LFCA Training Path
-Platform | Class ID | Name | Complete?
-:------|:------:|:------:|:------:
-edX Courses | [LFS101x](https://courses.edx.org/dashboard) | Introduction to Linux | ❌
-edX Courses | [LFS162x](https://courses.edx.org/dashboard) | Introduction to DevOps & Site Reliability | ❌
-edX Courses | [LFS151x](https://courses.edx.org/dashboard) | Introduction to Cloud Infrastructure Technologies | ❌
-Linux Foundation | [LFD102x](https://training.linuxfoundation.org/) | A Beginner's Guide to Open Source Software Development | ❌
-Linux Foundation | [LFS151x](https://training.linuxfoundation.org/) | Introduction to Cloud Infrastructure Technologies | ❌
-Linux Foundation | [LFS151x](https://training.linuxfoundation.org/) | Introduction to Cloud Infrastructure Technologies | ❌
-
-<!-- Works Cite -->
+<!-- Works Cited -->
 IEEE Standard (Works Cited)
 :------
 “Arch Linux,” archlinux.org. [Online]. Available: https://archlinux.org/
