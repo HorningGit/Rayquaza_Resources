@@ -105,7 +105,7 @@ Soft link is a pointer to a file name. Real file name points to data on disk:
 [NAME]
 ln - make links between files
 
-[Options]
+[OPTIONS]
 -s, --symbolic
     make symbolic links instead of hard links
     
@@ -177,7 +177,7 @@ filename >& error-file
 [NAME]
 find - search for files in a directory hierarchy
 
-[Options]
+[OPTIONS]
 -type f               # File
 -type b               # Block
 -type s               # Socket
