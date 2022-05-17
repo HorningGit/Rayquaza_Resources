@@ -15,7 +15,7 @@ ___
 
 <!--Process_Types-->
 ### :rice_ball: Process Types
-###### Process Types in Linux
+###### Types in Linux
 - **User Process** = User processes are the most common type of process. This is a process that is initiated by a user account, and the process will run in user space.
 - **Daemon Process** = Processes that are ran continuously. These processes are usually initiated during startup, then subsequently wait on a user/system to request their service.
 - **Kernel Process** = Kernel processes have full access to kernel data structures and only execute in kernel space. Unfortunately changing kernel processes might involve recompiling parts of the Linux kernel.
