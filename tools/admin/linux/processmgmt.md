@@ -135,3 +135,10 @@ S | Status | Current Process State
 %MEM | % of Physical Memory | Percentage of the total phyical memory being occupied by the process.
 TIME+ | Total CPU Time | Total CPU time the task has used since it started.
 Command | Command Name | Name of the command with its file extension.
+
+<!--Process_Monitoring-->
+### :takeout_box: Process Scheduling
+Here are some of the most commonly used commands for process monitoring:
+- at
+- cron
+- sleep
