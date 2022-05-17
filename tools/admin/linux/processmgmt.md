@@ -102,6 +102,7 @@ For a Snapshot of Linux processes, use the [ps](https://man7.org/linux/man-pages
 [SORT PROCESSES]
   -a        # Display all processes on a terminal, with exception of group leaders.
   -f        # Display a full listing.
+  -elf      # Display one line of info for every thread.
 ```
 
 For displaying Real-time Linux processes, use the [top](https://man7.org/linux/man-pages/man1/top.1.html) command:
