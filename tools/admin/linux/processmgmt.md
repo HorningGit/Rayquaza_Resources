@@ -61,6 +61,9 @@ The **load average** is the average system load on a system for a defined amount
 
 Use the command [uptime](https://man7.org/linux/man-pages/man1/uptime.1.html) to retrieve the system's load average:
 ```
+[NAME]
+  uptime - Tell how long the system has been running
+
 [USAGE]
   $ uptime [options]
 
@@ -94,7 +97,7 @@ For displaying Linux processes, use the [top](https://man7.org/linux/man-pages/m
   top - display Linux processes
   
 [USAGE]
-  $ top
+  $ top [options]
   
 [SORT PROCESSES]
   (M)       # Sort by the Memory Percentage (%MEM) column.
