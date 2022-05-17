@@ -91,7 +91,20 @@ Here are some of the most commonly used commands for process monitoring:
 - ps = Displays process statistics in a snapshot. (Scripts, Extracting Data to Pipelines, etc.)
 - top = Displays process statistics continuously. (Real-time Anaylsis)
 
-For displaying Linux processes, use the [top](https://man7.org/linux/man-pages/man1/top.1.html) command:
+For a Snapshot of Linux processes, use the [ps](https://man7.org/linux/man-pages/man1/ps.1.html) command:
+```
+[NAME]
+  ps - report a snapshot of current processes.
+  
+[USAGE]
+  $ ps [options]
+  
+[SORT PROCESSES]
+  -a        # Display all processes on a terminal, with exception of group leaders.
+  -f        # Display a full listing.
+```
+
+For displaying Real-time Linux processes, use the [top](https://man7.org/linux/man-pages/man1/top.1.html) command:
 ```
 [NAME]
   top - display Linux processes
@@ -105,6 +118,8 @@ For displaying Linux processes, use the [top](https://man7.org/linux/man-pages/m
   (T)       # Sort by TIME+ column
   (P)       # Sort by the CPU Percentage (%CPU) column.
 ```
+
+###### Fields from the top command
 Field | Name | Description
 :------|:------:|:------:
 PID | Process ID | The task's unique process ID.
