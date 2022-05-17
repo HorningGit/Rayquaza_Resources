@@ -91,7 +91,7 @@ Here are some of the most commonly used commands for process monitoring:
 - ps = Displays process statistics in a snapshot. (Scripts, Extracting Data to Pipelines, etc.)
 - top = Displays process statistics continuously. (Real-time Anaylsis)
 
-For a Snapshot of Linux processes, use the [ps](https://man7.org/linux/man-pages/man1/ps.1.html) command:
+1. For a Snapshot of Linux processes, use the [ps](https://man7.org/linux/man-pages/man1/ps.1.html) command:
 ```
 [NAME]
   ps - report a snapshot of current processes.
@@ -105,7 +105,7 @@ For a Snapshot of Linux processes, use the [ps](https://man7.org/linux/man-pages
   -elf      # Display one line of info for every thread.
 ```
 
-For displaying Real-time Linux processes, use the [top](https://man7.org/linux/man-pages/man1/top.1.html) command:
+2. For displaying Real-time Linux processes, use the [top](https://man7.org/linux/man-pages/man1/top.1.html) command:
 ```
 [NAME]
   top - display Linux processes
@@ -135,6 +135,7 @@ S | Status | Current Process State
 %MEM | % of Physical Memory | Percentage of the total phyical memory being occupied by the process.
 TIME+ | Total CPU Time | Total CPU time the task has used since it started.
 Command | Command Name | Name of the command with its file extension.
+___
 
 <!--Process_Monitoring-->
 ### :takeout_box: Process Scheduling
@@ -142,3 +143,14 @@ Here are some of the most commonly used commands for process monitoring:
 - at
 - cron
 - sleep
+
+```
+* * * * * command to be executed
+– – – – –
+| | | | |
+| | | | +—– day of week (0 – 6) (Sunday=0)
+| | | +——- month (1 – 12)
+| | +——— day of month (1 – 31)
+| +———– hour (0 – 23)
++————- min (0 – 59)
+```
