@@ -88,8 +88,8 @@ ___
 <!--Process_Monitoring-->
 ### :bento: Process Monitoring
 Here are some of the most commonly used commands for process monitoring:
-- top
-- ps
+- ps = Displays process statistics in a snapshot. (Scripts, Extracting Data to Pipelines, etc.)
+- top = Displays process statistics continuously. (Real-time Anaylsis)
 
 For displaying Linux processes, use the [top](https://man7.org/linux/man-pages/man1/top.1.html) command:
 ```
