@@ -16,13 +16,6 @@ ___
   </table>
 </center>
 
-#### Study Sites for Administration
-Type | Name | Description
-:------|:------:|:------:
-Linux Administration | [Linux Journey](https://linuxjourney.com) | Written guides + exercises + quiz
-Linux Administration | [Katacoda](https://www.katacoda.com/) | Training & Excercises
-Linux Administration | [Linux Survival](https://linuxsurvival.com/linux-tutorial-introduction) | Interactive guide
-
 <!-- Programming & Scripting Section -->
 ___
 ## Programming & Command Languages
@@ -36,13 +29,6 @@ ___
   </table>
 </center>
 
-<!-- Coding Resourcs -->
-#### Study Sites for Coding
-Type | Name | Description
-:------|:------:|:------:
-Golang/Python/Bash | [Codecademy](https://www.codecademy.com/) | Practice Coding Skills
-Golang/Python/Bash | [HackerRank](https://www.hackerrank.com) | Practice Coding Skills
-Golang/Python/Bash | [Exercism](https://exercism.io) | Over 48 languages and 2600 exercises
 
 
 
