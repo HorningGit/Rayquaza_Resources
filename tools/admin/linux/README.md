@@ -9,7 +9,7 @@
    <td align="center"><a href="./systemd.md"><img src="./images/system.png" width="50px;" height="50px;" alt="Systemd"/><br /><b>Systemd</b></a></td>
    <td align="center"><a href="./processmgmt.md"><img src="./images/cpu.png" width="50px;" height="50px;" alt="Process Management"/><br /><b>Process Management</b></a></td>
    <td align="center"><a href="./packagemgmt.md"><img src="./images/pkg.png" width="50px;" height="50px;" alt="Package Management"/><br /><b>Package Management</b></a></td>
-   <td align="center"><a href="./files.md"><img src="./images/file.png" width="50px;" height="50px;" alt="File Management"/><br /><b>File Management</b></a></td>
+   <td align="center"><a href="./files.md"><img src="./images/file.png" width="50px;" height="50px;" alt="Files & File Systems"/><br /><b>Files & File Systems</b></a></td>
  </table>
 </center>
 
