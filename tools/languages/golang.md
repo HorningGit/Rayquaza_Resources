@@ -29,3 +29,23 @@ go build <package path>
 go install github.com/bregman-arie/myApp
 bin/myApp
 ```
+
+___
+## :white_circle: *Environment Variable Modification*
+  <!-- Default Shell EV -->
+#### :small_blue_diamond: Changing Default Shell Prompt
+```
+[PS1 Environment Variable]
+- PS1 is a primary prompt variable which holds @\u@\h \W\\$ special bash characters. 
+- Display during terminal login.
+- Default bash prompt.
+
+[Location]
+Default Location = /etc/bashrc
+
+[Modifying]
+PS1='[[prod]\u@\h \W]\$' 
+
+[Modified shell prompt]
+[[prod]root@hostname ~]#
+````
