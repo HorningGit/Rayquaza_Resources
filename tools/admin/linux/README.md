@@ -1,10 +1,7 @@
 <!-- Header -->
 # :penguin: GNU/Linux :kiwi_fruit:
 
-<!-- Heading -->
-# Rayquaza Resources
-<!-- Admin Sectionhttps://training.linuxfoundation.org/ -->
-___
+<!--Modules-->
 <center>
  <table>
   <tr>
@@ -14,17 +11,6 @@ ___
    <td align="center"><a href="./packagemgmt.md"><img src="./images/pkg.png" width="50px;" height="50px;" alt="Package Management"/><br /><b>Package Management</b></a></td>
  </table>
 </center>
-
-
-
-
-
-
-
-
-
-
-
 
 
 <!--Foreward-->
