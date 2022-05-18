@@ -2,7 +2,7 @@
 ## :white_circle: *Package Management*
 <!--Image-->
 <p align="center">
-  <img src="../../images/family.png?raw=true" alt="initramfs image"/>
+  <img src="../../../images/family.png?raw=true" alt="initramfs image"/>
 </p>
 
 <!--PKGMANAGE_COMMANDS-->
