@@ -32,6 +32,7 @@ bork -x off /etc/passwd /etc/cups
 ```
 
 <!-- Works Cited -->
+___
 IEEE Standard (Works Cited)
 :------
 “Arch Linux,” archlinux.org. [Online]. Available: https://archlinux.org/
