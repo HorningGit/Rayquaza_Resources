@@ -58,3 +58,54 @@ ln - make links between files
 <p align="center">
   <img src="../../../images/softlink.png?raw=true" alt="initramfs image"/>
 </p>
+
+
+<!-- File Redirection -->
+___
+## :white_circle: *Find, Redirection & Input/Output*
+  <!-- File Streams -->
+#### :small_blue_diamond: Standard File Streams
+Stream | Symbolic Name | Value | Default
+:------ |:------:|:------:|:------:
+Standard Input | stdin | 0 | Keyboard
+Standard Output | stdout | 1 | Terminal
+Standard Error | stderr | 2 | Log File
+
+#### :small_orange_diamond: I/O Redirection
+- Change input source of ***filename*** to "input-file"
+```
+filename < input-file
+```
+- Configure output of ***filename*** (stdout) to "output-file"
+```
+filename > output-file
+```
+- Configure error output of ***filename*** (stderr) to "error-file"
+```
+filename 2> error-file
+```
+- Configure standard output & error of ***filename*** to "output-file"
+```
+filename >& error-file
+```
+#### :small_blue_diamond: Find Command
+```
+[NAME]
+find - search for files in a directory hierarchy
+
+[OPTIONS]
+-type f               # File
+-type b               # Block
+-type s               # Socket
+-type d               # Directory
+-type l               # Symlink
+
+-atime                # Last accessed/read of inode metadata (file ownership, permissions, etc.)
+-ctime                # Last change of inode metadata (file ownership, permissions, etc.)
+
+-size 256k            # Exactly 256KiB 
+-size -128c           # Smaller than 128 bytes
+-size +5G             # Larger than 2GiB
+
+-exec command {} \;   # Executes "command" on find
+```
