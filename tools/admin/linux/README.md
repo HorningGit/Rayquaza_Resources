@@ -31,37 +31,9 @@ bork on /etc/passwd
 bork -x off /etc/passwd /etc/cups
 ```
 
-<!-- System Management -->
-___
-## :white_circle: *Environment Variable Modification*
-  <!-- Default Shell EV -->
-#### :small_blue_diamond: Changing Default Shell Prompt
-```
-[PS1 Environment Variable]
-- PS1 is a primary prompt variable which holds @\u@\h \W\\$ special bash characters. 
-- Display during terminal login.
-- Default bash prompt.
-
-[Location]
-Default Location = /etc/bashrc
-
-[Modifying]
-PS1='[[prod]\u@\h \W]\$' 
-
-[Modified shell prompt]
-[[prod]root@hostname ~]#
-````
-
 <!-- Works Cited -->
 IEEE Standard (Works Cited)
 :------
 “Arch Linux,” archlinux.org. [Online]. Available: https://archlinux.org/
 “Gentoo Wiki,” wiki.gentoo.org. [Online]. Available: https://wiki.gentoo.org/wiki/Main_Page.
 "Linuxize," linuxize.com. [Online]. Available: https://linuxize.com/
-
-<!-- Filesystem Standard -->
-___
-## :white_circle: *Filesystem Hierarchy Standard*
-<!-- Filesystem Image -->
-##### [(Linux Foundation FHS Official Document)](https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.pdf)
-<div align="center"><img src="../../../images/linux_structure.png"></div><hr/>
