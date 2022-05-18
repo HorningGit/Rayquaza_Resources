@@ -5,15 +5,13 @@
 # Rayquaza Resources
 <!-- Admin Sectionhttps://training.linuxfoundation.org/ -->
 ___
-### :penguin: Linux Information Modules
 <center>
  <table>
   <tr>
    <td align="center"><a href="tools/admin/git.md"><img src="./images/hdd.png" width="50px;" height="50px;" alt="Boot Process"/><br /><b>Boot Process</b></a></td>
+   <td align="center"><a href="./systemd.md"><img src="./images/system.png" width="50px;" height="50px;" alt="Systemd"/><br /><b>Systemd</b></a></td>
    <td align="center"><a href="./processmgmt.md"><img src="./images/cpu.png" width="50px;" height="50px;" alt="Process Management"/><br /><b>Process Management</b></a></td>
-   <td align="center"><a href="tools/admin/git.md"><img src="images/git.png" width="50px;" height="50px;" alt="Source Control"/><br /><b>Source Control</b></a></td>
-   <td align="center"><a href="tools/admin/git.md"><img src="images/git.png" width="50px;" height="50px;" alt="Source Control"/><br /><b>Source Control</b></a></td>
-  </tr>
+   <td align="center"><a href="./packagemgmt.md"><img src="./images/pkg.png" width="50px;" height="50px;" alt="Package Management"/><br /><b>Package Management</b></a></td>
  </table>
 </center>
 
