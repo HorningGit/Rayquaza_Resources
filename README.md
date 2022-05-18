@@ -1,8 +1,13 @@
+[![Linkedin Badge](https://img.shields.io/badge/-Alexander%20Horning-blue?style=social&logo=Linkedin&logoColor=blue&link=https://www.linkedin.com/in/alexander-horning-5b8bb918b/)](https://www.linkedin.com/in/alexander-horning-5b8bb918b/)
+[![Twitter Badge](http://img.shields.io/badge/-@LinuxTyranitar-1ca0f1?style=social&logo=twitter&logoColor=blue&link=https://https://twitter.com/LinuxTyranitar)](https://twitter.com/LinuxTyranitar)
+[![Medium Badge](http://img.shields.io/badge/-@alex.horning-1ca0f1?style=social&logo=Medium&logoColor=black&link=https://medium.com/@alex.horning)](https://medium.com/@alex.horning)
+[![Gmail Badge](https://img.shields.io/badge/ProtonMail-8B89CC?style=plastic?&logo=protonmail&logoColor=white)](mailto:Alexander.Horning@protonmail.com)
+
 <!-- Heading -->
-## Rayquaza Resources
+# Rayquaza Resources
 <!-- Admin Sectionhttps://training.linuxfoundation.org/ -->
 ___
-## System Administration & Design / Linux / Networking
+### System Administration & Design / Linux / Networking
 <center>
   <table>
    <tr>
@@ -18,7 +23,7 @@ ___
 
 <!-- Programming & Scripting Section -->
 ___
-## Programming & Command Languages
+### Programming & Command Languages
 <center>
   <table>
     <tr>
@@ -29,14 +34,9 @@ ___
   </table>
 </center>
 
-
-
-
-
 <!-- DevOps Section -->
 ___
-## DevOps Tools
-####  Containers & Container Orchestration
+###  Containers & Container Orchestration
 <center>
   <table>
     <tr>
@@ -50,7 +50,9 @@ ___
   </table>
 </center>
 
-####  Infrastructure as Code (IaC)
+<!--IaC-->
+___
+###  Infrastructure as Code (IaC)
 <center>
   <table>
     <tr>
@@ -60,6 +62,8 @@ ___
   </table>
 </center>
 
+<!--CI/CD-->
+___
 ####  Continuous Integration / Continuous Deployment (CI/CD)
 <center>
   <table>
@@ -104,19 +108,3 @@ Name | Comments
 [Cloud Native ~ Trail Map](https://raw.githubusercontent.com/cncf/trailmap/master/CNCF_TrailMap_latest.pdf) | Cloud native's recommended process of leveraging open source infrastructures.
 [Cloud Native ~ Landscape Guide](https://landscape.cncf.io/guide) | Detailed guide on the use/implementation of Cloud Native's landscape.
 ___
-
-
-<!-- Addition of Current Study Sites -->
-#### Journey towards a DevOps Engineer (Current Resources) :art:
-Concept | Name | Description
-:------|:------:|:------:
-Linux Administration | [edX Courses](https://www.edx.org/) | Training for LFCA (Linux, DevOps, Software Development)
-Linux Administration | [The Linux Foundation](https://training.linuxfoundation.org/) | Training for LFCA (Linux, DevOps, Open Source)
-Coding & GitHub | [Codecademy](https://www.codecademy.com/learn) | Golang, Git, and DevOps Basic Training
-GitHub Projects | [Kyogre_Kubernetes](https://github.com/HorningGit/Kyogre_Kubernetes) | Raspberry Pi Kubernetes Cluster w/ Cisco & pfSense
-
-
-[![Linkedin Badge](https://img.shields.io/badge/-Alexander%20Horning-blue?style=social&logo=Linkedin&logoColor=blue&link=https://www.linkedin.com/in/alexander-horning-5b8bb918b/)](https://www.linkedin.com/in/alexander-horning-5b8bb918b/)
-[![Twitter Badge](http://img.shields.io/badge/-@LinuxTyranitar-1ca0f1?style=social&logo=twitter&logoColor=blue&link=https://https://twitter.com/LinuxTyranitar)](https://twitter.com/LinuxTyranitar)
-[![Medium Badge](http://img.shields.io/badge/-@alex.horning-1ca0f1?style=social&logo=Medium&logoColor=black&link=https://medium.com/@alex.horning)](https://medium.com/@alex.horning)
-[![Gmail Badge](https://img.shields.io/badge/ProtonMail-8B89CC?style=plastic?&logo=protonmail&logoColor=white)](mailto:Alexander.Horning@protonmail.com)
