@@ -30,17 +30,17 @@ Name | Complete? | Comments
 
 
 ## Toolkit to Study
-Topic | What to learn | Description
-:------|:------|:------:
-Version Control | Git | Version Control is used everywhere and Git is the leading version control technology
-Programming | Bash, Python, Golang | Anyone who practice DevOps should know programming to some extent
-Operating System | [Linux](#operating-systems) | Operating Systems is another must when it comes to DevOps
-Protocols | DHCP, UDP, TCP, HTTP, SSH, NFS, NTP, FTP | Learn how these protocols work and what they are used for
-Applications | Web Server, Load Balancer, Cache, Database | - | Learn how they work and try out some implementations (e.g. MySQL for databases and httpd for web servers)
-[System Design](https://github.com/bregman-arie/system-design-notebook) | Availability, Reliability, Scalability, Performance | Learn how to design infrastructure and systems
+Topic | What to learn
+:------|:------
+Version Control | Git
+Programming | Bash, Python, Golang
+Operating System | [Linux](#operating-systems)
+Protocols | DHCP, UDP, TCP, HTTP, SSH, NFS, NTP, FTP
+Applications | Web Server, Load Balancer, Cache, Database
+System Design | Availability, Reliability, Scalability, Performance
 Configuration Management and IaC | Ansible and Terraform | CM: Chef, Puppet and Salt. IaC: Pulumi and CloudFormation |
-Cloud | Azure, AWS, GCP | - |
+Cloud | Azure, AWS, GCP
 Containers | Docker, Podman, and Kubernetes| _
-CI/CD | Jenkins, GitHub Actions, Gitlab CI, Circle CI, Argo CD | -
-Logging and Dashboards | Elastic Stack, Report Portal, Grafana, Graylog, Splunk | -
-Monitoring | Prometheus, Nagios, Datadog | -
+CI/CD | Jenkins, GitHub Actions, Gitlab CI, Circle CI, Argo CD
+Logging and Dashboards | Elastic Stack, Report Portal, Grafana, Graylog, Splunk
+Monitoring | Prometheus, Nagios, Datadog
