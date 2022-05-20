@@ -7,24 +7,20 @@ ___
 UNIX is commonly described as an system where "everything is file". If it isn't a file, it is a process. These files are also case sensitive. This section will describe some of the GNU/Linux's most important files.
 
 Here are some special exceptions to our famous rule:
-- _Directories_
-- _Special Files_
-- _Links_
-- _Domain sockets_
-- _Named Pipes_
+- **Directories**
+- **Special Files**
+- **Links**
+- **Domain Sockets**
+- **Named Pipes**
 ___
 
 <!--Process_Types-->
 ### :tangerine: Shell Initialization Files
-###### Types in Linux
-- **User Process** = User processes are the most common type of process. This is a process that is initiated by a user account, and the process will run in user space.
-- **Daemon Process** = Processes that are ran continuously. These processes are usually initiated during startup, then subsequently wait on a user/system to request their service.
-- **Kernel Process** = Kernel processes have full access to kernel data structures and only execute in kernel space. Unfortunately changing kernel processes might involve recompiling parts of the Linux kernel.
-- **Thread Process** = Tasks ran under the main process, and are scheduled & run by the system on an individual business. Can be identified by the **Thread ID (TID)**. Within a multi-threaded process, each thread has their own **TID**, and will share the same **PID**.
-
-###### Parent and Child Processes
-- **Parent Process** = Every process on the Linux OS is created when the process executes the fork() system call except PID1 (***init | systemd***). The process that implemented the fork() system call is the **parent process**. They also create child processes during run-time.
-- **Child Process** = Processes that are created by Parent processes during run-time. Child processes can also be identified by their parent process ID (PPID).
+###### Two Categories of Startup Files
+- **System-wide**
+  - _/etc/profiles_
+  - _/etc/bashrc_
+- **User-specific**
 
 ###### Background and Foreground Job Processing
 - **Foreground Process** = Commands run through an interactive shell (ex. gnome-terminal) are foreground processes by default. This means the administrator must wait for the command to complete before issuing a new one.
