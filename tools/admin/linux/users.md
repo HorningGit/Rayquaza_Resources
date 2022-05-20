@@ -12,7 +12,7 @@ Two Types of Users:
 ___
 
 <!--Process_Types-->
-### :palm_tree: Process Types
+### :palm_tree: Groups
 ###### Types in Linux
 - **User Process** = User processes are the most common type of process. This is a process that is initiated by a user account, and the process will run in user space.
 - **Daemon Process** = Processes that are ran continuously. These processes are usually initiated during startup, then subsequently wait on a user/system to request their service.
