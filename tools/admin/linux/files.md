@@ -22,6 +22,11 @@ ___
   - _/etc/bashrc_
 - **User-specific**
 
+<p align="center">(Shell Mind Map)</p>
+<p align="center">
+  <img src="../../images/shell.png?raw=true" alt="initramfs image"/>
+</p>
+
 ###### Background and Foreground Job Processing
 - **Foreground Process** = Commands run through an interactive shell (ex. gnome-terminal) are foreground processes by default. This means the administrator must wait for the command to complete before issuing a new one.
 - **Background Process** = Background processes will be executed at a lower priority and be ran in the background as a job. This allows administrators to run commands within the same interactive shell while the job is running.
