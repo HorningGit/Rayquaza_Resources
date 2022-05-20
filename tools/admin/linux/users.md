@@ -14,7 +14,16 @@ ___
 <!--Process_Types-->
 ### :palm_tree: Groups
 ###### Types in Linux
-- **User Process** = User processes are the most common type of process. This is a process that is initiated by a user account, and the process will run in user space.
-- **Daemon Process** = Processes that are ran continuously. These processes are usually initiated during startup, then subsequently wait on a user/system to request their service.
-- **Kernel Process** = Kernel processes have full access to kernel data structures and only execute in kernel space. Unfortunately changing kernel processes might involve recompiling parts of the Linux kernel.
-- **Thread Process** = Tasks ran under the main process, and are scheduled & run by the system on an individual business. Can be identified by the **Thread ID (TID)**. Within a multi-threaded process, each thread has their own **TID**, and will share the same **PID**.
+
+To add a new group, use the [groupadd](https://man7.org/linux/man-pages/man8/groupadd.8.html) command:
+```
+$ groupadd [groupname]
+```
+To change a group name, use the [groupmod](https://man7.org/linux/man-pages/man8/groupmod.8.html) command:
+```
+$ groupmod -n [new_group] [old_group]
+```
+To change a group ID, use the [groupmod](https://man7.org/linux/man-pages/man8/groupmod.8.html) command:
+```
+$ groupmod -g [new_group_ID] [groupname]
+```
