@@ -26,3 +26,12 @@ To change a group ID, use the [groupmod](https://man7.org/linux/man-pages/man8/g
 ```
 $ groupmod -g [new_group_ID] [groupname]
 ```
+
+Permission | Abreviation | Octal Code
+:------|:------:|:------:
+Read | r | 4
+Write Access | w | 2
+Execute | x | 1
+Read and Execute | rx | 5
+Read and Write | rw | 5
+Read, Write, and Execute | rwx | 7
