@@ -1,20 +1,21 @@
 <!--Processes-->
-## :japanese_ogre: *Files and File Management* :japanese_ogre:
+## :rainbow: *Files and Filesystems* :rainbow:
 ___
 
 <!--General-->
-### :sushi: General Process Info
-In Linux, a **process** is an instance of one (or more) tasks executing on the system. One Linux command could contain several processes when ran. Processes will use system resources and perpherals as they are required.
+### :cherries: General File Info
+UNIX is commonly described as an system where "everything is file". If it isn't a file, it is a process. These files are also case sensitive. This section will describe some of the GNU/Linux's most important files.
 
-The Linux system has many processes that are identified by unique **process ID**s (PID). **PID**'s are used to track:
-- Process State
-- CPU Usage
-- Memory Usage
-- Location in Memory
+Here are some special exceptions to our famous rule:
+- _Directories_
+- _Special Files_
+- _Links_
+- _Domain sockets_
+- _Named Pipes_
 ___
 
 <!--Process_Types-->
-### :rice_ball: Process Types
+### :tangerine: Shell Initialization Files
 ###### Types in Linux
 - **User Process** = User processes are the most common type of process. This is a process that is initiated by a user account, and the process will run in user space.
 - **Daemon Process** = Processes that are ran continuously. These processes are usually initiated during startup, then subsequently wait on a user/system to request their service.
