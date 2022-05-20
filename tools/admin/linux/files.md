@@ -16,6 +16,14 @@ ___
 
 <!--Process_Types-->
 ### :tangerine: Shell Initialization Files
+
+Here are some of the configurations within the shell startup files:
+- **Customize shell prompt**
+- **Shortcut, Aliases, & Functions**
+- **Default Text Editor**
+- **Environment Variables**
+
+
 ###### Two Categories of Startup Files
 - **System-wide**
   - _/etc/profiles_
@@ -23,17 +31,18 @@ ___
 - **User-specific**
   - _.profiles_
   - _.bash_profile_
-  - _.bashrc_
+  - _.bashrc_ **(Most Common Default Configuration)**
   - _.bash_login_
 
-###### Shell Initialization Map
+###### Shell Initialization Process Map
 <p align="center">
   <img src="images/shell.png?raw=true" alt="initramfs image"/>
 </p>
 
+
 <!-- OS Linux Family -->
 ___
-## :white_circle: *Inodes, Hard links, and Soft links*
+### :banana: *Inodes, Hard links, and Soft links*
   <!-- Inodes -->
 #### :small_blue_diamond: [Inodes](https://man7.org/linux/man-pages/man7/inode.7.html)
 <p>Each file has an inode containing metadata about the file. An application can retrieve this metadata using the stat command. The stat command can provide the file system information when we provide file name with the -f (–file-system) option.</p>
@@ -95,16 +104,15 @@ ln - make links between files
 
 <!-- File Redirection -->
 ___
-## :white_circle: *Find, Redirection & Input/Output*
-  <!-- File Streams -->
-#### :small_blue_diamond: Standard File Streams
+### :pear: File Streams and I/O Redirection
+##### :small_blue_diamond: Standard File Streams
 Stream | Symbolic Name | Value | Default
 :------ |:------:|:------:|:------:
 Standard Input | stdin | 0 | Keyboard
 Standard Output | stdout | 1 | Terminal
 Standard Error | stderr | 2 | Log File
 
-#### :small_orange_diamond: I/O Redirection
+##### :small_orange_diamond: I/O Redirection
 - Change input source of ***filename*** to "input-file"
 ```
 filename < input-file
@@ -121,7 +129,8 @@ filename 2> error-file
 ```
 filename >& error-file
 ```
-#### :small_blue_diamond: Find Command
+
+### :peach: Find Command
 ```
 [NAME]
 find - search for files in a directory hierarchy
