@@ -1,5 +1,5 @@
 <!--Processes-->
-## :crystal_ball: *Process Management*
+## :japanese_ogre: *Process Management* :japanese_ogre:
 ___
 
 <!--General-->
