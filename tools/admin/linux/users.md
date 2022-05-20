@@ -13,7 +13,6 @@ ___
 
 <!--Process_Types-->
 ### :palm_tree: Groups
-###### Types in Linux
 
 To add a new group, use the [groupadd](https://man7.org/linux/man-pages/man8/groupadd.8.html) command:
 ```
