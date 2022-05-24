@@ -5,7 +5,7 @@
 <center>
  <table>
   <tr>
-   <td align="center"><a href="./bootprocess.md"><img src="./images/hdd.png" width="50px;" height="50px;" alt="Booting & Mounting"/><br /><b>Boot & Mounting</b></a></td>
+   <td align="center"><a href="./bootprocess.md"><img src="./images/hdd.png" width="50px;" height="50px;" alt="Boot Process"/><br /><b>Boot Process</b></a></td>
    <td align="center"><a href="./partitions.md"><img src="./images/hdd.png" width="50px;" height="50px;" alt="Partition & Mount"/><br /><b>Partitioning & Mounting</b></a></td>
    <td align="center"><a href="./systemd.md"><img src="./images/system.png" width="50px;" height="50px;" alt="Systemd"/><br /><b>Systemd</b></a></td>
    <td align="center"><a href="./processmgmt.md"><img src="./images/cpu.png" width="50px;" height="50px;" alt="Process Management"/><br /><b>Process Management</b></a></td>
