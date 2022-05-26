@@ -1,9 +1,10 @@
 <!--Process_Monitoring-->
 # :cd: Disk Partitioning & Mounting :cd:
 Here are some of the most commonly used commands for process monitoring:
-- ps = Displays process statistics in a snapshot. (Scripts, Extracting Data to Pipelines, etc.)
-- top = Displays process statistics continuously. (Real-time Anaylsis)
-
+```
+ps  = Displays process statistics in a snapshot.          (Scripts, Extracting Data to Pipelines, etc.)
+top = Displays process statistics continuously.           (Real-time Anaylsis)
+```
 1. For a Snapshot of Linux processes, use the [ps](https://man7.org/linux/man-pages/man1/ps.1.html) command:
 ```
 [NAME]
