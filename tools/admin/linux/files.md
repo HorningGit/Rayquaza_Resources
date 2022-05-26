@@ -2,12 +2,40 @@
 ## :rainbow: *Files and Filesystems* :rainbow:
 ___
 
+
+### :radio_button: _bin_
 ___
-### :pushpin: _bin_
+
+
+### :radio_button: _boot_
 ___
-### :pushpin: _boot_
-___
-### :pushpin: _etc_
+
+
+### :radio_button: _etc_
+<!--Process_Types-->
+##### Shell Initialization Files
+
+Shell initialization files can configure the following for shells:
+- **Customize shell prompt**
+- **Shortcut, Aliases, & Functions**
+- **Default Text Editor**
+- **Environment Variables**
+
+###### Two Categories of Startup Files
+- **System-wide**
+  - _/etc/profiles_
+  - _/etc/bashrc_
+- **User-specific** (Not in _/etc_)
+  - _~/.profiles_
+  - _~/.bash_profile_
+  - _~/.bashrc_ **(Most Common Default Configuration)**
+  - _~/.bash_login_
+
+###### Shell Initialization Process Map
+<p align="center">
+  <img src="images/shell.png?raw=true" alt="initramfs image"/>
+</p>
+
 ___
 ### :pushpin: _dev_
 
@@ -26,32 +54,6 @@ Here are some special exceptions to our famous rule:
 - **Domain Sockets**
 - **Named Pipes**
 ___
-
-<!--Process_Types-->
-### :tangerine: Shell Initialization Files
-
-Here are some of the configurations within the shell startup files:
-- **Customize shell prompt**
-- **Shortcut, Aliases, & Functions**
-- **Default Text Editor**
-- **Environment Variables**
-
-
-###### Two Categories of Startup Files
-- **System-wide**
-  - _/etc/profiles_
-  - _/etc/bashrc_
-- **User-specific**
-  - _.profiles_
-  - _.bash_profile_
-  - _.bashrc_ **(Most Common Default Configuration)**
-  - _.bash_login_
-
-###### Shell Initialization Process Map
-<p align="center">
-  <img src="images/shell.png?raw=true" alt="initramfs image"/>
-</p>
-
 
 <!-- OS Linux Family -->
 ___
