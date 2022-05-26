@@ -1,45 +1,5 @@
 <!--Files-->
 # :rainbow: Files & Filesystems :rainbow:
-___
-## :radio_button: _/bin_
-___
-
-
-## :radio_button: _/boot_
-___
-
-
-## :radio_button: _/etc_
-<!--Process_Types-->
-### :small_blue_diamond: Shell Initialization Files
-
-Shell initialization files can configure the following for shells:
-- **Customize shell prompt**
-- **Shortcut, Aliases, & Functions**
-- **Default Text Editor**
-- **Environment Variables**
-
-###### Two Categories of Startup Files
-- **System-wide**
-  - _/etc/profiles_
-  - _/etc/bashrc_
-- **User-specific** (Not in _/etc_)
-  - _~/.profiles_
-  - _~/.bash_profile_
-  - _~/.bashrc_ **(Most Common Default Configuration)**
-  - _~/.bash_login_
-
-###### Shell Initialization Process Map
-<p align="center">
-  <img src="images/shell.png?raw=true" alt="initramfs image"/>
-</p>
-
-___
-### :pushpin: _dev_
-
-
-
-
 
 <!--General-->
 ### :cherries: General File Info
@@ -51,12 +11,8 @@ Here are some special exceptions to our famous rule:
 - **Links**
 - **Domain Sockets**
 - **Named Pipes**
-___
 
-<!-- OS Linux Family -->
-___
-### :banana: *Inodes, Hard links, and Soft links*
-  <!-- Inodes -->
+<!-- Inodes -->
 #### :small_blue_diamond: [Inodes](https://man7.org/linux/man-pages/man7/inode.7.html)
 <p>Each file has an inode containing metadata about the file. An application can retrieve this metadata using the stat command. The stat command can provide the file system information when we provide file name with the -f (–file-system) option.</p>
 
@@ -113,6 +69,42 @@ ln - make links between files
 <p align="center">
   <img src="../../../images/softlink.png?raw=true" alt="initramfs image"/>
 </p>
+
+___
+## :radio_button: _/bin_
+
+___
+## :radio_button: _/boot_
+
+___
+## :radio_button: _/etc_
+<!--Process_Types-->
+### :small_blue_diamond: Shell Initialization Files
+
+Shell initialization files can configure the following for shells:
+- **Customize shell prompt**
+- **Shortcut, Aliases, & Functions**
+- **Default Text Editor**
+- **Environment Variables**
+
+###### Two Categories of Startup Files
+- **System-wide**
+  - _/etc/profiles_
+  - _/etc/bashrc_
+- **User-specific** (Not in _/etc_)
+  - _~/.profiles_
+  - _~/.bash_profile_
+  - _~/.bashrc_ **(Most Common Default Configuration)**
+  - _~/.bash_login_
+
+###### Shell Initialization Process Map
+<p align="center">
+  <img src="images/shell.png?raw=true" alt="initramfs image"/>
+</p>
+
+___
+## :pushpin: _dev_
+
 
 
 <!-- File Redirection -->
