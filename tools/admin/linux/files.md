@@ -12,6 +12,27 @@ Here are some special exceptions to our famous rule:
 - **Domain Sockets**
 - **Named Pipes**
 
+```
+[NAME]
+find - search for files in a directory hierarchy
+
+[OPTIONS]
+-type f               # File
+-type b               # Block
+-type s               # Socket
+-type d               # Directory
+-type l               # Symlink
+
+-atime                # Last accessed/read of inode metadata (file ownership, permissions, etc.)
+-ctime                # Last change of inode metadata (file ownership, permissions, etc.)
+
+-size 256k            # Exactly 256KiB 
+-size -128c           # Smaller than 128 bytes
+-size +5G             # Larger than 2GiB
+
+-exec command {} \;   # Executes "command" on find
+```
+
 <!-- Inodes -->
 #### :small_blue_diamond: [Inodes](https://man7.org/linux/man-pages/man7/inode.7.html)
 <p>Each file has an inode containing metadata about the file. An application can retrieve this metadata using the stat command. The stat command can provide the file system information when we provide file name with the -f (–file-system) option.</p>
@@ -132,26 +153,4 @@ filename 2> error-file
 - Configure standard output & error of ***filename*** to "output-file"
 ```
 filename >& error-file
-```
-
-### :peach: Find Command
-```
-[NAME]
-find - search for files in a directory hierarchy
-
-[OPTIONS]
--type f               # File
--type b               # Block
--type s               # Socket
--type d               # Directory
--type l               # Symlink
-
--atime                # Last accessed/read of inode metadata (file ownership, permissions, etc.)
--ctime                # Last change of inode metadata (file ownership, permissions, etc.)
-
--size 256k            # Exactly 256KiB 
--size -128c           # Smaller than 128 bytes
--size +5G             # Larger than 2GiB
-
--exec command {} \;   # Executes "command" on find
 ```
