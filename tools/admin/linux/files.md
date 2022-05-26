@@ -2,6 +2,19 @@
 ## :rainbow: *Files and Filesystems* :rainbow:
 ___
 
+___
+#### :pushpin: _bin_
+___
+#### :pushpin: _boot_
+___
+#### :pushpin: _etc_
+___
+#### :pushpin: _dev_
+
+
+
+
+
 <!--General-->
 ### :cherries: General File Info
 UNIX is commonly described as an system where "everything is file". If it isn't a file, it is a process. These files are also case sensitive. This section will describe some of the GNU/Linux's most important files.
