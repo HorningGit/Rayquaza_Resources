@@ -57,7 +57,7 @@ Inodes:
    Free:       Total number of free inodes in the file system.
 ```
   <!-- Hard/Soft Links -->
-##### :small_orange_diamond: [Hard links & Symbolic Links](https://linuxize.com/post/how-to-create-symbolic-links-in-linux-using-the-ln-command/)
+#### :small_orange_diamond: [Hard links & Symbolic Links](https://linuxize.com/post/how-to-create-symbolic-links-in-linux-using-the-ln-command/)
 
 <!-- Hard link -->
 
