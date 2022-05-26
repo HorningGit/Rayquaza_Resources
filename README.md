@@ -3,11 +3,9 @@
 [![Medium Badge](http://img.shields.io/badge/-@alex.horning-1ca0f1?style=social&logo=Medium&logoColor=black&link=https://medium.com/@alex.horning)](https://medium.com/@alex.horning)
 [![Gmail Badge](https://img.shields.io/badge/ProtonMail-8B89CC?style=plastic?&logo=protonmail&logoColor=white)](mailto:Alexander.Horning@protonmail.com)
 
-<!-- Heading -->
-# Rayquaza Resources
 <!-- Admin Sectionhttps://training.linuxfoundation.org/ -->
 <p align="center">
-  <img src="../../../images/rayquaza.png?raw=true" alt="Rayquaza"/>
+  <img src="images/rayquaza.png?raw=true" alt="Rayquaza"/>
 </p>
 
 ___
