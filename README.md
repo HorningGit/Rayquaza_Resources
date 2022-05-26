@@ -9,7 +9,7 @@
 </p>
 
 <!--Leading_Comments-->
-The purpose of this GitHub repository is to document my process and mental maps through the process of becoming a DevOps Engineer. Within this documentation, I plan to focus on the following:
+The purpose of this GitHub repository is to document my process of becoming a DevOps Engineer. Within this documentation, I plan to focus on the following:
 - Limiting the documentation on every piece of data, and rather focusing on the vital components needed in the subject for becoming a DevOps Engineer.
 - Document the only most vital options, arguments, variables, pipelines, etc.
 - o
