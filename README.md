@@ -6,6 +6,10 @@
 <!-- Heading -->
 # Rayquaza Resources
 <!-- Admin Sectionhttps://training.linuxfoundation.org/ -->
+<p align="center">
+  <img src="../../../images/rayquaza.png?raw=true" alt="Rayquaza"/>
+</p>
+
 ___
 ### System Administration & Design / Linux / Networking
 <center>
