@@ -1,19 +1,17 @@
-<!--Processes-->
-## :rainbow: *Files and Filesystems* :rainbow:
+<!--Files-->
+# :rainbow: Files & Filesystems :rainbow:
+___
+## :radio_button: _/bin_
 ___
 
 
-### :radio_button: _bin_
+## :radio_button: _/boot_
 ___
 
 
-### :radio_button: _boot_
-___
-
-
-### :radio_button: _etc_
+## :radio_button: _/etc_
 <!--Process_Types-->
-##### Shell Initialization Files
+### :small_blue_diamond: Shell Initialization Files
 
 Shell initialization files can configure the following for shells:
 - **Customize shell prompt**
