@@ -18,12 +18,18 @@ ___
 <!--Cheat Sheet-->
 ## :notebook: Git CLI Cheat Sheet
 
-### :white_small_square: Setting up Git
+### :yellow_circle: Setting up Git
 
-### :white_small_square: Initializing & Cloning Repositories
+### :orange_circle: Initializing & Cloning Repositories
 
-### :white_small_square: Git vs. GitHub
+### :red_circle: Staging & Snapshots
 
-### :white_small_square: Git vs. GitHub
+### :purple_circle: Branching & Merging
 
-### :white_small_square: Git vs. GitHub
+### :large_blue_circle: Git vs. GitHub
+
+### :green_circle: Monitor
+- Display commit history for current branch:
+```
+$ git log
+```
