@@ -35,16 +35,17 @@ $ git remote add [alias] [url]
 ```
 $ git fetch [alias]
 ```
+
 ### :green_circle: Monitoring
 - Display commit history for current branch:
 ```
 $ git log
 ```
-- Display commits on BranchA that are not on BranchB
+- Display commits on _BranchA_ that are not on _BranchB_
 ```
 $ git log BranchB..BranchA
 ```
-- Display the difference of what is in BranchA that is not in BranchB
+- Display the difference of what is in _BranchA_ that is not in _BranchB_
 ```
 $ git log BranchB...BranchA
 ```
