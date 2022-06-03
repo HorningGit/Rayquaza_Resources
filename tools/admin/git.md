@@ -27,7 +27,14 @@ ___
 ### :purple_circle: Branching & Merging
 
 ### :large_blue_circle: Sharing & Updating
-
+- Adding a Git URL to an Alias
+```
+$ git remote add [alias] [url]
+```
+- Fetch all branches from a remote repository
+```
+$ git fetch [alias]
+```
 ### :green_circle: Monitoring
 - Display commit history for current branch:
 ```
