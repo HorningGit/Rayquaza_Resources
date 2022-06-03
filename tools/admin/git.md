@@ -33,3 +33,11 @@ ___
 ```
 $ git log
 ```
+- Display commits on BranchA that are not on BranchB
+```
+$ git log BranchB..BranchA
+```
+- Display the difference of what is in BranchA that is not in BranchB
+```
+$ git log BranchB...BranchA
+```
