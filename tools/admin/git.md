@@ -26,9 +26,9 @@ ___
 
 ### :purple_circle: Branching & Merging
 
-### :large_blue_circle: Git vs. GitHub
+### :large_blue_circle: Sharing & Updating
 
-### :green_circle: Monitor
+### :green_circle: Monitoring
 - Display commit history for current branch:
 ```
 $ git log
