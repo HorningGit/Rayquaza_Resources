@@ -1,7 +1,12 @@
 # :apple: _Source Control Management (SCM)_ :apple:
 
 ### :orange: General SCM Information
-Source control (or version control) is the process of managing changes to a codebaase. SCM systems provide a real-time log of code development. Here are the benefits of a Source Control Management systems 
+Source control (or version control) is the process of managing changes to a codebaase. SCM systems provide a real-time log of code development. Here are the benefits of a Source Control Management systems:
+- Tracking Code Changes
+- View Revision History
+- Revert to Previous Commits
+- And Many More!
+
 ___
 <!--Test-->
 ### Test
