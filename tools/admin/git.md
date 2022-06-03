@@ -1,4 +1,4 @@
-# :earth_americas: _Source Control Management (SCM)_ :earth_africa:
+# :earth_americas: _Source Control Management_ :earth_africa:
 
 <!--General SCM-->
 ### :banana: General SCM Information
