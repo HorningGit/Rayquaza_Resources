@@ -17,3 +17,13 @@ Many times new admins/developers will conflate Git and GitHub. While they are si
 ___
 <!--Cheat Sheet-->
 ## :notebook: Git CLI Cheat Sheet
+
+### :white_small_square: Setting up Git
+
+### :white_small_square: Initializing & Cloning Repositories
+
+### :white_small_square: Git vs. GitHub
+
+### :white_small_square: Git vs. GitHub
+
+### :white_small_square: Git vs. GitHub
