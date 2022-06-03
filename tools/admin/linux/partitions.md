@@ -1,5 +1,5 @@
 <!--Process_Monitoring-->
-# :cd: Disk Partitioning & Mounting :cd:
+# :cd: Disk Partitioning & Mounting
 Here are some of the most commonly used commands for process monitoring:
 ```
 ps  = Displays process statistics in a snapshot.          (Scripts, Extracting Data to Pipelines, etc.)
