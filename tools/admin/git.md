@@ -35,6 +35,14 @@ $ git remote add [alias] [url]
 ```
 $ git fetch [alias]
 ```
+- Merge the remote branch to the current branch for updating
+```
+$ git merge [alias]/[branch]
+```
+- Send the local branch commits to the remote repository branch
+```
+$ git push [alias] [branch]
+```
 
 ### :green_circle: Monitoring
 - Display commit history for current branch:
