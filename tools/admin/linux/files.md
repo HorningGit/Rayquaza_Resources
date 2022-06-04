@@ -127,9 +127,9 @@ ___
 
 
 
-<!-- File Redirection -->
+<!--Manipulating-->
 ___
-### :pear: File Streams and I/O Redirection
+### :pear: Manipulating Text Files
 ##### :small_blue_diamond: Standard File Streams
 Stream | Symbolic Name | Value | Default
 :------ |:------:|:------:|:------:
