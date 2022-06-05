@@ -142,11 +142,11 @@ Standard Error | stderr | 2 | Log File
 ```
 filename < input-file
 ```
-- Configure output of ***filename*** (stdout) to "output-file" (WILL OVERWRITE)
+- Configure output of ***filename*** (stdout) to "output-file" **(WILL OVERWRITE)**
 ```
 filename > output-file
 ```
-- Configure output of ***filename*** (stdout) to "output-file" (WILL APPEND)
+- Configure output of ***filename*** (stdout) to "output-file" **(WILL APPEND)**
 ```
 filename >> output-file
 ```
