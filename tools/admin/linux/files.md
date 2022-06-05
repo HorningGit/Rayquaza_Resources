@@ -61,7 +61,7 @@ Inodes:
 
 <!-- Hard link -->
 
-- Creating a **hard link** creates another name for the same data on disk. File names simply point to some data on a system's disk.
+- Creating a **hard link** creates another name for the same data on disk. File names simply point to some data on a system's disk. Hard links will alos contain the same inode number & permissions as the orignial file!
 
 <!-- Symlink -->
 - A **Symbolic link** (sym link / soft link) is a pointer to a file name. Real file name points to data on disk:
