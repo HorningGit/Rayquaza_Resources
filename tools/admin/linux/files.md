@@ -123,7 +123,7 @@ Shell initialization files can configure the following for shells:
 </p>
 
 ___
-## :cherries: _dev_
+## :cherries: _/dev_
 
 
 
