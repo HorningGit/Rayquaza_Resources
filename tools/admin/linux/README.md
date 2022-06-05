@@ -12,7 +12,7 @@
    <td align="center"><a href="./packagemgmt.md"><img src="./images/pkg.png" width="50px;" height="50px;" alt="Package Management"/><br /><b>Package Management</b></a></td>
    <td align="center"><a href="./files.md"><img src="./images/file.png" width="50px;" height="50px;" alt="Files & File Systems"/><br /><b>Files & File Systems</b></a></td>
    <td align="center"><a href="./users.md"><img src="./images/user.png" width="50px;" height="50px;" alt="User Control"/><br /><b>User Control</b></a></td>
-   <td align="center"><a href="./files.md"><img src="./images/selinux.png" width="50px;" height="50px;" alt="SELinux"/><br /><b>SELinux</b></a></td>
+   <td align="center"><a href="./test.md"><img src="./images/selinux.png" width="50px;" height="50px;" alt="SELinux"/><br /><b>SELinux</b></a></td>
  </table>
 </center>
 
