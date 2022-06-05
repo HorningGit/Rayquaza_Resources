@@ -130,14 +130,14 @@ ___
 <!--Manipulating-->
 ___
 ### :pear: Manipulating Text Files
-##### :small_blue_diamond: Standard File Streams
+#### :small_blue_diamond: Standard File Streams
 Stream | Symbolic Name | Value | Default
 :------ |:------:|:------:|:------:
 Standard Input | stdin | 0 | Keyboard
 Standard Output | stdout | 1 | Terminal
 Standard Error | stderr | 2 | Log File
 
-##### :small_orange_diamond: I/O Redirection
+#### :small_orange_diamond: I/O Redirection
 - Change input source of ***filename*** to "input-file"
 ```
 filename < input-file
