@@ -2,7 +2,7 @@
 # :rainbow: Files & Filesystems :rainbow:
 
 <!--General-->
-### :cherries: General File Info
+## :cherries: General File Info
 UNIX is commonly described as an system where "everything is file". If it isn't a file, it is a process. These files are also case sensitive. This section will describe some of the GNU/Linux's most important files.
 
 Here are some special exceptions to our famous rule:
@@ -91,13 +91,13 @@ ln - make links between files
 </p>
 
 ___
-## :radio_button: _/bin_
+## :cherries: _/bin_
 
 ___
-## :radio_button: _/boot_
+## ::cherries: _/boot_
 
 ___
-## :radio_button: _/etc_
+## :cherries: _/etc_
 <!--Process_Types-->
 ### :small_blue_diamond: Shell Initialization Files
 
@@ -107,7 +107,7 @@ Shell initialization files can configure the following for shells:
 - **Default Text Editor**
 - **Environment Variables**
 
-###### Two Categories of Startup Files
+**Two Categories of Startup Files**
 - **System-wide**
   - _/etc/profiles_
   - _/etc/bashrc_
@@ -117,19 +117,19 @@ Shell initialization files can configure the following for shells:
   - _~/.bashrc_ **(Most Common Default Configuration)**
   - _~/.bash_login_
 
-###### Shell Initialization Process Map
+**Shell Initialization Process Map**
 <p align="center">
   <img src="images/shell.png?raw=true" alt="initramfs image"/>
 </p>
 
 ___
-## :pushpin: _dev_
+## :cherries: _dev_
 
 
 
 <!--Manipulating-->
 ___
-## :pear: Manipulating Text Files
+## :cherries: Manipulating Text Files
 ### :small_blue_diamond: Standard File Streams
 Stream | Symbolic Name | Value | Default
 :------ |:------:|:------:|:------:
