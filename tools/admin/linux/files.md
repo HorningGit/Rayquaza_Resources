@@ -68,6 +68,7 @@ Inodes:
   - Removing symbolic link won't delete original file.
   - Removing file will create a broken symlink.
   - Able to point to objects on different filesystems, partitions, and/or disks.
+  - Different inode number and permissions as orignal file!
 
 ```
 [NAME]
