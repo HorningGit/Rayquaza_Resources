@@ -111,11 +111,10 @@ Shell initialization files can configure the following for shells:
 **Two Categories of Startup Files**
 - **System-wide**
   - _/etc/profile_ = First file read upon Login Shell ; System wide env and startup programs. (PLACE EDITS IN _/etc/profile.d/*_ DIRECTORY)
-  - _/etc/bashrc_
+  - _/etc/bashrc_ = Used for system-wide functions and aliases.
 - **User-specific** (Not in _/etc_)
-  - _~/.profiles_
-  - _~/.bash_profile_
-  - _~/.bashrc_ **(Most Common Default Configuration)**
+  - _~/.bash_profile_ = Call to _~/bashrc_ file.
+  - _~/.bashrc_ **(Most Common Default Configuration File)**
   - _~/.bash_login_
 
 **Shell Initialization Process Map**
