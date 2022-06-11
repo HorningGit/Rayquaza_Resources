@@ -108,10 +108,11 @@ Shell initialization files can configure the following for shells:
 - **Default Text Editor**
 - **Environment Variables**
 
-**Two Categories of Startup Files**
+**Two Categories of Startup Files & Directories**
 - **System-wide**
   - _/etc/profile_ = First file read upon Login Shell ; System wide env and startup programs. (PLACE EDITS IN _/etc/profile.d/*_ DIRECTORY)
   - _/etc/bashrc_ = Used for system-wide functions and aliases.
+  - _/etc/skel_ = Upon account creation, this directory implements its bash files into a user's home directory.
 - **User-specific** (Not in _/etc_)
   - _~/.bash_profile_ = Call to _~/bashrc_ file.
   - _~/.bashrc_ **(Most Common Default Configuration File)**
