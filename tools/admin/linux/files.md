@@ -121,7 +121,7 @@ Shell initialization files can configure the following for shells:
   - _~/.bashrc_ **(Most Common Default Configuration File)**
   - _~/.bash_login_
 
-**Shell Initialization Process Map**
+**Shell Initialization Map**
 <p align="center">
   <img src="images/shell.png?raw=true" alt="initramfs image"/>
 </p>
