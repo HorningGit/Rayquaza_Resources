@@ -110,7 +110,7 @@ Shell initialization files can configure the following for shells:
 
 **Two Categories of Startup Files**
 - **System-wide**
-  - _/etc/profile_ -> Reads from /etc/profile.d/*
+  - _/etc/profile_ = First file read upon Login Shell ; System wide env and startup programs. (DONT EDIT), create file and place in _/etc/profile.d/*_
   - _/etc/bashrc_
 - **User-specific** (Not in _/etc_)
   - _~/.profiles_
