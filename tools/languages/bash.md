@@ -1,4 +1,4 @@
-## Bash (Bourne-Again SHell) Resources
+## Bash (Bourne-Again Shell) Resources
 - [Bash | Home Page](https://www.gnu.org/software/bash/)
 - [Bash | Documentation](https://www.gnu.org/software/bash/manual/)
 - [Bash | GitHub](https://github.com/golang)
