@@ -35,7 +35,7 @@ $ alias la="ls -la"
 #### Scripts
 
 #### Functions
-The command [**function**](https://linux.die.net/man/1/function) can be used to simplify a collection of tasks/commands that is to complex to be an alias. Here is some general information regarding the **function** command.
+The command [**function**](https://linux.die.net/man/1/function) can be used to simplify a collection of tasks/commands that is too complex to be an alias. Here is some general information regarding the **function** command.
 ```
 $ function name { commands ; }
 ```
