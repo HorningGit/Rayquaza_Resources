@@ -16,7 +16,7 @@ $ set
 ```
 
 ### Shell Customization
-- Use the command [**alias**]() to configure a string to a command (usually done to shorten longer commands or piping).
+- Use the command [**alias**](https://www.man7.org/linux/man-pages/man1/alias.1p.html) to configure a string to a command (usually done to shorten longer commands or piping).
 ```
 $ alias example_alias="commands, options, arguments"
 ```
