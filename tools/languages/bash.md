@@ -1,3 +1,5 @@
+https://www.baeldung.com/linux/bash-alias-vs-script-vs-new-function
+
 ## Bash (Bourne-Again Shell) Resources
 - [Bash | Home Page](https://www.gnu.org/software/bash/)
 - [Bash | Documentation](https://www.gnu.org/software/bash/manual/)
@@ -15,7 +17,7 @@ $ env
 $ set
 ```
 
-### Shell Customization
+### Aliases, Scripts, and Functions
 - Use the command [**alias**](https://www.man7.org/linux/man-pages/man1/alias.1p.html) to configure a string to a command (usually done to shorten longer commands or piping).
 ```
 $ alias example_alias="commands, options, arguments"
