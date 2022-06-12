@@ -10,3 +10,13 @@
 ```
 $ env
 ```
+- Use the command [**set**](https://man7.org/linux/man-pages/man1/set.1p.html) to display (or configure) all Bash shell settings, variables, and functions.
+```
+$ set
+```
+
+### Shell Customization
+- Use the command [**alias**]() to configure a string to a command (usually done to shorten longer commands or piping).
+```
+$ alias example_alias="commands, options, arguments"
+```
