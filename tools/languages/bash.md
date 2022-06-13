@@ -32,6 +32,7 @@ $ alias -p
 ```
 $ alias la="ls -la"
 ```
+
 #### Scripts
 
 #### Functions
