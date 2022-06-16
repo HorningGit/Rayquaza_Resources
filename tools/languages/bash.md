@@ -1,5 +1,6 @@
 https://www.baeldung.com/linux/bash-alias-vs-script-vs-new-function
 
+
 ## Bash (Bourne-Again Shell) Resources
 - [Bash | Home Page](https://www.gnu.org/software/bash/)
 - [Bash | Documentation](https://www.gnu.org/software/bash/manual/)
