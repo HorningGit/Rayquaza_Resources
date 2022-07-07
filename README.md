@@ -9,9 +9,6 @@ The purpose of this GitHub repository is to document my process of becoming a De
 - Document only the most vital options, arguments, variables, pipelines, etc.
 
 ___
-# :snake: Please Select IT Module for Detailed Information :snake:
-
-___
 ### System Administration & Design / Linux / Networking
 <center>
   <table>
@@ -113,3 +110,11 @@ Name | Comments
 [Cloud Native ~ Trail Map](https://raw.githubusercontent.com/cncf/trailmap/master/CNCF_TrailMap_latest.pdf) | Cloud native's recommended process of leveraging open source infrastructures.
 [Cloud Native ~ Landscape Guide](https://landscape.cncf.io/guide) | Detailed guide on the use/implementation of Cloud Native's landscape.
 ___
+
+```mermaid
+graph LR
+A[Square Rect] -- Link text --> B((Circle))
+A --> C(Round Rect)
+B --> D{Rhombus}
+C --> D
+```
