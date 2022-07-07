@@ -63,9 +63,9 @@ Inodes:
 - Creating a **hard link** creates another name for the same data on disk. File names simply point to some data on a system's disk. Hard links will also contain the same inode number & permissions as the orignial file!
 
 ```mermaid
-graph TD;
+flowchart TD;
     B[Hard Link]-->A[Data on Disk]
-    C[Soft Link]-->A
+    C[Hard Link]-->A
 ```
 
 <!-- Symlink -->
@@ -74,6 +74,11 @@ graph TD;
   - Removing file will create a broken symlink.
   - Able to point to objects on different filesystems, partitions, and/or disks.
   - Different inode number and permissions as orignal file!
+
+```mermaid
+flowchart LR;
+    A[Soft/Sym Link]-->B[Hard Link]-->C[Data on Disk]
+```
 
 ```
 [NAME]
