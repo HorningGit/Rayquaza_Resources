@@ -3,11 +3,6 @@
 [![Medium Badge](http://img.shields.io/badge/-@alex.horning-1ca0f1?style=social&logo=Medium&logoColor=black&link=https://medium.com/@alex.horning)](https://medium.com/@alex.horning)
 [![Gmail Badge](https://img.shields.io/badge/ProtonMail-8B89CC?style=plastic?&logo=protonmail&logoColor=white)](mailto:Alexander.Horning@protonmail.com)
 
-<!--Leading_Comments-->
-The purpose of this GitHub repository is to document my process of becoming a DevOps Engineer. Within this documentation, I plan to focus on the following:
-- Limiting the documentation on every piece of data, and rather focusing on the vital components needed in the subject for becoming a DevOps Engineer.
-- Document only the most vital options, arguments, variables, pipelines, etc.
-
 ___
 ### System Administration & Design / Linux / Networking
 <center>
