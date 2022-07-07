@@ -60,8 +60,13 @@ Inodes:
 #### :small_orange_diamond: [Hard links & Symbolic Links](https://linuxize.com/post/how-to-create-symbolic-links-in-linux-using-the-ln-command/)
 
 <!-- Hard link -->
-
 - Creating a **hard link** creates another name for the same data on disk. File names simply point to some data on a system's disk. Hard links will also contain the same inode number & permissions as the orignial file!
+
+```mermaid
+graph TD;
+    B[Hard Link]-->A[Data on Disk]
+    C[Soft Link]-->A
+```
 
 <!-- Symlink -->
 - A **Symbolic link** (sym link / soft link) is a pointer to a file name. Real file name points to data on disk:
