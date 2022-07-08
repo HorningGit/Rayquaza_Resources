@@ -26,11 +26,11 @@ flowchart LR;
 2. UEFI will then initialize the hardware required for booting (disk, keyboard controllers, etc.).
 3. UEFI firmware reads its Boot Manager data in Non-volatile RAM (NVRAM) to determine which EFI application to launch and what disk/partition from. <p align="center">The EFI system partition (also called ESP) is an OS independent partition that acts as the storage place for the EFI bootloaders, applications and drivers to be launched by the UEFI firmware.</p>
 4. Firmware launches the EFI application as defined in the boot entry of the firmware's boot manager.
-  <!-- UEFI image -->
-<p align="center">
-  <img src="../../../images/uefi.png?raw=true" alt="initramfs image"/>
-</p>
 
+```mermaid
+flowchart LR;
+    A[UEFI]-->B[EFI Boot Loader]-->C[Kernel]-->D[Operating System]
+```
 
 <!-- initramfs -->
 ___
