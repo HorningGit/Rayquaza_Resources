@@ -8,14 +8,13 @@ gantt
     title DevOps Engineer Journey
     dateFormat  YYYY-MM-DD
     section A Cloud Guru
-    LPIC-1 System Administrator    :a1, 2022-07-01, 30d
-    Another task     :after a1  , 20d
+    LPIC-1 System Administrator    :a1, 2022-07-01, 45d
     section Codecademy
-    Learn GO      :a1, 2022-07-01, 14d
-    Learn GO (Loops, Arrays, Maps, and Structures)      :a1, 2022-07-01, 14d
-    section Another
-    Task in sec      :2022-08-12  , 12d
-    another task      : 24d
+    Learn Go (I)        :a1, 2022-07-01, 15d
+    Learn Go (II)        :a2, 2022-07-16, 15d
+    Introduction to DevOps        :a3, 2022-07-01, 30d
+    section Books
+    O'Reilly Learning Go        :a1, 2022-07-01, 60d
 ```
 
 ___
@@ -121,10 +120,3 @@ Name | Comments
 [Cloud Native ~ Landscape Guide](https://landscape.cncf.io/guide) | Detailed guide on the use/implementation of Cloud Native's landscape.
 ___
 
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
