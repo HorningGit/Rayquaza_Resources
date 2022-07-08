@@ -4,15 +4,18 @@
 [![Gmail Badge](https://img.shields.io/badge/ProtonMail-8B89CC?style=plastic?&logo=protonmail&logoColor=white)](mailto:Alexander.Horning@protonmail.com)
 
 ```mermaid
-journey
-    title My working day
-    section Go to work
-      Make tea: 5: Me
-      Go upstairs: 3: Me
-      Do work: 1: Me, Cat
-    section Go home
-      Go downstairs: 5: Me
-      Sit down: 5: Me
+gantt
+    title DevOps Engineer Journey
+    dateFormat  YYYY-MM-DD
+    section A Cloud Guru
+    LPIC-1 System Administrator    :a1, 2022-07-01, 30d
+    Another task     :after a1  , 20d
+    section Codecademy
+    Learn GO      :a1, 2022-07-01, 14d
+    Learn GO (Loops, Arrays, Maps, and Structures)      :a1, 2022-07-01, 14d
+    section Another
+    Task in sec      :2022-08-12  , 12d
+    another task      : 24d
 ```
 
 ___
