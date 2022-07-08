@@ -1,9 +1,9 @@
 ```mermaid
 flowchart TD;
-    A[Debian Family]-->B[Mount proper root filesystem]
+    A[Debian Family]-->B[apt]
     B-->Y[dpkg]
-    E[Red Hat Family]-->F[Locating Devices]
-    C[SUSE Family]-->D[Providing Kernel Functionality]
+    E[Red Hat Family]-->F[yum]
+    C[SUSE Family]-->D[zypper]
     D-->R[rpm]
     F-->R
     Y-->W[Linux System]
@@ -27,7 +27,6 @@ flowchart TD;
 [Install]                              [RPM]                                  [DEB]                                         
 Install Package                        rpm -i packagename.rpm                 dpkg --install packagename.deb
 Install Package; dependencies          dnf install packagename                apt-get install packagename  
-```
 
 [Remove]                               [RPM]                                  [DEB]
 Remove Package                         rpm -e packagename.rpm                 dpkg --remove packagename.deb
