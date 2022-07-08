@@ -49,19 +49,6 @@ gantt
 [![Medium Badge](http://img.shields.io/badge/-@alex.horning-1ca0f1?style=social&logo=Medium&logoColor=black&link=https://medium.com/@alex.horning)](https://medium.com/@alex.horning)
 [![Gmail Badge](https://img.shields.io/badge/ProtonMail-8B89CC?style=plastic?&logo=protonmail&logoColor=white)](mailto:Alexander.Horning@protonmail.com)
 
-#### LFCA Training Path
-Course | Class | Platform | Complete?
-:------|:------:|:------:|:------:
-Introduction to Linux | [LFS101x](https://courses.edx.org/dashboard) | edX Courses | ❌
-Introduction to DevOps and Site Reliability | [LFS162x](https://courses.edx.org/dashboard) | edX Courses | ❌
-Introduction to Cloud Infrastructure Technologies | [LFS151x](https://courses.edx.org/dashboard) | edX Courses | ❌
-A Beginners Guide to Open Source Software Development | [LFD102](https://linuxfoundation.org/) | The Linux Foundation | ❌
-Open Source Licensing Basics for Software Development | [LFC191](https://linuxfoundation.org/) | The Linux Foundation | ❌
-Secure Software Development: Requirements , Design, and Reuse | [LFD104x](https://linuxfoundation.org/) | The Linux Foundation | ❌
-Secure Software Development: Implementation | [LFD105x](https://linuxfoundation.org/) | The Linux Foundation | ❌
-Secure Software Development: Verification, and More Specialized Topics | [LFD106x](https://linuxfoundation.org/) | The Linux Foundation | ❌
-Fundamentals of Open Source IT and Cloud Computing | [LFS200](https://linuxfoundation.org/) | The Linux Foundation | ❌
-
 ## DevOps Study Sites
 Type | Name | Description
 :------|:------:|:------:
@@ -76,20 +63,3 @@ Name | Complete? | Comments
 [The DevOps Handbook](https://www.amazon.com/dp/1942788002) | ❌ |
 [Google SRE books](https://landing.google.com/sre/books) | ❌ | Very detailed books on the theory and also practice of SRE
 [Essential Infrastructure as Code](https://www.manning.com/books/essential-infrastructure-as-code) | ❌ | VBook about automating software infrastructure by capturing desired configurations as a set of scripts.
-
-
-## Toolkit to Study
-Topic | What to learn
-:------|:------
-Version Control | Git
-Programming | Bash, Python, Golang
-Operating System | [Linux](#operating-systems)
-Protocols | DHCP, UDP, TCP, HTTP, SSH, NFS, NTP, FTP
-Applications | Web Server, Load Balancer, Cache, Database
-System Design | Availability, Reliability, Scalability, Performance
-Configuration Management and IaC | Ansible and Terraform | CM: Chef, Puppet and Salt. IaC: Pulumi and CloudFormation |
-Cloud | Azure, AWS, GCP
-Containers | Docker, Podman, and Kubernetes| _
-CI/CD | Jenkins, GitHub Actions, Gitlab CI, Circle CI, Argo CD
-Logging and Dashboards | Elastic Stack, Report Portal, Grafana, Graylog, Splunk
-Monitoring | Prometheus, Nagios, Datadog
