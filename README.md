@@ -2,7 +2,7 @@
 gantt
     title DevOps Engineer Journey
     dateFormat  YYYY-MM-DD
-    section A Cloud Guru
+    section Cloud Guru
     LPIC-1 System Administrator    :a1, 2022-07-01, 45d
     section Codecademy
     Learn Go (I)        :a1, 2022-07-01, 15d
