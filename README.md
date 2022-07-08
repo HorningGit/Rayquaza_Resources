@@ -53,6 +53,12 @@ ___
 [![Medium Badge](http://img.shields.io/badge/-@alex.horning-1ca0f1?style=social&logo=Medium&logoColor=black&link=https://medium.com/@alex.horning)](https://medium.com/@alex.horning)
 [![Gmail Badge](https://img.shields.io/badge/ProtonMail-8B89CC?style=plastic?&logo=protonmail&logoColor=white)](mailto:Alexander.Horning@protonmail.com)
 
+IEEE Standard (Works Cited)
+:------
+“Arch Linux,” archlinux.org. [Online]. Available: https://archlinux.org/
+“Gentoo Wiki,” wiki.gentoo.org. [Online]. Available: https://wiki.gentoo.org/wiki/Main_Page.
+"Linuxize," linuxize.com. [Online]. Available: https://linuxize.com/
+
 ## DevOps Study Sites
 Type | Name | Description
 :------|:------:|:------:
