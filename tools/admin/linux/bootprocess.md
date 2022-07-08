@@ -37,9 +37,14 @@ ___
 ## :hear_no_evil: *Initial RAM Disk*
   <!-- initramfs Paragraph (1) -->
 The sole purpose of initramfs is to mount the root filesystem. At boot time, the boot loader loads the Linux kernel and the initramfs image into its memory, starting the kernel. The initramfs filesystem image will provide kernel functionality for the Linux filesystem, and will manage device drivers for mass storage controllers with a facility called udev (user device). Here is a list of initramfs responsibilities:
-<!-- initramfs image -->
-<p align="center">
-  <img src="../../../images/initramfs.png?raw=true" alt="initramfs image"/>
-</p>
 <!-- initramfs Paragraph (2) -->
 The mount program will then notify the Linux OS that the filesystem is ready for use using the mount point. If succesful, initramfs is cleared from RAM and the init program on the root filesystem (/sbin/init) is executed.
+
+```mermaid
+flowchart TD;
+    A[Initramfs]-->B[Mount proper root filesystem]
+    A[Initramfs]-->C[Providing Kernel Functionality]
+    A[Initramfs]-->D[Locating Devices]
+    A[Initramfs]-->E[Locating Drivers]
+    A[Initramfs]-->F[Error Checking in Root]
+```
