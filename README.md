@@ -34,9 +34,9 @@ gantt
  </table>
  <table>
   <tr>Iac, SCM, and CI/CD</tr>
-   <td align="center"><a href="tools/admin/git.md"><img src="images/git.png" width="50px;" height="50px;" alt="Source Control"/><br /><b>Source Control</b></a></td> 
    <td align="center"><a href="tools/iac/ansible.md"><img src="images/ansible.png" width="50px;" height="50px;" alt="Ansible"/><br /><b>Ansible</b></a></td>
    <td align="center"><a href="tools/iac/terraform.md"><img src="images/terraform.png" width="50px;" height="50px;" alt="Terraform"/><br /><b>Terraform</b></a></td>
+   <td align="center"><a href="tools/admin/git.md"><img src="images/git.png" width="50px;" height="50px;" alt="Source Control"/><br /><b>Source Control</b></a></td> 
    <td align="center"><a href="tools/cicd/jenkins.md"><img src="images/jenkins.png" width="50px;" height="50px;" alt="Jenkins"/><br /><b>Jenkins</b></a></td>
  </table> 
 </center>
