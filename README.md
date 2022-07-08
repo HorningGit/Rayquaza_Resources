@@ -30,24 +30,17 @@ gantt
    <td align="center"><a href="tools/languages/golang.md"><img src="images/go.png" width="50px;" height="50px;" alt="Golang"/><br /><b>Golang</b></a></td>
   </tr>
  </table>
+ <table>
+  <tr>Containers & Container Orchestration</tr>
+  <td align="center"><a href="tools/admin/git.md"><img src="images/git.png" width="50px;" height="50px;" alt="Source Control"/><br /><b>Source Control</b></a></td>
+  <td align="center"><a href="tools/containers/docker.md"><img src="images/docker.png" width="50px;" height="50px;" alt="Docker"/><br /><b>Docker</b></a></td>
+  <td align="center"><a href="tools/containers/kubernetes.md"><img src="images/kubernetes.png" width="50px;" height="50px;" alt="Kubernetes"/><br /><b>Kubernetes</b></a></td>
+  <td align="center"><a href="tools/containers/openshift.md"><img src="images/openshift.png" width="50px;" height="50px;" alt="OpenShift"/><br /><b>OpenShift</b></a></td>
+ </table>
 </center>
 
-
-<!-- DevOps Section -->
-#####  Containers & Container Orchestration
-<center>
-  <table>
-    <tr>
-       <td align="center"><a href="tools/admin/git.md"><img src="images/git.png" width="50px;" height="50px;" alt="Source Control"/><br /><b>Source Control</b></a></td>
-      <td align="center"><a href="tools/containers/docker.md"><img src="images/docker.png" width="50px;" height="50px;" alt="Docker"/><br /><b>Docker</b></a></td>
-      <td align="center"><a href="tools/containers/kubernetes.md"><img src="images/kubernetes.png" width="50px;" height="50px;" alt="Kubernetes"/><br /><b>Kubernetes</b></a></td>
-      <td align="center"><a href="tools/containers/openshift.md"><img src="images/openshift.png" width="50px;" height="50px;" alt="OpenShift"/><br /><b>OpenShift</b></a></td>
-    </tr>
-  </table>
-</center>
 
 <!--IaC-->
-
 #####  Infrastructure as Code (IaC)
 <center>
   <table>
