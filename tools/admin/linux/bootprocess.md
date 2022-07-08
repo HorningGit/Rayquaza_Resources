@@ -18,6 +18,10 @@ ___
 ```mermaid
 flowchart LR;
     A[BIOS]-->B[MBR]-->C[Kernel]-->D[Boot Loader]-->E[Operating System]
+    style A fill:#FFADAD
+    style B fill:#FFD6A5
+    style C fill:#FDFFB6
+    style D fill:#CAFFBF
 ```
   
   <!-- UEFI Process -->
@@ -30,6 +34,10 @@ flowchart LR;
 ```mermaid
 flowchart LR;
     A[UEFI]-->B[EFI Boot Loader]-->C[Kernel]-->D[Operating System]
+    style A fill:#FFADAD
+    style B fill:#FFD6A5
+    style C fill:#FDFFB6
+    style D fill:#CAFFBF
 ```
 
 <!-- initramfs -->
@@ -47,4 +55,6 @@ flowchart TD;
     A[Initramfs]-->D[Locating Devices]
     A[Initramfs]-->E[Locating Drivers]
     A[Initramfs]-->F[Error Checking in Root]
+    style A fill:#f8f8f8
+    style B fill:#f8f
 ```
