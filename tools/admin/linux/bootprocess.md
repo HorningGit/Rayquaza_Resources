@@ -55,6 +55,10 @@ flowchart TD;
     A[Initramfs]-->D[Locating Devices]
     A[Initramfs]-->E[Locating Drivers]
     A[Initramfs]-->F[Error Checking in Root]
-    style A fill:#f8f8f8
-    style B fill:#f8f
+    style A fill:#F8F8F8
+    style B fill:#FFB5E8
+    style C fill:#FF9CEE
+    style D fill:#FFCCF9
+    style E fill:#FCC2FF
+    style F fill:#F6A6FF
 ```
