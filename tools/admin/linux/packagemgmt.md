@@ -1,16 +1,33 @@
-<!--PKGMANAGE_HEADING_IMAGE-->
-## :white_circle: *Package Management*
-<!--Image-->
-<p align="center">
-  <img src="../../../images/family.png?raw=true" alt="initramfs image"/>
-</p>
+```mermaid
+flowchart TD;
+    A[Debian Family]-->B[Mount proper root filesystem]
+    B-->Y[dpkg]
+    E[Red Hat Family]-->F[Locating Devices]
+    C[SUSE Family]-->D[Providing Kernel Functionality]
+    D-->R[rpm]
+    F-->R
+    Y-->W[Linux System]
+    R-->W
+
+    style A fill:#FFABAB
+    style B fill:#FFBEBC
+    style E fill:#FFF5BA
+    style F fill:#FFFFD1
+    style C fill:#6EB5FF
+    style D fill:#85E3FF
+    style Y fill:#FFFFFF
+    style R fill:#FFFFFF
+    style W fill:#FFFFFF
+```
 
 <!--PKGMANAGE_COMMANDS-->
-#### :small_blue_diamond: Package Management Commands for RPM / DEB
+##### :small_blue_diamond: Package Management Commands for RPM / DEB
+
 ```
 [Install]                              [RPM]                                  [DEB]                                         
 Install Package                        rpm -i packagename.rpm                 dpkg --install packagename.deb
 Install Package; dependencies          dnf install packagename                apt-get install packagename  
+```
 
 [Remove]                               [RPM]                                  [DEB]
 Remove Package                         rpm -e packagename.rpm                 dpkg --remove packagename.deb
