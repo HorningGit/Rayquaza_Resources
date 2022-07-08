@@ -12,30 +12,25 @@ gantt
     O'Reilly Learning Go        :a1, 2022-07-01, 60d
 ```
 
-___
-##### Infrastructure (Linux, Networking, Security)
 <center>
-  <table>
-   <tr>
+ <table>
+  <tr>Infrastructure (Linux, Networking, Security)</tr>
    <td align="center"><a href="tools/admin/network.md"><img src="images/network.png" width="50px;" height="50px;" alt="Networking"/><br /><b>Networking</b></a></td>
    <td align="center"><a href="tools/admin/linux"><img src="images/linux.png" width="50px;" height="50px;" alt="Linux"/><br /><b>Linux</b></a></td>
    <td align="center"><a href="tools/admin/system.md"><img src="images/server.png" width="50px;" height="50px;" alt="System Design"/><br /><b>System Design</b></a></td>
    <td align="center"><a href="tools/admin/firewall.md"><img src="images/firewall.png" width="50px;" height="50px;" alt="pfSense"/><br /><b>pfSense</b></a></td>
    <td align="center"><a href="tools/admin/vpn.md"><img src="images/vpn.png" width="50px;" height="50px;" alt="OpenVPN"/><br /><b>OpenVPN</b></a></td>
-   </tr>
-  </table>
+  </tr>
+ </table>  
+ <table>
+  <tr>Programming & Command Languages</tr>
+   <th width="50px;" height="50px;">Coding</th>    
+   <td align="center"><a href="tools/languages/bash.md"><img src="images/bash.png" width="50px;" height="50px;" alt="Bash"/><br /><b>Bash</b></a></td>
+   <td align="center"><a href="tools/languages/golang.md"><img src="images/go.png" width="50px;" height="50px;" alt="Golang"/><br /><b>Golang</b></a></td>
+  </tr>
+ </table>
 </center>
 
-<!-- Programming & Scripting Section -->
-##### Programming & Command Languages
-<center>
-  <table>
-    <tr>
-    <td align="center"><a href="tools/languages/bash.md"><img src="images/bash.png" width="50px;" height="50px;" alt="Bash"/><br /><b>Bash</b></a></td>
-    <td align="center"><a href="tools/languages/golang.md"><img src="images/go.png" width="50px;" height="50px;" alt="Golang"/><br /><b>Golang</b></a></td>
-    </tr>
-  </table>
-</center>
 
 <!-- DevOps Section -->
 #####  Containers & Container Orchestration
