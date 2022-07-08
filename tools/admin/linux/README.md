@@ -34,14 +34,6 @@ bork on /etc/passwd
 bork -x off /etc/passwd /etc/cups
 ```
 
-<!-- Works Cited -->
-___
-IEEE Standard (Works Cited)
-:------
-“Arch Linux,” archlinux.org. [Online]. Available: https://archlinux.org/
-“Gentoo Wiki,” wiki.gentoo.org. [Online]. Available: https://wiki.gentoo.org/wiki/Main_Page.
-"Linuxize," linuxize.com. [Online]. Available: https://linuxize.com/
-
 #### LFCA Training Path
 Course | Class | Platform | Complete?
 :------|:------:|:------:|:------:
