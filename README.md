@@ -13,14 +13,13 @@ gantt
 ```
 
 ___
-##### System Administration & Design / Linux / Networking
+##### Infrastructure (Linux, Networking, Security)
 <center>
   <table>
    <tr>
    <td align="center"><a href="tools/admin/network.md"><img src="images/network.png" width="50px;" height="50px;" alt="Networking"/><br /><b>Networking</b></a></td>
    <td align="center"><a href="tools/admin/linux"><img src="images/linux.png" width="50px;" height="50px;" alt="Linux"/><br /><b>Linux</b></a></td>
    <td align="center"><a href="tools/admin/system.md"><img src="images/server.png" width="50px;" height="50px;" alt="System Design"/><br /><b>System Design</b></a></td>
-   <td align="center"><a href="tools/admin/git.md"><img src="images/git.png" width="50px;" height="50px;" alt="Source Control"/><br /><b>Source Control</b></a></td>
    <td align="center"><a href="tools/admin/firewall.md"><img src="images/firewall.png" width="50px;" height="50px;" alt="pfSense"/><br /><b>pfSense</b></a></td>
    <td align="center"><a href="tools/admin/vpn.md"><img src="images/vpn.png" width="50px;" height="50px;" alt="OpenVPN"/><br /><b>OpenVPN</b></a></td>
    </tr>
@@ -43,12 +42,10 @@ ___
 <center>
   <table>
     <tr>
+       <td align="center"><a href="tools/admin/git.md"><img src="images/git.png" width="50px;" height="50px;" alt="Source Control"/><br /><b>Source Control</b></a></td>
       <td align="center"><a href="tools/containers/docker.md"><img src="images/docker.png" width="50px;" height="50px;" alt="Docker"/><br /><b>Docker</b></a></td>
       <td align="center"><a href="tools/containers/kubernetes.md"><img src="images/kubernetes.png" width="50px;" height="50px;" alt="Kubernetes"/><br /><b>Kubernetes</b></a></td>
-      <td align="center"><a href="tools/containers/k3s.md"><img src="images/k3s.png" width="50px;" height="50px;" alt="K3S"/><br /><b>K3S</b></a></td>
       <td align="center"><a href="tools/containers/openshift.md"><img src="images/openshift.png" width="50px;" height="50px;" alt="OpenShift"/><br /><b>OpenShift</b></a></td>
-      <td align="center"><a href="tools/containers/minikube.md"><img src="images/minikube.png" width="50px;" height="50px;" alt="Minikube"/><br /><b>Minikube</b></a></td>
-      <td align="center"><a href="tools/containers/microk8s.md"><img src="images/micro.png" width="50px;" height="50px;" alt="MicroK8s"/><br /><b>MicroK8s</b></a></td>
     </tr>
   </table>
 </center>
