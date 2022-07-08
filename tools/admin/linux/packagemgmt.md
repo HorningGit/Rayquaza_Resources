@@ -1,5 +1,5 @@
 <!--PKGMANAGE_COMMANDS-->
-##### :small_blue_diamond: Package Management Commands for RPM / DEB
+## :package: RPM/DEB Package Management
 
 ```
 [Install]                              [RPM]                                  [DEB]                                         
