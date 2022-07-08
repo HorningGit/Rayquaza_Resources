@@ -1,3 +1,5 @@
+
+
 ## Boot Process
 
 <!-- Boot Process -->
@@ -18,10 +20,6 @@ ___
 ```mermaid
 flowchart LR;
     A[BIOS]-->B[MBR]-->C[Kernel]-->D[Boot Loader]-->E[Operating System]
-    style A fill:#FFADAD
-    style B fill:#FFD6A5
-    style C fill:#FDFFB6
-    style D fill:#CAFFBF
 ```
   
   <!-- UEFI Process -->
