@@ -33,24 +33,14 @@ gantt
     <td align="center"><a href="tools/containers/openshift.md"><img src="images/openshift.png" width="50px;" height="50px;" alt="OpenShift"/><br /><b>OpenShift</b></a></td>
  </table>
  <table>
-  <tr>Iac, SCM, and CI/CD</tr>
+  <tr>Iac, SCM, CI/CD, and Monitoring</tr>
    <td align="center"><a href="tools/iac/ansible.md"><img src="images/ansible.png" width="50px;" height="50px;" alt="Ansible"/><br /><b>Ansible</b></a></td>
    <td align="center"><a href="tools/iac/terraform.md"><img src="images/terraform.png" width="50px;" height="50px;" alt="Terraform"/><br /><b>Terraform</b></a></td>
    <td align="center"><a href="tools/admin/git.md"><img src="images/git.png" width="50px;" height="50px;" alt="Source Control"/><br /><b>Source Control</b></a></td> 
    <td align="center"><a href="tools/cicd/jenkins.md"><img src="images/jenkins.png" width="50px;" height="50px;" alt="Jenkins"/><br /><b>Jenkins</b></a></td>
+   <td align="center"><a href="tools/monitor/grafana.md"><img src="images/grafana.png" width="50px;" height="50px;" alt="Grafana"/><br /><b>Grafana</b></a></td>
+   <td align="center"><a href="tools/monitor/prometheus.md"><img src="images/prometheus.png" width="50px;" height="50px;" alt="Prometheus"/><br /><b>Prometheus</b></a></td> 
  </table> 
-</center>
-
-
-#### Monitoring & Dashboards
-<center>
-  <table>
-    <tr>
-      <td align="center"><a href="tools/monitor/grafana.md"><img src="images/grafana.png" width="50px;" height="50px;" alt="Grafana"/><br /><b>Grafana</b></a></td>
-      <td align="center"><a href="tools/monitor/prometheus.md"><img src="images/prometheus.png" width="50px;" height="50px;" alt="Prometheus"/><br /><b>Prometheus</b></a></td>
-      <td align="center"><a href="tools/monitor/nagios.md"><img src="images/nagios.png" width="50px;" height="50px;" alt="Nagios"/><br /><b>Nagios</b></a></td>
-    </tr>
-  </table>
 </center>
 
 <!--Contact_Badges-->
