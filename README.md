@@ -14,12 +14,14 @@ gantt
 
 <center>
  <table>
-  <tr>Infrastructure (Linux, Networking, Security)</tr>
+  <tr>Infrastructure, Networking, and Security</tr>
    <td align="center"><a href="tools/admin/network.md"><img src="images/network.png" width="50px;" height="50px;" alt="Networking"/><br /><b>Networking</b></a></td>
    <td align="center"><a href="tools/admin/linux"><img src="images/linux.png" width="50px;" height="50px;" alt="Linux"/><br /><b>Linux</b></a></td>
    <td align="center"><a href="tools/admin/system.md"><img src="images/server.png" width="50px;" height="50px;" alt="System Design"/><br /><b>System Design</b></a></td>
    <td align="center"><a href="tools/admin/firewall.md"><img src="images/firewall.png" width="50px;" height="50px;" alt="pfSense"/><br /><b>pfSense</b></a></td>
    <td align="center"><a href="tools/admin/vpn.md"><img src="images/vpn.png" width="50px;" height="50px;" alt="OpenVPN"/><br /><b>OpenVPN</b></a></td>
+   <td align="center"><a href="tools/cloud/aws.md"><img src="images/aws.png" width="50px;" height="50px;" alt="AWS"/><br /><b>AWS</b></a></td>
+   <td align="center"><a href="tools/cloud/azure.md"><img src="images/azure.png" width="50px;" height="50px;" alt="Azure"/><br /><b>Azure</b></a></td>
   </tr>
  </table>  
  <table>
@@ -79,19 +81,6 @@ gantt
     </tr>
   </table>
 </center>
-
-<!-- Cloud Section -->
-##### Cloud Platforms
-<center>
-  <table>
-    <tr>
-      <td align="center"><a href="tools/cloud/aws.md"><img src="images/aws.png" width="50px;" height="50px;" alt="AWS"/><br /><b>AWS</b></a></td>
-      <td align="center"><a href="tools/cloud/azure.md"><img src="images/azure.png" width="50px;" height="50px;" alt="Azure"/><br /><b>Azure</b></a></td>
-      <td align="center"><a href="tools/cloud/gcp.md"><img src="images/gcp.png" width="50px;" height="50px;" alt="GCP"/><br /><b>GCP</b></a></td>
-    </tr>
-  </table>
-</center>
-
 
 <!-- Works Cited -->
 [![Linkedin Badge](https://img.shields.io/badge/-Alexander%20Horning-blue?style=social&logo=Linkedin&logoColor=blue&link=https://www.linkedin.com/in/alexander-horning-5b8bb918b/)](https://www.linkedin.com/in/alexander-horning-5b8bb918b/)
