@@ -1,8 +1,3 @@
-[![Linkedin Badge](https://img.shields.io/badge/-Alexander%20Horning-blue?style=social&logo=Linkedin&logoColor=blue&link=https://www.linkedin.com/in/alexander-horning-5b8bb918b/)](https://www.linkedin.com/in/alexander-horning-5b8bb918b/)
-[![Twitter Badge](http://img.shields.io/badge/-@LinuxTyranitar-1ca0f1?style=social&logo=twitter&logoColor=blue&link=https://https://twitter.com/LinuxTyranitar)](https://twitter.com/LinuxTyranitar)
-[![Medium Badge](http://img.shields.io/badge/-@alex.horning-1ca0f1?style=social&logo=Medium&logoColor=black&link=https://medium.com/@alex.horning)](https://medium.com/@alex.horning)
-[![Gmail Badge](https://img.shields.io/badge/ProtonMail-8B89CC?style=plastic?&logo=protonmail&logoColor=white)](mailto:Alexander.Horning@protonmail.com)
-
 ```mermaid
 gantt
     title DevOps Engineer Journey
@@ -18,7 +13,7 @@ gantt
 ```
 
 ___
-### System Administration & Design / Linux / Networking
+##### System Administration & Design / Linux / Networking
 <center>
   <table>
    <tr>
@@ -33,21 +28,18 @@ ___
 </center>
 
 <!-- Programming & Scripting Section -->
-___
-### Programming & Command Languages
+##### Programming & Command Languages
 <center>
   <table>
     <tr>
     <td align="center"><a href="tools/languages/bash.md"><img src="images/bash.png" width="50px;" height="50px;" alt="Bash"/><br /><b>Bash</b></a></td>
     <td align="center"><a href="tools/languages/golang.md"><img src="images/go.png" width="50px;" height="50px;" alt="Golang"/><br /><b>Golang</b></a></td>
-    <td align="center"><a href="tools/languages/python.md"><img src="images/python.png" width="50px;" height="50px;" alt="Python"/><br /><b>Python</b></a></td>
     </tr>
   </table>
 </center>
 
 <!-- DevOps Section -->
-___
-###  Containers & Container Orchestration
+#####  Containers & Container Orchestration
 <center>
   <table>
     <tr>
@@ -62,8 +54,8 @@ ___
 </center>
 
 <!--IaC-->
-___
-###  Infrastructure as Code (IaC)
+
+#####  Infrastructure as Code (IaC)
 <center>
   <table>
     <tr>
@@ -74,8 +66,8 @@ ___
 </center>
 
 <!--CI/CD-->
-___
-####  Continuous Integration / Continuous Deployment (CI/CD)
+
+#####  Continuous Integration / Continuous Deployment (CI/CD)
 <center>
   <table>
     <tr>
@@ -96,12 +88,8 @@ ___
   </table>
 </center>
 
-
-
-
 <!-- Cloud Section -->
-___
-## Cloud Platforms
+##### Cloud Platforms
 <center>
   <table>
     <tr>
@@ -111,6 +99,14 @@ ___
     </tr>
   </table>
 </center>
+
+
+<!-- Works Cited -->
+[![Linkedin Badge](https://img.shields.io/badge/-Alexander%20Horning-blue?style=social&logo=Linkedin&logoColor=blue&link=https://www.linkedin.com/in/alexander-horning-5b8bb918b/)](https://www.linkedin.com/in/alexander-horning-5b8bb918b/)
+[![Twitter Badge](http://img.shields.io/badge/-@LinuxTyranitar-1ca0f1?style=social&logo=twitter&logoColor=blue&link=https://https://twitter.com/LinuxTyranitar)](https://twitter.com/LinuxTyranitar)
+[![Medium Badge](http://img.shields.io/badge/-@alex.horning-1ca0f1?style=social&logo=Medium&logoColor=black&link=https://medium.com/@alex.horning)](https://medium.com/@alex.horning)
+[![Gmail Badge](https://img.shields.io/badge/ProtonMail-8B89CC?style=plastic?&logo=protonmail&logoColor=white)](mailto:Alexander.Horning@protonmail.com)
+
 
 #### Cloud Native Computing Foundation's Landscape
 Name | Comments
