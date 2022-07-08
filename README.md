@@ -26,7 +26,6 @@ gantt
  </table>  
  <table>
   <tr>Programming & Command Languages</tr>
-   <th width="50px;" height="50px;">Coding</th>    
    <td align="center"><a href="tools/languages/bash.md"><img src="images/bash.png" width="50px;" height="50px;" alt="Bash"/><br /><b>Bash</b></a></td>
    <td align="center"><a href="tools/languages/golang.md"><img src="images/go.png" width="50px;" height="50px;" alt="Golang"/><br /><b>Golang</b></a></td>
   </tr>
