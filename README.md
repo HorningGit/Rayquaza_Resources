@@ -25,13 +25,9 @@ gantt
   </tr>
  </table>  
  <table>
-  <tr>Programming & Command Languages</tr>
-   <td align="center"><a href="tools/languages/bash.md"><img src="images/bash.png" width="50px;" height="50px;" alt="Bash"/><br /><b>Bash</b></a></td>
-   <td align="center"><a href="tools/languages/golang.md"><img src="images/go.png" width="50px;" height="50px;" alt="Golang"/><br /><b>Golang</b></a></td>
-  </tr>
- </table>
- <table>
-  <tr>Containers & Container Orchestration</tr>
+  <tr>Languages, Containers, & Orchestration</tr>
+  <td align="center"><a href="tools/languages/bash.md"><img src="images/bash.png" width="50px;" height="50px;" alt="Bash"/><br /><b>Bash</b></a></td>
+  <td align="center"><a href="tools/languages/golang.md"><img src="images/go.png" width="50px;" height="50px;" alt="Golang"/><br /><b>Golang</b></a></td>
   <td align="center"><a href="tools/admin/git.md"><img src="images/git.png" width="50px;" height="50px;" alt="Source Control"/><br /><b>Source Control</b></a></td>
   <td align="center"><a href="tools/containers/docker.md"><img src="images/docker.png" width="50px;" height="50px;" alt="Docker"/><br /><b>Docker</b></a></td>
   <td align="center"><a href="tools/containers/kubernetes.md"><img src="images/kubernetes.png" width="50px;" height="50px;" alt="Kubernetes"/><br /><b>Kubernetes</b></a></td>
