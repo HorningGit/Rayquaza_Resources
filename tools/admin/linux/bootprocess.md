@@ -14,11 +14,12 @@ ___
     * BIOS Boot Partition (GRUB on BIOS/GPT only).
 5. Boot loader is launched!
 6. The boot loader then loads an operating system by either chain-loading or directly loading the operating system kernel. The boot loader is responsible for loading the kernel image and the initial RAM disk or filesystem into memory.
-  <!-- BIOS image -->
-<p align="center">
-  <img src="../../../images/bios.png?raw=true" alt="initramfs image"/>
-</p>
 
+```mermaid
+flowchart LR;
+    A[BIOS]-->B[MBR]-->C[Kernel]-->D[Boot Loader]-->E[Operating System]
+```
+  
   <!-- UEFI Process -->
 ##### :small_orange_diamond: [Under UEFI (Unified Extensible Firmware Interface)](https://wiki.archlinux.org/title/Arch_boot_process#Boot_loader)
 1. Linux system is switched on, followed by POST (power-on-self-test) process being executed.
