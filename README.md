@@ -37,31 +37,17 @@ gantt
   <td align="center"><a href="tools/containers/kubernetes.md"><img src="images/kubernetes.png" width="50px;" height="50px;" alt="Kubernetes"/><br /><b>Kubernetes</b></a></td>
   <td align="center"><a href="tools/containers/openshift.md"><img src="images/openshift.png" width="50px;" height="50px;" alt="OpenShift"/><br /><b>OpenShift</b></a></td>
  </table>
+ <table>
+  <tr>
+   <tr>Iac, SCM, and CI/CD</tr>
+   <td align="center"><a href="tools/iac/ansible.md"><img src="images/ansible.png" width="50px;" height="50px;" alt="Ansible"/><br /><b>Ansible</b></a></td>
+   <td align="center"><a href="tools/iac/terraform.md"><img src="images/terraform.png" width="50px;" height="50px;" alt="Terraform"/><br /><b>Terraform</b></a></td>
+   <td align="center"><a href="tools/cicd/jenkins.md"><img src="images/jenkins.png" width="50px;" height="50px;" alt="Jenkins"/><br /><b>Jenkins</b></a></td>
+  </tr>
+ </table> 
 </center>
 
 
-<!--IaC-->
-#####  Infrastructure as Code (IaC)
-<center>
-  <table>
-    <tr>
-      <td align="center"><a href="tools/iac/ansible.md"><img src="images/ansible.png" width="50px;" height="50px;" alt="Ansible"/><br /><b>Ansible</b></a></td>
-      <td align="center"><a href="tools/iac/terraform.md"><img src="images/terraform.png" width="50px;" height="50px;" alt="Terraform"/><br /><b>Terraform</b></a></td>
-    </tr>
-  </table>
-</center>
-
-<!--CI/CD-->
-
-#####  Continuous Integration / Continuous Deployment (CI/CD)
-<center>
-  <table>
-    <tr>
-      <td align="center"><a href="tools/cicd/jenkins.md"><img src="images/jenkins.png" width="50px;" height="50px;" alt="Jenkins"/><br /><b>Jenkins</b></a></td>
-      <td align="center"><a href="tools/cicd/githubactions.md"><img src="images/actions.png" width="50px;" height="50px;" alt="GitHub Actions"/><br /><b>GitHub Actions</b></a></td>
-    </tr>
-  </table>
-</center>
 
 #### Monitoring & Dashboards
 <center>
@@ -74,22 +60,11 @@ gantt
   </table>
 </center>
 
-<!-- Works Cited -->
+<!--Contact_Badges-->
 [![Linkedin Badge](https://img.shields.io/badge/-Alexander%20Horning-blue?style=social&logo=Linkedin&logoColor=blue&link=https://www.linkedin.com/in/alexander-horning-5b8bb918b/)](https://www.linkedin.com/in/alexander-horning-5b8bb918b/)
 [![Twitter Badge](http://img.shields.io/badge/-@LinuxTyranitar-1ca0f1?style=social&logo=twitter&logoColor=blue&link=https://https://twitter.com/LinuxTyranitar)](https://twitter.com/LinuxTyranitar)
 [![Medium Badge](http://img.shields.io/badge/-@alex.horning-1ca0f1?style=social&logo=Medium&logoColor=black&link=https://medium.com/@alex.horning)](https://medium.com/@alex.horning)
 [![Gmail Badge](https://img.shields.io/badge/ProtonMail-8B89CC?style=plastic?&logo=protonmail&logoColor=white)](mailto:Alexander.Horning@protonmail.com)
-
-
-#### Cloud Native Computing Foundation's Landscape
-Name | Comments
-:------|:------:
-[Cloud Native ~ Interactive Landscape](https://landscape.cncf.io/) | Categorization of cloud native open source projects as well as proprietary products.
-[Cloud Native ~ Trail Map](https://raw.githubusercontent.com/cncf/trailmap/master/CNCF_TrailMap_latest.pdf) | Cloud native's recommended process of leveraging open source infrastructures.
-[Cloud Native ~ Landscape Guide](https://landscape.cncf.io/guide) | Detailed guide on the use/implementation of Cloud Native's landscape.
-___
-
-## Alexander's Current Training Sites & Resources
 
 #### LFCA Training Path
 Course | Class | Platform | Complete?
