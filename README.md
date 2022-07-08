@@ -1,17 +1,3 @@
-```mermaid
-gantt
-    title DevOps Engineer Journey
-    dateFormat  YYYY-MM-DD
-    section Cloud Guru
-    LPIC-1 System Administrator    :a1, 2022-07-01, 45d
-    section Codecademy
-    Learn Go (I)        :a1, 2022-07-01, 15d
-    Learn Go (II)        :a2, 2022-07-16, 15d
-    Introduction to DevOps        :a3, 2022-07-01, 30d
-    section Books
-    O'Reilly Learning Go        :a1, 2022-07-01, 60d
-```
-
 <center>
  <table>
   <tr>Infrastructure, Networking, and Security</tr>
@@ -42,6 +28,22 @@ gantt
    <td align="center"><a href="tools/monitor/prometheus.md"><img src="images/prometheus.png" width="50px;" height="50px;" alt="Prometheus"/><br /><b>Prometheus</b></a></td> 
  </table> 
 </center>
+
+
+```mermaid
+gantt
+    title DevOps Engineer Journey
+    dateFormat  YYYY-MM-DD
+    section Cloud Guru
+    LPIC-1 System Administrator    :a1, 2022-07-01, 45d
+    section Codecademy
+    Learn Go (I)        :a1, 2022-07-01, 15d
+    Learn Go (II)        :a2, 2022-07-16, 15d
+    Introduction to DevOps        :a3, 2022-07-01, 30d
+    section Books
+    O'Reilly Learning Go        :a1, 2022-07-01, 60d
+```
+
 
 
 ___
