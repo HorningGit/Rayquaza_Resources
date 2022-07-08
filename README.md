@@ -1,3 +1,4 @@
+<!--Map-->
 ```mermaid
 gantt
     title DevOps Engineer Journey
@@ -11,6 +12,8 @@ gantt
     section Books
     O'Reilly Learning Go        :a1, 2022-07-01, 60d
 ```
+
+<!--Modules-->
 <center>
  <table>
   <tr>Infrastructure, Networking, and Security</tr>
@@ -42,8 +45,8 @@ gantt
  </table> 
 </center>
 
-___
 <!--Contact_Badges-->
+___
 [![Linkedin Badge](https://img.shields.io/badge/-Alexander%20Horning-blue?style=social&logo=Linkedin&logoColor=blue&link=https://www.linkedin.com/in/alexander-horning-5b8bb918b/)](https://www.linkedin.com/in/alexander-horning-5b8bb918b/)
 [![Twitter Badge](http://img.shields.io/badge/-@LinuxTyranitar-1ca0f1?style=social&logo=twitter&logoColor=blue&link=https://https://twitter.com/LinuxTyranitar)](https://twitter.com/LinuxTyranitar)
 [![Medium Badge](http://img.shields.io/badge/-@alex.horning-1ca0f1?style=social&logo=Medium&logoColor=black&link=https://medium.com/@alex.horning)](https://medium.com/@alex.horning)
