@@ -31,14 +31,4 @@ flowchart TD;
     F-->R
     Y-->W[Linux System]
     R-->W
-
-    style A fill:#FFABAB
-    style B fill:#FFBEBC
-    style E fill:#FFF5BA
-    style F fill:#FFFFD1
-    style C fill:#6EB5FF
-    style D fill:#85E3FF
-    style Y fill:#FFFFFF
-    style R fill:#FFFFFF
-    style W fill:#FFFFFF
 ```
