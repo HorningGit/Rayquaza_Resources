@@ -19,6 +19,15 @@ ___
 ## :notebook: Git CLI Cheat Sheet
 
 ##### :yellow_circle: Setting up Git
+ - Git (Downloads): https://git-scm.com/downloads
+ - GitHub CLI: https://cli.github.com/manual/
+
+Run the following command to authenticate with your GitHub account:
+```
+$ gh auth login
+```
+
+
 
 ##### :orange_circle: Initializing & Cloning Repositories
 
