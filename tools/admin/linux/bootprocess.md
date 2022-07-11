@@ -32,10 +32,6 @@ flowchart LR;
 ```mermaid
 flowchart LR;
     A[UEFI]-->B[EFI Boot Loader]-->C[Kernel]-->D[Operating System]
-    style A fill:#FFADAD
-    style B fill:#FFD6A5
-    style C fill:#FDFFB6
-    style D fill:#CAFFBF
 ```
 
 <!-- initramfs -->
@@ -53,10 +49,4 @@ flowchart TD;
     A[Initramfs]-->D[Locating Devices]
     A[Initramfs]-->E[Locating Drivers]
     A[Initramfs]-->F[Error Checking in Root]
-    style A fill:#F8F8F8
-    style B fill:#FFB5E8
-    style C fill:#FF9CEE
-    style D fill:#FFCCF9
-    style E fill:#FCC2FF
-    style F fill:#F6A6FF
 ```
