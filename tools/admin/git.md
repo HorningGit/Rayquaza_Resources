@@ -18,15 +18,15 @@ ___
 <!--Cheat Sheet-->
 ## :notebook: Git CLI Cheat Sheet
 
-### :yellow_circle: Setting up Git
+##### :yellow_circle: Setting up Git
 
-### :orange_circle: Initializing & Cloning Repositories
+##### :orange_circle: Initializing & Cloning Repositories
 
-### :red_circle: Staging & Snapshots
+##### :red_circle: Staging & Snapshots
 
-### :purple_circle: Branching & Merging
+##### :purple_circle: Branching & Merging
 
-### :large_blue_circle: Sharing & Updating
+##### :large_blue_circle: Sharing & Updating
 - Adding a Git URL to an Alias
 ```
 $ git remote add [alias] [url]
