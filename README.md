@@ -20,7 +20,7 @@ gantt
 <center>
  <table>
   <tr>Infrastructure, Networking, and Security</tr>
-   <td align="center"><a href="tools/admin/devops"><img src="images/ops.png" width="50px;" height="50px;" alt="DevOps"/><br /><b>DevOps</b></a></td>
+   <td align="center"><a href="tools/admin/devops.md"><img src="images/ops.png" width="50px;" height="50px;" alt="DevOps"/><br /><b>DevOps</b></a></td>
    <td align="center"><a href="tools/admin/linux"><img src="images/linux.png" width="50px;" height="50px;" alt="Linux"/><br /><b>Linux</b></a></td>
    <td align="center"><a href="tools/cloud/aws.md"><img src="images/aws.png" width="50px;" height="50px;" alt="AWS"/><br /><b>AWS</b></a></td>
    <td align="center"><a href="tools/cloud/azure.md"><img src="images/azure.png" width="50px;" height="50px;" alt="Azure"/><br /><b>Azure</b></a></td>
