@@ -1,8 +1,12 @@
 <!--DevOps_Theory-->
 ## DevOps Theory
 
+<!--DevOps_Methods-->
+## DevOps Methods
+
 <!--DevOps_Concepts-->
 ## DevOps Concepts
+
 <!--DevProcess_Content-->
 #### :pineapple: Software Development Process
 - **Unit Test** — Evaluates the smallest possible unit of testable code, such as a single function.
@@ -14,4 +18,12 @@
 ```mermaid
 flowchart LR
   A[Unit Testing]-->B[Integration Testing]-->C[Acceptance Testing]-->D[End-to-End Testing]
+```
+
+<!--DevOps_Toolchain-->
+## DevOps Toolchain
+<!--DevProcess_Flowchart-->
+```mermaid
+flowchart LR
+  A[Plan]-->B[Code]-->C[Build]-->D[Test]-->E[Deploy]-->F[Operate]-->G[Monitor]-->A
 ```
