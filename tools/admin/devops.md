@@ -24,6 +24,6 @@ flowchart LR
 ## DevOps Toolchain
 <!--DevProcess_Flowchart-->
 ```mermaid
-flowchart LR
+graph LR
   A[Plan]-->B[Code]-->C[Build]-->D[Test]-->E[Deploy]-->F[Operate]-->G[Monitor]-->A
 ```
