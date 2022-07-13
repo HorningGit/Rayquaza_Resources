@@ -22,7 +22,7 @@ ___
  - Git (Downloads): https://git-scm.com/downloads
  - GitHub CLI: https://cli.github.com/manual/
 
-Run the following command to authenticate with your GitHub account:
+After installing GitHub CLI, run the following command to authenticate with your GitHub account:
 ```
 $ gh auth login
 ```
