@@ -6,13 +6,13 @@
  <table>
   <tr>
    <td align="center"><a href="./modules/bootprocess.md"><img src="./images/hdd.png" width="50px;" height="50px;" alt="Boot Process"/><br /><b>Boot Process</b></a></td>
-   <td align="center"><a href="./partitions.md"><img src="./images/partition.png" width="50px;" height="50px;" alt="Partition & Mount"/><br /><b>Partitioning & Mounting</b></a></td>
-   <td align="center"><a href="./systemd.md"><img src="./images/system.png" width="50px;" height="50px;" alt="Systemd"/><br /><b>Systemd</b></a></td>
-   <td align="center"><a href="./processmgmt.md"><img src="./images/cpu.png" width="50px;" height="50px;" alt="Process Management"/><br /><b>Process Management</b></a></td>
-   <td align="center"><a href="./packagemgmt.md"><img src="./images/pkg.png" width="50px;" height="50px;" alt="Package Management"/><br /><b>Package Management</b></a></td>
-   <td align="center"><a href="./files.md"><img src="./images/file.png" width="50px;" height="50px;" alt="Files & File Systems"/><br /><b>Files & File Systems</b></a></td>
-   <td align="center"><a href="./users.md"><img src="./images/user.png" width="50px;" height="50px;" alt="User Control"/><br /><b>User Control</b></a></td>
-   <td align="center"><a href="./security.md"><img src="./images/selinux.png" width="50px;" height="50px;" alt="SELinux"/><br /><b>SELinux</b></a></td>
+   <td align="center"><a href="./modules/partitions.md"><img src="./images/partition.png" width="50px;" height="50px;" alt="Partition & Mount"/><br /><b>Partitioning & Mounting</b></a></td>
+   <td align="center"><a href="./modules/systemd.md"><img src="./images/system.png" width="50px;" height="50px;" alt="Systemd"/><br /><b>Systemd</b></a></td>
+   <td align="center"><a href="./modules/processmgmt.md"><img src="./images/cpu.png" width="50px;" height="50px;" alt="Process Management"/><br /><b>Process Management</b></a></td>
+   <td align="center"><a href="./modules/packagemgmt.md"><img src="./images/pkg.png" width="50px;" height="50px;" alt="Package Management"/><br /><b>Package Management</b></a></td>
+   <td align="center"><a href="./modules/files.md"><img src="./images/file.png" width="50px;" height="50px;" alt="Files & File Systems"/><br /><b>Files & File Systems</b></a></td>
+   <td align="center"><a href="./modules/users.md"><img src="./images/user.png" width="50px;" height="50px;" alt="User Control"/><br /><b>User Control</b></a></td>
+   <td align="center"><a href="./modules/security.md"><img src="./images/selinux.png" width="50px;" height="50px;" alt="SELinux"/><br /><b>SELinux</b></a></td>
  </table>
 </center>
 
