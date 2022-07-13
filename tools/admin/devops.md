@@ -6,4 +6,6 @@
 - **End-to-end Test** — evaluates the application’s behavior using production-like infrastructure that includes networking, databases, and calls to external APIs.
 
 ```mermaid
+flowchart LR
+  A[Unit Testing]-->B[Integration Testing]-->C[Acceptance Testing]-->D[End-to-End Testing]
 ```
