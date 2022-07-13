@@ -9,7 +9,7 @@ Source control (or version control) is the process of managing changes to a code
 - And Many More!
 
 <!--Git vs GitHub-->
-### :orange: Git vs. GitHub
+##### :orange: Git vs. GitHub
 Many times new admins/developers will conflate Git and GitHub. While they are similar sounding, their technologies are drastically different.
 
 **Git** is a free and open source version control system that is locally installed. It is primarily used via command line in order to achieve the benefits listed above (see General SCM Info). **GitHub** is rather a cloud-based distributed version-control platform where developers can utilize **Git** to upload to.
