@@ -8,6 +8,9 @@
 ## DevOps Concepts
 
 <!--DevProcess_Content-->
+#### :pineapple: Build Automation
+
+
 #### :pineapple: Software Development Process
 - **Unit Test** — Evaluates the smallest possible unit of testable code, such as a single function.
 - **Integration Test** — Evaluates how the units of a particular program work with one another.
