@@ -19,7 +19,7 @@ ___
 
 ```mermaid
 flowchart LR;
-    A[BIOS]-->B[MBR]-->C[Kernel]-->D[Boot Loader]-->E[Operating System]
+    A[BIOS]-->B[MBR]-->C[Boot Loader]-->D[Kernel]-->E[Operating System]
 ```
   
   <!-- UEFI Process -->
