@@ -1,5 +1,5 @@
 <!-- Header -->
-# :strawberry: GNU | Linux :kiwi_fruit:
+# :ox: GNU | Linux :penguin:
 <!--Modules-->
 ###### Select Module for Detailed Information 
 <center>
