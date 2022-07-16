@@ -35,7 +35,6 @@ gantt
     <td align="center"><a href="https://github.com/HorningGit/Groudon_Go"><img src="images/go.png" width="50px;" height="50px;" alt="Golang"/><br /><b>Golang</b></a></td>
     <td align="center"><a href="tools/containers/docker.md"><img src="images/docker.png" width="50px;" height="50px;" alt="Docker"/><br /><b>Docker</b></a></td>
    <td align="center"><a href="tools/containers/kubernetes.md"><img src="images/kubernetes.png" width="50px;" height="50px;" alt="Kubernetes"/><br /><b>Kubernetes</b></a></td>
-    <td align="center"><a href="tools/containers/openshift.md"><img src="images/openshift.png" width="50px;" height="50px;" alt="OpenShift"/><br /><b>OpenShift</b></a></td>
  </table>
  <table>
   <tr>Iac, SCM, CI/CD, and Monitoring</tr>
