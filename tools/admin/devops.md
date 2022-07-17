@@ -1,6 +1,12 @@
 <!--DevOps_Theory-->
 ## DevOps Theory
-
+<!--DevOps_Toolchain-->
+##### DevOps Toolchain
+<!--DevProcess_Flowchart-->
+```mermaid
+graph LR
+  A[Plan]-->B[Code]-->C[Build]-->D[Test]-->E[Deploy]-->F[Operate]-->G[Monitor]-->A
+```
 <!--DevOps_Methods-->
 ## DevOps Methods
 
@@ -40,10 +46,3 @@ flowchart LR
   A[Unit Testing]-->B[Integration Testing]-->C[Acceptance Testing]-->D[End-to-End Testing]
 ```
 
-<!--DevOps_Toolchain-->
-## DevOps Toolchain
-<!--DevProcess_Flowchart-->
-```mermaid
-graph LR
-  A[Plan]-->B[Code]-->C[Build]-->D[Test]-->E[Deploy]-->F[Operate]-->G[Monitor]-->A
-```
