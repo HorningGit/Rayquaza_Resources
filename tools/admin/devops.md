@@ -19,22 +19,14 @@
 4. Transformed
 5. Unit Tested
 
-### :pineapple: Continuous Integration
+### :apple: Continuous Integration | Continuous Delivery | Continuous Deployment
+##### :pineapple: Continuous Integration
 ```mermaid
 flowchart LR
     A[Developer]-->B[SCM]-->C[Automatic Build]-->D[Automatic Test]
     D -->|Fail| A
     D -->|Pass| E[CD/CD Process]
 ```
-
-### :pineapple: Continuous Delivery
-```mermaid
-flowchart LR
-    A[Developer]-->B[SCM]-->C[Automatic Build]-->D[Automatic Test]
-    D -->|Fail| A
-    D -->|Pass| E[CD/CD Process]
-```
-
 
 ### :pineapple: Software Development Process
 - **Unit Test** — Evaluates the smallest possible unit of testable code, such as a single function.
