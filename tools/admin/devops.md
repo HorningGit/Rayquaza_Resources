@@ -23,8 +23,8 @@
 ```mermaid
 flowchart LR
     A[Developer]-->B[SCM]-->C[Automatic Build]-->D[Automatic Test]
-    D -->|Yes| A
-    D -->|No| E[CD/CD Process]
+    D -->|Fail| A
+    D -->|Pass| E[CD/CD Process]
 ```
 
 
