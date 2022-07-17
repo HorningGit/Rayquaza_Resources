@@ -19,6 +19,17 @@
 4. Transformed
 5. Unit Tested
 
+### :pineapple: Continuous Integration
+* Automatic tests such as unit tests are utilized to test code continuously.
+* Configuration Files and Scripts are placed alongside source code within the repository.
+* Build automation will allow administrators to clone the repository, and be able to build it on any system (including CI/CD Server).
+* Build automation is consistent which removes many errors associated with manual builds. 
+1. Compiled
+2. Linted
+3. Minified
+4. Transformed
+5. Unit Tested
+
 
 
 ### :pineapple: Software Development Process
