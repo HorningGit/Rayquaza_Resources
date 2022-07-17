@@ -20,11 +20,12 @@
 5. Unit Tested
 
 ### :pineapple: Continuous Integration
+```mermaid
 flowchart LR
     A[Developer]-->B[SCM]-->C[Automatic Build]-->D[Automatic Test]
     D -->|Yes| A
     D -->|No| E[CD/CD Process]
-
+```
 
 
 ### :pineapple: Software Development Process
