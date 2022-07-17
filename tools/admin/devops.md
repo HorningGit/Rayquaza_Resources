@@ -9,12 +9,13 @@
 
 <!--DevProcess_Content-->
 ### :pineapple: Build Automation
-**Preparing Code for Automation in a Live Environment**
-- Compiled
-- Linted
-- Minified
-- Transformed
-- Unit Tested
+* Preparing Code for Automation in a Live Environment
+* Configuration Files and Scripts are placed alongside source code within the repository.
+1. Compiled
+2. Linted
+3. Minified
+4. Transformed
+5. Unit Tested
 
 
 
