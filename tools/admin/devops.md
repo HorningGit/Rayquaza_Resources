@@ -28,7 +28,7 @@ graph LR
 ### :apple: Continuous Integration | Continuous Delivery | Continuous Deployment
 
 <p align="center">
-  <img src="/tools/admin/images/jenkins.png?raw=true" alt="initramfs image"/>
+  <img src="/images/jenkins.png?raw=true" alt="initramfs image"/>
 </p>
 
 ##### :pineapple: Continuous Integration
