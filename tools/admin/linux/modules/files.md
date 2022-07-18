@@ -91,12 +91,13 @@ ln - make links between files
 -t, --target-directory=DIRECTORY
               specify the DIRECTORY in which to create the links
 ```
-
+## :cherries: Root
 ___
 ## :cherries: _/bin_
 
 ___
 ## ::cherries: _/boot_
+## ::cherries: _/dev_
 
 ___
 ## :cherries: _/etc_
