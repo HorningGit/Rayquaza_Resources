@@ -8,6 +8,21 @@ Source control (or version control) is the process of managing changes to a code
 - Revert to Previous Commits
 - And Many More!
 
+```mermaid
+flowchart LR
+  A[Working Directory]-->B[Staging Area]-->C[Respository]
+```
+
+1. **Working Directory**
+    - Addition of Code
+    - Modification of Code
+    - Deletion of Code
+2. **Staging Area**
+    - Files Ready for Commit
+3. **Repository**
+    - Changes are Finalized into the Repository
+
+___
 <!--Git vs GitHub-->
 ##### :orange: Git vs. GitHub
 Many times new admins/developers will conflate Git and GitHub. While they are similar sounding, their technologies are drastically different.
@@ -16,20 +31,25 @@ Many times new admins/developers will conflate Git and GitHub. While they are si
 
 ___
 <!--Cheat Sheet-->
-## :notebook: Git CLI Cheat Sheet
-
-##### :yellow_circle: Setting up Git
+## :computer: Git & GitHub :computer:
+### :notebook: Setup
+##### :yellow_circle: Setting up Git & GitHub CLI
  - Git (Downloads): https://git-scm.com/downloads
  - GitHub CLI: https://cli.github.com/manual/
+
 
 After installing GitHub CLI, run the following command to authenticate with your GitHub account:
 ```
 $ gh auth login
 ```
 
-
-
 ##### :orange_circle: Initializing & Cloning Repositories
+
+
+
+
+
+
 
 ##### :red_circle: Staging & Snapshots
 
