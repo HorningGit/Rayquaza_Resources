@@ -8,10 +8,9 @@ gantt
     LPIC-1 System Administrator    :a1, 2022-07-01, 45d
     section Codecademy
     Learn Go (I)        :a1, 2022-07-01, 15d
-    Learn Go (II)        :a2, 2022-07-16, 15d
+    Learn Go (I)        :a2, 2022-07-16, 15d
     Learn Git & GitHub        :a1, 2022-07-10, 18d
-
-    Introduction to DevOps        :a3, 2022-07-01, 30d
+    Introduction to DevOps        :a3, 2022-07-31, 14d
     section Books
     O'Reilly Learning Go        :a1, 2022-07-01, 60d
 ```
