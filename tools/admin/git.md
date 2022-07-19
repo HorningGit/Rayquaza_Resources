@@ -53,7 +53,7 @@ $ git merge [alias]/[branch]
 $ git push [alias] [branch]
 ```
 
-### :green_circle: Monitoring
+##### :green_circle: Monitoring
 - Display commit history for current branch:
 ```
 $ git log
