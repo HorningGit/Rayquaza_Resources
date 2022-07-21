@@ -1,5 +1,7 @@
 <!--DevOps_Theory-->
 ## DevOps Theory
+
+##### CAMS Model
 <!--DevOps_Toolchain-->
 ##### DevOps Toolchain
 <!--DevProcess_Flowchart-->
@@ -12,6 +14,14 @@ graph LR
 
 <!--DevOps_Concepts-->
 ## DevOps Concepts
+
+## Infrastructure as Code
+There are five categories of IaC tools:
+1. Ad hoc scripts
+2. Configuration Management Tools
+3. Server Templating Tools
+4. Orchestration Tools
+5. Provisioning Tools
 
 <!--DevProcess_Content-->
 ### :pineapple: Build Automation
