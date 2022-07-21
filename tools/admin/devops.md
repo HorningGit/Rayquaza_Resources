@@ -17,11 +17,16 @@ graph LR
 
 ## Infrastructure as Code
 There are five categories of IaC tools:
-1. Ad hoc scripts
-2. Configuration Management Tools
-3. Server Templating Tools
-4. Orchestration Tools
-5. Provisioning Tools
+1. **Ad hoc scripts**
+2. **Configuration Management Tools**
+    - Main Tool: Ansible
+    - Benefits:
+      - Coding Conventions
+      - Idempotence
+      - Distrobution
+4. **Server Templating Tools**
+5. **Orchestration Tools**
+6. **Provisioning Tools**
 
 <!--DevProcess_Content-->
 ### :pineapple: Build Automation
