@@ -4,11 +4,20 @@
 - DevOps is fundamentally rooted in an ethos of collaboration. Historically developers and operations have been on siloed teams creating a myriad of issues. Collaboration is the foundation of the DevOps culture. Without collaboration, there is no DevOps.
 
 ##### Processes
+- After the ethos of collaboration has been accepted, it is mandatory to develop processes for executing the integration between teams. From a higher level perspective, we can break down these processes using the DevOps toolchain.
+###### DevOps Toolchain
+<!--DevProcess_Flowchart-->
+```mermaid
+graph LR
+  A[Plan]-->B[Code]-->C[Build]-->D[Test]-->E[Deploy]-->F[Operate]-->G[Monitor]-->A
+```
+
+
 ##### Tools
 
 ##### CAMS Model
 <!--DevOps_Toolchain-->
-##### DevOps Toolchain
+###### DevOps Toolchain
 <!--DevProcess_Flowchart-->
 ```mermaid
 graph LR
