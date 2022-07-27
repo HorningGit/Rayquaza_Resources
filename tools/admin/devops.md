@@ -1,6 +1,8 @@
 <!--DevOps_Theory-->
 ## DevOps Theory
 ##### Collaboration
+- DevOps is fundamentally rooted in an ethos of collaboration. Historically developers and operations have been on siloed teams creating a myriad of issues. Collaboration is the foundation of the DevOps culture. Without collaboration, there is no DevOps.
+
 ##### Processes
 ##### Tools
 
