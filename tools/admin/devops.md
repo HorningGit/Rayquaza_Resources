@@ -23,6 +23,14 @@ From this toolchain, we can compartmentalize these steps into several phases:
 - Continuous Deployment
 - Continuous Monitoring
 
+##### :pineapple: Continuous Integration
+```mermaid
+flowchart LR
+    A[Developer]-->B[SCM]-->C[Automatic Build]-->D[Automatic Test]
+    D -->|Fail| A
+    D -->|Pass| E[CD/CD Process]
+```
+
 ##### Tools
 
 ##### CAMS Model
@@ -65,13 +73,6 @@ There are five categories of IaC tools:
   <img src="/images/jenkins.png?raw=true" alt="initramfs image"/>
 </p>
 
-##### :pineapple: Continuous Integration
-```mermaid
-flowchart LR
-    A[Developer]-->B[SCM]-->C[Automatic Build]-->D[Automatic Test]
-    D -->|Fail| A
-    D -->|Pass| E[CD/CD Process]
-```
 
 ### :pineapple: Software Development Process
 - **Unit Test** — Evaluates the smallest possible unit of testable code, such as a single function.
