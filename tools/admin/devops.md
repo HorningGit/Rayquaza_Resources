@@ -1,5 +1,9 @@
 <!--DevOps_Theory-->
 ## DevOps Theory
+- Collaboration
+- Processes
+- Tools
+
 
 ##### CAMS Model
 <!--DevOps_Toolchain-->
