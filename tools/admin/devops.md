@@ -15,6 +15,7 @@
 graph LR
   A[Plan]-->B[Code]-->C[Build]-->D[Test]-->E[Deploy]-->F[Operate]-->G[Monitor]-->A
 ```
+
 From this toolchain, we can compartmentalize these steps into several phases:
 - Planning & Priority Prioritization
 - Development of the Plan
@@ -40,6 +41,12 @@ Continuous delivery focuses on preparing the application after the **CI** proces
 - **Tools in the CD Process**
   - Package Manager (ex. Artifactory, jFrog)
   - Configuration Manager (Ansible)
+```mermaid
+graph LR
+  A[CI Process]-->|Auto| B[Staging Environment]
+  B-->|Auto| C[Acceptance Test]
+  C-->|Manual| D[Production Environment]
+```
 
 ##### Tools
 
