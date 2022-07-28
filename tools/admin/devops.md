@@ -1,12 +1,12 @@
 <!--DevOps_Theory-->
-## DevOps Theory
+# DevOps Theory
 
 <!--DevOps_Collboration-->
-#### Collaboration
+## Collaboration
 - DevOps is fundamentally rooted in an ethos of collaboration. Historically developers and operations have been on siloed teams creating a myriad of issues. Collaboration is the foundation of the DevOps culture. Without collaboration, there is no DevOps.
 
 <!--DevOps_Processes-->
-#### Processes
+## Processes
 - After the ethos of collaboration has been accepted, it is mandatory to develop processes for executing the integration between teams. From a higher level perspective, we can break down these processes using the DevOps toolchain. This toolchain is a process flow template used as a reference for DevOps administrators.
 <!--DevOps_Toolchain-->
 ###### DevOps Toolchain
@@ -23,7 +23,10 @@ From this toolchain, we can compartmentalize these steps into several phases:
 - Continuous Deployment
 - Continuous Monitoring
 
-##### :pineapple: Continuous Integration
+### :pineapple: Continuous Integration
+- **Tools in the CI Process**
+  - Source Code Management (ex. Git)
+  - CI Server (ex. Jenkins)
 ```mermaid
 flowchart LR
     A[Developer]-->B[SCM]-->C[Automatic Build]-->D[Automatic Test]
