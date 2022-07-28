@@ -5,7 +5,7 @@
 
 General Syntax for Resource Creation:
 ```terraform
-resources "<PROVIDER>_<TYPE>" "<NAME>" {
+resource "<PROVIDER>_<TYPE>" "<NAME>" {
   [CONFIG ...]
 }
 ```
