@@ -37,9 +37,21 @@ ___
  - Git (Downloads): https://git-scm.com/downloads
  - GitHub CLI: https://cli.github.com/manual/
 
+Install Git via the following command (RHEL-based Systems)
+```bash
+$ sudo dnf install git-all
+```
+
+Install GitHub CLI via the following commands (RHEL-based Systems)
+```bash
+$ sudo dnf install 'dnf-command(config-manager)'
+$ sudo dnf config-manager --add-repo https://cli.github.com/packages/rpm/gh-cli.repo
+$ sudo dnf install gh
+```
+
 
 After installing GitHub CLI, run the following command to authenticate with your GitHub account:
-```
+```bash
 $ gh auth login
 ```
 
