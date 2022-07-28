@@ -25,7 +25,7 @@ From this toolchain, we can compartmentalize these steps into several phases:
 - Continuous Monitoring
 
 ### :pineapple: Continuous Integration
-- **Tools in the CI Process**
+- **Tools for Continuous Integration:**
   - Source Code Management (ex. Git)
   - CI Server (ex. Jenkins)
     - Build the Application Package (Compile, File Transformation, Linting, etc.)
@@ -38,7 +38,7 @@ flowchart LR
 ```
 ### :kiwi_fruit: Continuous Delivery
 Continuous delivery focuses on preparing the application after the **CI** process. This is done by deploying the application in one or more test (or non-production) environments. This is the process of **staging**.
-- **Tools in the CD Process**
+- **Tools for Continuous Delivery:**
   - Package Manager (ex. Artifactory, jFrog)
   - Configuration Manager (Ansible)
 ```mermaid
