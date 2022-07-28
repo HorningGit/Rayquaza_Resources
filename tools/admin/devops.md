@@ -31,7 +31,7 @@ From this toolchain, we can compartmentalize these steps into several phases:
     - Perform Unit Tests
 ```mermaid
 flowchart LR
-    A[Developer]-->B[SCM]-->C[Automatic Build]-->D[Automatic Test]
+    A[Developer]-->B[SCM]-->C[Automatic Build]-->D[Automatic Unit Tests]
     D -->|Fail| A
     D -->|Pass| E[CD/CD Process]
 ```
