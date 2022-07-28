@@ -27,6 +27,8 @@ From this toolchain, we can compartmentalize these steps into several phases:
 - **Tools in the CI Process**
   - Source Code Management (ex. Git)
   - CI Server (ex. Jenkins)
+    - Build the Application Package (Compile, File Transformation, Linting, etc.)
+    - Perform Unit Tests
 ```mermaid
 flowchart LR
     A[Developer]-->B[SCM]-->C[Automatic Build]-->D[Automatic Test]
