@@ -4,6 +4,10 @@
 - Expressions: Represent a value.
 
 General Syntax for Resource Creation:
+  - Resource = Name of provider (ex. aws)
+  - TYPE = Resource to be created
+  - NAME = Reference name to be called in later code
+  - CONFIG = Arguments to define resource attributes
 ```terraform
 resource "<PROVIDER>_<TYPE>" "<NAME>" {
   [CONFIG ...]
