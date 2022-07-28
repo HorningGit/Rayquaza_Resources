@@ -30,6 +30,7 @@ From this toolchain, we can compartmentalize these steps into several phases:
   - CI Server (ex. Jenkins)
     - Build the Application Package (Compile, File Transformation, Linting, etc.)
     - Perform Unit Tests
+###### Continous Integration Process
 ```mermaid
 flowchart LR
     A[Developer]-->B[SCM]-->C[Automatic Build]-->D[Automatic Unit Tests]
@@ -41,6 +42,7 @@ Continuous delivery focuses on preparing the application after the **CI** proces
 - **Tools for Continuous Delivery:**
   - Package Manager (ex. Artifactory, jFrog)
   - Configuration Manager (Ansible)
+###### Continous Delivery Process
 ```mermaid
 graph LR
   A[CI Process]-->|Auto| B[Staging Environment]
