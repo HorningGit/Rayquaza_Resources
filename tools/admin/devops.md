@@ -36,7 +36,10 @@ flowchart LR
     D -->|Pass| E[CD/CD Process]
 ```
 ### :kiwi_fruit: Continuous Delivery
-
+Continuous delivery focuses on preparing the application after the **CI** process. This is done by deploying the application in one or more test (or non-production) environments. This is the process of **staging**.
+- **Tools in the CD Process**
+  - Package Manager (ex. Artifactory, jFrog)
+  - Configuration Manager (Ansible)
 
 ##### Tools
 
