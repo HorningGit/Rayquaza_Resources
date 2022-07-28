@@ -35,6 +35,8 @@ flowchart LR
     D -->|Fail| A
     D -->|Pass| E[CD/CD Process]
 ```
+### :kiwi_fruit: Continuous Delivery
+
 
 ##### Tools
 
