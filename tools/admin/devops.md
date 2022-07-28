@@ -45,9 +45,11 @@ Continuous delivery focuses on preparing the application after the **CI** proces
 ###### Continous Delivery Process
 ```mermaid
 graph LR
+  subgraph Package Management
   A[CI Process]-->|Auto| B[Staging Environment]
   B-->|Auto| C[Acceptance Test]
   C-->|Manual| D[Production Environment]
+  end
 ```
 
 ##### Tools
