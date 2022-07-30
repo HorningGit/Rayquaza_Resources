@@ -1,7 +1,7 @@
 <!-- Header -->
 # :ox: GNU | Linux :penguin:
 <!--Modules-->
-###### Select Module for Detailed Information 
+##### Select Module for Detailed Information 
 <center>
  <table>
   <tr>
