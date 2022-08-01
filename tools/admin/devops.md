@@ -51,6 +51,17 @@ graph LR
   C-->|Manual| D[Production Environment]
   end
 ```
+### :kiwi_fruit: Continuous Delivery
+###### Continous Delivery Process
+```mermaid
+graph LR
+  subgraph Package Management
+  A[CI Process]-->|Auto| B[Staging Environment]
+  B-->|Auto| C[Acceptance Test]
+  C-->|Auto| D[Production Environment]
+  end
+```
+
 
 ##### Tools
 
