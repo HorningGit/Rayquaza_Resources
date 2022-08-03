@@ -5,8 +5,8 @@
 
 ___
 ### Configuring the Terraform Provider on Azure
-1. First, an Azure **service principle** is required for Terraform code to connect to Azure.
-2. Use the [export]() command to configure the following Terraform environment variables:
+1. First, an Azure **service principle** is required for Terraform code to authenticate to Azure.
+2. Use the [export](https://www.man7.org/linux/man-pages/man1/export.1p.html) command to configure the following Terraform environment variables:
 ```bash
 export ARM_SUBSCRIPTION_ID=xxxxx-xxxxx-xxxx-xxxx
 export ARM_CLIENT_ID=xxxxx-xxxxx-xxxx-xxxx
