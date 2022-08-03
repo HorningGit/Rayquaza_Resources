@@ -13,7 +13,6 @@ export ARM_CLIENT_ID=xxxxx-xxxxx-xxxx-xxxx
 export ARM_CLIENT_SECRET=xxxxxxxxxxxxxxxxxx
 export ARM_TENANT_ID=xxxxx-xxxxx-xxxx-xxxx
 ```
-[(Documentation for EV Values)](https://github.com/HorningGit/Rayquaza_Resources/blob/master/tools/cloud/azure.md)
 
 ```terraform
 provider "azurerm" {}
