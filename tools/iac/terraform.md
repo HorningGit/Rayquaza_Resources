@@ -4,7 +4,7 @@
 - Expressions: Represent a value.
 
 ___
-### Configuring Terraform Provider on Azure
+### Configuring the Terraform Provider on Azure
 1. First, an Azure **service principle** is required for Terraform code to connect to Azure.
 2. Use the [export]() command to configure the following Terraform environment variables:
 ```bash
