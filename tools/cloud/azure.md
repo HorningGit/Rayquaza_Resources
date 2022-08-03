@@ -1,6 +1,6 @@
 # Azure
 
-#### Service Principles
+### Service Principles
 - **Service principles** are _application users_ who have permissions to manage Azure resources.
 
 ##### Creating Azure Service Principles
