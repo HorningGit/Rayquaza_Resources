@@ -4,7 +4,7 @@
 - Expressions: Represent a value.
 
 ___
-### Configuring the Terraform Provider on Azure
+### Configure Terraform for Azure Authentication
 1. First, an Azure **service principle** is required for Terraform code to authenticate to Azure.
 2. Use the [export](https://www.man7.org/linux/man-pages/man1/export.1p.html) command to configure the following Terraform environment variables:
 ```bash
