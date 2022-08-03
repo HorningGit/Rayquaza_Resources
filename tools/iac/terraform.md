@@ -14,3 +14,7 @@ resource "<PROVIDER>_<TYPE>" "<NAME>" {
   [CONFIG ...]
 }
 ```
+
+```terraform
+provider "azurerm" {}
+```
