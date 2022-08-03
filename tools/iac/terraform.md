@@ -6,7 +6,7 @@
 ___
 ### Configure Terraform for Azure Authentication
 1. First, an Azure **service principle** is required for Terraform code to authenticate to Azure.
-2. Aquire the Subscription ID, Client ID, Client Secret, and Tenant ID. [See Documentation](https://github.com/HorningGit/Rayquaza_Resources/blob/master/tools/cloud/azure.md)
+2. Aquire the Subscription ID, Client ID, Client Secret, and Tenant ID. [(Documentation)](https://github.com/HorningGit/Rayquaza_Resources/blob/master/tools/cloud/azure.md)
 3. Use the [export](https://www.man7.org/linux/man-pages/man1/export.1p.html) command to configure the following Terraform environment variables:
 ```bash
 export ARM_SUBSCRIPTION_ID=xxxxx-xxxxx-xxxx-xxxx
