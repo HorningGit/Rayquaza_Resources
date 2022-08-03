@@ -4,6 +4,23 @@
 - Expressions: Represent a value.
 
 ___
+### Configuring Terraform Provider on Azure
+1. First, an Azure **service principle** is required for Terraform code to connect to Azure.
+2. Use the [export]() command to configure the following Terraform environment variables:
+```bash
+export ARM_SUBSCRIPTION_ID=xxxxx-xxxxx-xxxx-xxxx
+export ARM_CLIENT_ID=xxxxx-xxxxx-xxxx-xxxx
+export ARM_CLIENT_SECRET=xxxxxxxxxxxxxxxxxx
+export ARM_TENANT_ID=xxxxx-xxxxx-xxxx-xxxx
+```
+
+```terraform
+provider "azurerm" {}
+```
+
+
+___
+### Creating Resources
 General Syntax for Resource Creation:
   - Resource = Name of provider (ex. aws)
   - TYPE = Resource to be created
