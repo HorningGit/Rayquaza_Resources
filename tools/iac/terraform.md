@@ -4,6 +4,12 @@
 - Expressions: Represent a value.
 
 ___
+### Terraform Providers
+- [Microsoft Azure](https://registry.terraform.io/providers/hashicorp/azurerm/latest)
+- [Kubernetes](https://registry.terraform.io/providers/hashicorp/kubernetes/latest)
+- Expressions: Represent a value.
+
+___
 ### Configure Terraform for Azure Authentication
 1. First, an Azure **service principle** is required for Terraform code to authenticate to Azure.
 2. Use the [export](https://www.man7.org/linux/man-pages/man1/export.1p.html) command to configure the following Terraform environment variables:
