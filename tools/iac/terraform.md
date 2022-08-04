@@ -7,7 +7,7 @@ ___
 ### Terraform Providers
 - [Microsoft Azure](https://registry.terraform.io/providers/hashicorp/azurerm/latest)
 - [Kubernetes](https://registry.terraform.io/providers/hashicorp/kubernetes/latest)
-- Expressions: Represent a value.
+- [Amazon Web Services](https://registry.terraform.io/providers/hashicorp/aws/latest)
 
 ___
 ### Configure Terraform for Azure Authentication
