@@ -22,6 +22,12 @@ flowchart LR
 3. **Repository**
     - Changes are Finalized into the Repository
 
+### :banana: Basic Git Workflow
+```mermaid
+graph LR
+  A[Branch Creation]-->B[Commit]-->C[Pull Request]-->D[Review]-->E[Merge & Delete]-->A
+```
+
 ___
 <!--Git vs GitHub-->
 ##### :orange: Git vs. GitHub
