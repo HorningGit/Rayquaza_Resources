@@ -37,6 +37,21 @@ gitGraph
   checkout main
   commit id: "3"
 ```
+###### :alien: Git Merging
+```mermaid
+gitGraph
+  commit id: "1"
+  commit id: "2"
+  branch merge_example
+  checkout merge_example
+  commit id: "b_1"
+  commit id: "b_2"
+  checkout main
+  merge merge_example
+  commit id: "3"
+  commit id: "4"
+```
+
 
 ___
 <!--Git vs GitHub-->
