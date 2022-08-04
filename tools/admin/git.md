@@ -22,10 +22,20 @@ flowchart LR
 3. **Repository**
     - Changes are Finalized into the Repository
 
-### :banana: Basic Git Workflow
+###### :alien: Basic Git Workflow
 ```mermaid
 graph LR
   A[Branch Creation]-->B[Commit]-->C[Pull Request]-->D[Review]-->E[Merge & Delete]-->A
+```
+###### :alien: Git Branching
+```mermaid
+gitGraph
+  commit id: "1"
+  commit id: "2"
+  branch branch_example
+  commit id: "b_1"
+  checkout main
+  commit id: "3"
 ```
 
 ___
