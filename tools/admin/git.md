@@ -22,36 +22,12 @@ flowchart LR
 3. **Repository**
     - Changes are Finalized into the Repository
 
-###### :alien: Basic Git Workflow
+___
+###### Basic Git Workflow
 ```mermaid
 graph LR
   A[Branch Creation]-->B[Commit]-->C[Pull Request]-->D[Review]-->E[Merge & Delete]-->A
 ```
-###### :alien: Git Branching
-```mermaid
-gitGraph
-  commit id: "1"
-  commit id: "2"
-  branch branch_example
-  commit id: "b_1"
-  checkout main
-  commit id: "3"
-```
-###### :alien: Git Merging
-```mermaid
-gitGraph
-  commit id: "1"
-  commit id: "2"
-  branch merge_example
-  checkout merge_example
-  commit id: "b_1"
-  commit id: "b_2"
-  checkout main
-  merge merge_example
-  commit id: "3"
-  commit id: "4"
-```
-
 
 ___
 <!--Git vs GitHub-->
@@ -88,16 +64,33 @@ $ gh auth login
 
 ##### :orange_circle: Initializing & Cloning Repositories
 
-
-
-
-
-
-
 ##### :red_circle: Staging & Snapshots
 
 ##### :purple_circle: Branching & Merging
-
+###### Git Branching
+```mermaid
+gitGraph
+  commit id: "1"
+  commit id: "2"
+  branch branch_example
+  commit id: "b_1"
+  checkout main
+  commit id: "3"
+```
+###### Git Merging
+```mermaid
+gitGraph
+  commit id: "1"
+  commit id: "2"
+  branch merge_example
+  checkout merge_example
+  commit id: "b_1"
+  commit id: "b_2"
+  checkout main
+  merge merge_example
+  commit id: "3"
+  commit id: "4"
+```
 ##### :large_blue_circle: Sharing & Updating
 - Adding a Git URL to an Alias
 ```
