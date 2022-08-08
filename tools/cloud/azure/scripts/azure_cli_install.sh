@@ -7,3 +7,8 @@
 # Email         : Alex.Horning@gmail.com
 ###################################################################
 
+# Automatic exit if commands fail
+set -e
+set -o pipefail
+
+# Import Mic
