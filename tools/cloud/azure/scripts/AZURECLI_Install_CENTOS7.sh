@@ -1,7 +1,7 @@
 #!/bin/bash 
 
 ###################################################################
-# Script Name   : AzureCLI_Install_CENTOS7.sh
+# Script Name   : AzureCLI_Install_RHEL8.sh
 # Description   : Installation of Azure CLI
 # Author        : Alexander Horning
 # Email         : Alex.Horning@gmail.com
@@ -15,7 +15,7 @@ set -o pipefail
 rpm --import https://packages.microsoft.com/keys/microsoft.asc
 
 # Add the _packages-microsoft-prod_ repository into _/etc/yum.repos.d/ 
-echo -e "[azure-cli] name=Azure CLI baseurl=https://packages.microsoft.com/yumrepos/azure-cli enabled=1 gpgcheck=1 gpgkey=https://packages.microsoft.com/keys/microsoft.asc" | sudo tee /etc/yum.repos.d/azure-cli.repo 
+sudo dnf install -y https://packages.microsoft.com/config/rhel/8/packages-microsoft-prod.rpm
 
 # Install Azure CLI with dnf
 sudo dnf install azure-cli
