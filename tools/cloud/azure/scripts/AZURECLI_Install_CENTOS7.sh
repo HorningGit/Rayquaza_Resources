@@ -15,7 +15,7 @@ set -o pipefail
 rpm --import https://packages.microsoft.com/keys/microsoft.asc
 
 # Add the _packages-microsoft-prod_ repository into _/etc/yum.repos.d/ 
-sudo dnf install -y https://packages.microsoft.com/config/rhel/8/packages-microsoft-prod.rpm
+dnf install -y https://packages.microsoft.com/config/rhel/8/packages-microsoft-prod.rpm
 
 # Install Azure CLI with dnf
-sudo dnf install azure-cli
+dnf install azure-cli
