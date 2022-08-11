@@ -24,7 +24,7 @@ gantt
    <td align="center"><a href="tools/admin/linux"><img src="images/linux.png" width="50px;" height="50px;" alt="Linux"/><br /><b>Linux</b></a></td>
    <td align="center"><a href="tools/cloud/aws.md"><img src="images/aws.png" width="50px;" height="50px;" alt="AWS"/><br /><b>AWS</b></a></td>
    <td align="center"><a href="tools/cloud/azure"><img src="images/azure.png" width="50px;" height="50px;" alt="Azure"/><br /><b>Azure</b></a></td>
-<td align="center"><a href="tools/admin/networking/network.md"><img src="images/network.png" width="50px;" height="50px;" alt="Networking"/><br /><b>Networking</b></a></td>
+<td align="center"><a href="tools/admin/networking"><img src="images/network.png" width="50px;" height="50px;" alt="Networking"/><br /><b>Networking</b></a></td>
    <td align="center"><a href="tools/admin/firewall.md"><img src="images/firewall.png" width="50px;" height="50px;" alt="pfSense"/><br /><b>pfSense</b></a></td>
    <td align="center"><a href="tools/admin/vpn.md"><img src="images/vpn.png" width="50px;" height="50px;" alt="OpenVPN"/><br /><b>OpenVPN</b></a></td>
   </tr>
