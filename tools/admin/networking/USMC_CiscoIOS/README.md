@@ -1,7 +1,7 @@
 # Cisco IOS Notes
+___
 
 ## Configuring Routes
-___
 #### Static Route
 ```
 Router(config)# ip route <Destination Network Address>
@@ -16,9 +16,7 @@ Router(config)# ip route 0.0.0.0 0.0.0.0 <Next Hop>
 ```
 - Tells router to send any traffic out.
 ___
-
 ## Routing Protocols
-___
 #### EIGRP
 ```
 Router(config)# router eigrp <Autonomous System Number>
