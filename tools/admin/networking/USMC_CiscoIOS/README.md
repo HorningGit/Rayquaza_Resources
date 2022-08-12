@@ -31,4 +31,5 @@ ___
 Router(config)# router eigrp <Autonomous System Number>
 Router(config-vrf)# address-family ipv4
 Router(config-vrf)# vrf forwarding <Name>
+Router(config-vrf)# network <IPv4 Address> <Wildcard Mask>
 ```
