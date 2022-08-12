@@ -24,3 +24,11 @@ Router(config)# network <IPv4 Address> <Wildcard Mask>
 Router(config)# no auto-summary
 Router(config)# no passive-interface <Interface>
 ```
+___
+## Other Configurations
+#### Virtual Route Forwarding (VRF)
+```
+Router(config)# router eigrp <Autonomous System Number>
+Router(config-vrf)# address-family ipv4
+Router(config-vrf)# vrf forwarding <Name>
+```
