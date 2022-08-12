@@ -20,16 +20,16 @@ ___
 #### EIGRP
 ```
 Router(config)# router eigrp <Autonomous System Number>
-Router(config)# network <IPv4 Address> <Wildcard Mask>
-Router(config)# no auto-summary
-Router(config)# no passive-interface <Interface>
+Router(config-router)# network <IPv4 Address> <Wildcard Mask>
+Router(config-router)# no auto-summary
+Router(config-router)# no passive-interface <Interface>
 ```
 ___
 ## Other Configurations
 #### Virtual Route Forwarding (VRF)
 ```
-Router(config)# router eigrp <Autonomous System Number>
-Router(config-vrf)# address-family ipv4
-Router(config-vrf)# vrf forwarding <Name>
+Router(config)# vrf definition <Name>
+Router(config-vrf-af)# address-family ipv4
+Router(config-vrf)# vrf fo
 Router(config-vrf)# network <IPv4 Address> <Wildcard Mask>
 ```
