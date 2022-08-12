@@ -26,6 +26,17 @@ Router(config-router)# no passive-interface <Interface>
 ```
 ___
 ## Other Configurations
+#### GRE Tunnel (VRF)
+```
+Router(config)# vrf definition <Name>
+Router(config-vrf-af)# address-family ipv4
+Router(config-vrf)# vrf fo
+
+
+
+Router(config-vrf)# network <IPv4 Address> <Wildcard Mask>
+```
+
 #### Virtual Route Forwarding (VRF)
 ```
 Router(config)# vrf definition <Name>
