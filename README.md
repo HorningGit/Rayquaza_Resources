@@ -11,9 +11,9 @@ gantt
     Learn Go (I)                    :a1, 2022-08-07, 14d
     Learn Go (I)                    :a2, 2022-08-21, 14d
     Learn Git & GitHub              :a1, 2022-08-07, 14d
-    Introduction to DevOps          :a3, 2022-07-31, 14d
+    Introduction to DevOps          :a3, 2022-08-07, 14d
     section Books
-    LPIC-1 Study Guide              :a1, 2022-07-01, 60d
+    LPIC-1 Study Guide              :a1, 2022-08-07, 28d
 ```
 
 <!--Modules-->
