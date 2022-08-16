@@ -5,15 +5,15 @@ ___
 gantt
     title DevOps Engineer Journey
     dateFormat  YYYY-MM-DD
-    section Cloud Guru
-    LPIC-1 System Administrator     :a1, 2022-08-07, 28d
+    section A Cloud Guru
+    Linux Certified Foundation IT Associate (LFCA)  :a1, 2022-08-07, 28d
     section Codecademy
-    Learn Go (I)                    :a1, 2022-08-07, 14d
-    Learn Go (I)                    :a2, 2022-08-21, 14d
-    Learn Git & GitHub              :a1, 2022-08-07, 14d
-    Introduction to DevOps          :a3, 2022-08-07, 14d
+    Learn Go (I)                                    :a1, 2022-08-07, 14d
+    Learn Go (I)                                    :a2, 2022-08-21, 14d
+    Learn Git & GitHub                              :a1, 2022-08-07, 14d
+    Introduction to DevOps                          :a3, 2022-08-07, 14d
     section Books
-    LPIC-1 Study Guide              :a1, 2022-08-07, 28d
+    LPIC-1 Study Guide                              :a1, 2022-08-07, 28d
 ```
 
 <!--Modules-->
