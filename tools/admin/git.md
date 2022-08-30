@@ -1,4 +1,16 @@
-# :earth_americas: _Source Control Management_ :earth_africa:
+<!--GitHub_Actions-->
+#### GitHub Actions Example Tasks
+- Ensure the code passes all unit tests
+- Perform code quality and compliance checks to make sure the source code meets the organization's standards
+- Check the code and its dependencies for known security issues
+- Build the code integrating new source from (potentially) multiple contributors
+- Ensure the software passes integration tests
+- Version the new build
+- Deliver the new binaries to the appropriate filesystem location
+- Deploy the new binaries to one or more servers
+- If any of these tasks do not pass, report the issue to the proper individual or team for resolution
+
+## :earth_americas: _Source Control Management_ :earth_africa:
 
 <!--General SCM-->
 ### :banana: General SCM Information
